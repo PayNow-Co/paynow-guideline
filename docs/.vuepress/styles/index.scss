@@ -1,0 +1,11 @@
+@import './variables';
+@import './dark';
+@import './homepage';
+
+:root {
+  scroll-behavior: smooth;
+}
+
+.navbar .site-name {
+  display: none;
+}
