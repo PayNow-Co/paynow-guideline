@@ -71,6 +71,7 @@ Apple Pay 使用簡單，並能配合您日常所用的 Apple 裝置。無須接
 
 ### Apple Watch
 
+按照以下步驟
 #### 1. 開啟「我的手錶」頁
 
 在 iPhone 上開啟 Apple Watch App，然後前往「我的手錶」標籤頁。
