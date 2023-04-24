@@ -4,4 +4,4 @@
 - [賣家功能](./seller.md)
 - [帳務資訊](./finance.md)
 - [資料設定](./configuration.md)
-- [退款設定](./refund.md)
+- [ATM 退款](./refund.md)
