@@ -13,7 +13,8 @@ export default {
       children: [
         'mpos.md',
         'eticket.md',
-        'shopify.md'
+        'shopify.md',
+        'landing-page.md'
       ]
     }
   ],
@@ -42,8 +43,6 @@ export default {
       text: '物流後台',
       children: [
         'store-management.md',
-        'return.md',
-        'landing-page.md',
         'print-tag.md',
       ],
     },

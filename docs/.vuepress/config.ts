@@ -20,8 +20,8 @@ export default {
     ],
   ],
   //* SITE
-  title: ' OwlPay Admin',
-  description: 'OwlPay 內部系統介紹',
+  title: 'PayNow Doc',
+  description: 'PayNow 產品說明書',
   theme: path.resolve(__dirname, './theme'),
   locales: {
     // '/en/': {
