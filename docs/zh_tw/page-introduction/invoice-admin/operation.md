@@ -26,7 +26,7 @@
 按照以下步驟。
 ### 1. 點擊「查詢字軌」
 
-![operation_invoiceNumber_click](operation_invoiceNumber_click)
+![operation_invoiceNumber_click](./images/operation/operation_invoiceNumber_click.png)
 
 ### 2. 資料顯示於下方
 
