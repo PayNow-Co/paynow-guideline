@@ -3,7 +3,7 @@
 ::: tip 💡 摘要
 以下的文件將帶您快速了解 PayNow 系統的操作。
 
-若您為開發者，請參考 [PayNow API 技術文件](../api-reference/README.md) 開始串接 OwlPay API 服務。
+若您為開發者，請參考 [PayNow API 技術文件](../api-reference/README.md) 開始串接 PayNow API 服務。
 :::
 
 ::: tip 內容大綱
