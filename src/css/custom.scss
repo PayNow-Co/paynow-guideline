@@ -1,0 +1,51 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #ee7d1c;
+  --ifm-color-primary-dark: #df7011;
+  --ifm-color-primary-darker: #d26a10;
+  --ifm-color-primary-darkest: #ad570d;
+  --ifm-color-primary-light: #f08d37;
+  --ifm-color-primary-lighter: #f19241;
+  --ifm-color-primary-lightest: #f4a866;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-leading: calc(var(--ifm-leading-desktop) * 0.6rem);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ee7d1c;
+  --ifm-color-primary-dark: #df7011;
+  --ifm-color-primary-darker: #d26a10;
+  --ifm-color-primary-darkest: #ad570d;
+  --ifm-color-primary-light: #f08d37;
+  --ifm-color-primary-lighter: #f19241;
+  --ifm-color-primary-lightest: #f4a866;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html {
+  font-size: 14px;
+}
+h1 {
+  font-size: 1.65rem !important;
+}
+h2 {
+  font-size: 1.4rem !important;
+}
+h3 {
+  font-size: 1.2rem !important;
+}
+.navbar__title {
+  font-size: 18px;
+}
+
+@import "./light.sass";
+@import "./dark.sass";
