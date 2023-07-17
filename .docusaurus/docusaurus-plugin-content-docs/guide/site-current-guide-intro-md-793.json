@@ -1,0 +1,22 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "從這裡開始",
+  "description": "以下的文件將帶您快速了解 PayNow 系統的操作。",
+  "source": "@site/current/guide/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/guide/intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "default",
+  "next": {
+    "title": "金流服務",
+    "permalink": "/guide/payment"
+  }
+}

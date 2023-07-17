@@ -6,7 +6,7 @@
   "source": "@site/tutorial/test-folder/test-folder-2/index.md",
   "sourceDirName": "test-folder/test-folder-2",
   "slug": "/test-folder/test-folder-2/",
-  "permalink": "/zh-TW/tutorial/test-folder/test-folder-2/",
+  "permalink": "/tutorial/test-folder/test-folder-2/",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -16,10 +16,10 @@
   "sidebar": "default",
   "previous": {
     "title": "第一層的文件",
-    "permalink": "/zh-TW/tutorial/test-folder/intro"
+    "permalink": "/tutorial/test-folder/intro"
   },
   "next": {
     "title": "測試第二層的文件",
-    "permalink": "/zh-TW/tutorial/test-folder/test-folder-2/intro"
+    "permalink": "/tutorial/test-folder/test-folder-2/intro"
   }
 }

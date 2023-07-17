@@ -90,11 +90,11 @@
       "method": "GET"
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/logs-out-current-logged-in-user-session",
+  "permalink": "/api/logs-out-current-logged-in-user-session",
   "previous": {
     "title": "Logs user into the system",
-    "permalink": "/zh-TW/api/logs-user-into-the-system"
+    "permalink": "/api/logs-user-into-the-system"
   }
 }

@@ -27,10 +27,10 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'zh-TW']
-  },
+  // i18n: {
+  //   defaultLocale: 'en',
+  //   locales: ['en', 'zh-TW']
+  // },
 
   presets: [
     // [
@@ -63,14 +63,11 @@ const config = {
       /** @type {import('docusaurus-preset-openapi').Options} */
       {
         api: {
-          path: 'api',
+          path: 'current/api',
           routeBasePath: '/api',
         },
         docs: false,
-        // docs: {
-        //   sidebarPath: require.resolve('./sidebars.js'),
-        //   routeBasePath: '/',
-        // },
+        blog: false,
         theme: {
           customCss: [
             require.resolve('./src/css/custom.scss')
@@ -86,7 +83,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'guide',
-        path: 'guide',
+        path: 'current/guide',
         routeBasePath: 'guide',
         sidebarPath: require.resolve('./sidebars/guide.js'),
         // ... other options
@@ -96,7 +93,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'tutorial',
-        path: 'tutorial',
+        path: 'current/tutorial',
         routeBasePath: 'tutorial',
         sidebarPath: require.resolve('./sidebars/tutorial.js'),
         // ... other options
@@ -106,7 +103,7 @@ const config = {
       '@docusaurus/plugin-content-blog',
       {
         id: 'release-note',
-        path: 'release-note',
+        path: 'current/release-note',
         blogTitle: 'Release Note',
         routeBasePath: 'release-note',
         blogSidebarTitle: 'Version'
@@ -150,87 +147,87 @@ const config = {
             position: 'left',
             label: 'Guide',
           },
-          {
-            type: 'dropdown',
-            label: 'Community',
-            position: 'left',
-            items: [
-              {
-                label: 'Facebook',
-                href: 'https://www.facebook.com',
-              },
-              {
-                type: 'docSidebar',
-                docsPluginId: 'guide',
-                sidebarId: 'default',
-                label: 'Guide',
-              },
-              // ... more items
-            ],
-          },
-          { to: '/api', label: 'API' , position: 'left'},
-          { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/release-note', label: 'Release Note', position: 'left' },
-          {
-            type: 'docsVersionDropdown',
-            docsPluginId: 'tutorial',
-            position: 'right',
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right'
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // { to: '/api', label: 'API' , position: 'left'},
+          // { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/release-note', label: 'Release Note', position: 'right' },
+          // {
+          //   type: 'docsVersionDropdown',
+          //   docsPluginId: 'tutorial',
+          //   position: 'right',
+          // },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right'
+          // },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Community',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       label: 'Facebook',
+          //       href: 'https://www.facebook.com',
+          //     },
+          //     {
+          //       type: 'docSidebar',
+          //       docsPluginId: 'guide',
+          //       sidebarId: 'default',
+          //       label: 'Guide',
+          //     },
+          //     // ... more items
+          //   ],
+          // },
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/facebook/docusaurus',
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `©2023 OBOOK Holdings Inc. or its affiliates`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -324,15 +324,15 @@
       }
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array",
+  "permalink": "/api/creates-list-of-users-with-given-input-array",
   "previous": {
     "title": "Delete user",
-    "permalink": "/zh-TW/api/delete-user"
+    "permalink": "/api/delete-user"
   },
   "next": {
     "title": "Creates list of users with given input array",
-    "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array-1"
+    "permalink": "/api/creates-list-of-users-with-given-input-array-1"
   }
 }

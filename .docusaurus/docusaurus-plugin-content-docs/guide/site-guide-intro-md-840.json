@@ -6,7 +6,7 @@
   "source": "@site/guide/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/zh-TW/guide/intro",
+  "permalink": "/guide/intro",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -17,6 +17,6 @@
   "sidebar": "default",
   "next": {
     "title": "金流服務",
-    "permalink": "/zh-TW/guide/payment"
+    "permalink": "/guide/payment"
   }
 }

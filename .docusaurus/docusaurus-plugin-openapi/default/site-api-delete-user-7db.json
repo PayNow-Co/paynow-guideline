@@ -113,15 +113,15 @@
       "method": "DELETE"
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/delete-user",
+  "permalink": "/api/delete-user",
   "previous": {
     "title": "Updated user",
-    "permalink": "/zh-TW/api/updated-user"
+    "permalink": "/api/updated-user"
   },
   "next": {
     "title": "Creates list of users with given input array",
-    "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array"
+    "permalink": "/api/creates-list-of-users-with-given-input-array"
   }
 }

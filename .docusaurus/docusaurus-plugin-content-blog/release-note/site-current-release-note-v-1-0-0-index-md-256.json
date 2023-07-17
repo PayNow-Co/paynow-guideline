@@ -1,0 +1,33 @@
+{
+  "permalink": "/release-note/v1.0.0",
+  "source": "@site/current/release-note/v1.0.0/index.md",
+  "title": "v1.0.0",
+  "description": "新增",
+  "date": "2023-07-13T04:32:38.738Z",
+  "formattedDate": "July 13, 2023",
+  "tags": [
+    {
+      "label": "feature",
+      "permalink": "/release-note/tags/feature"
+    },
+    {
+      "label": "hotfix",
+      "permalink": "/release-note/tags/hotfix"
+    }
+  ],
+  "readingTime": 0.315,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "v1.0.0",
+    "title": "v1.0.0",
+    "tags": [
+      "feature",
+      "hotfix"
+    ]
+  },
+  "prevItem": {
+    "title": "v1.1.3",
+    "permalink": "/release-note/v1.1.3"
+  }
+}

@@ -1,43 +1,43 @@
 {
   "docusaurus-plugin-content-docs": {
     "guide": {
-      "path": "/zh-TW/guide",
+      "path": "/guide",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/zh-TW/guide",
+          "path": "/guide",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/zh-TW/guide/intro",
+              "path": "/guide/intro",
               "sidebar": "default"
             },
             {
               "id": "invoice",
-              "path": "/zh-TW/guide/invoice"
+              "path": "/guide/invoice"
             },
             {
               "id": "logistics",
-              "path": "/zh-TW/guide/logistics"
+              "path": "/guide/logistics"
             },
             {
               "id": "payment",
-              "path": "/zh-TW/guide/payment",
+              "path": "/guide/payment",
               "sidebar": "default"
             },
             {
               "id": "payment-admin",
-              "path": "/zh-TW/guide/payment-admin"
+              "path": "/guide/payment-admin"
             }
           ],
           "draftIds": [],
           "sidebars": {
             "default": {
               "link": {
-                "path": "/zh-TW/guide/intro",
+                "path": "/guide/intro",
                 "label": "intro"
               }
             }
@@ -47,58 +47,58 @@
       "breadcrumbs": true
     },
     "tutorial": {
-      "path": "/zh-TW/tutorial",
+      "path": "/tutorial",
       "versions": [
         {
           "name": "current",
-          "label": "Nexta",
+          "label": "Next",
           "isLast": true,
-          "path": "/zh-TW/tutorial",
+          "path": "/tutorial",
           "mainDocId": "test-folder/index",
           "docs": [
             {
               "id": "01-intro",
-              "path": "/zh-TW/tutorial/01-intro",
+              "path": "/tutorial/01-intro",
               "sidebar": "default"
             },
             {
               "id": "intro",
-              "path": "/zh-TW/tutorial/intro",
+              "path": "/tutorial/intro",
               "sidebar": "default"
             },
             {
               "id": "logistics",
-              "path": "/zh-TW/tutorial/logistics",
+              "path": "/tutorial/logistics",
               "sidebar": "default"
             },
             {
               "id": "payment",
-              "path": "/zh-TW/tutorial/payment",
+              "path": "/tutorial/payment",
               "sidebar": "default"
             },
             {
               "id": "payment-admin",
-              "path": "/zh-TW/tutorial/payment-admin",
+              "path": "/tutorial/payment-admin",
               "sidebar": "default"
             },
             {
               "id": "test-folder/index",
-              "path": "/zh-TW/tutorial/test-folder/",
+              "path": "/tutorial/test-folder/",
               "sidebar": "default"
             },
             {
               "id": "test-folder/intro",
-              "path": "/zh-TW/tutorial/test-folder/intro",
+              "path": "/tutorial/test-folder/intro",
               "sidebar": "default"
             },
             {
               "id": "test-folder/test-folder-2/index",
-              "path": "/zh-TW/tutorial/test-folder/test-folder-2/",
+              "path": "/tutorial/test-folder/test-folder-2/",
               "sidebar": "default"
             },
             {
               "id": "test-folder/test-folder-2/intro",
-              "path": "/zh-TW/tutorial/test-folder/test-folder-2/intro",
+              "path": "/tutorial/test-folder/test-folder-2/intro",
               "sidebar": "default"
             }
           ],
@@ -106,7 +106,7 @@
           "sidebars": {
             "default": {
               "link": {
-                "path": "/zh-TW/tutorial/test-folder/",
+                "path": "/tutorial/test-folder/",
                 "label": "第一層資料夾"
               }
             }

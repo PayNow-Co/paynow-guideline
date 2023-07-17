@@ -6,7 +6,7 @@
   "source": "@site/tutorial/01-intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/zh-TW/tutorial/intro",
+  "permalink": "/tutorial/intro",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "測試第二層的文件",
-    "permalink": "/zh-TW/tutorial/test-folder/test-folder-2/intro"
+    "permalink": "/tutorial/test-folder/test-folder-2/intro"
   },
   "next": {
     "title": "金流服務",
-    "permalink": "/zh-TW/tutorial/payment"
+    "permalink": "/tutorial/payment"
   }
 }

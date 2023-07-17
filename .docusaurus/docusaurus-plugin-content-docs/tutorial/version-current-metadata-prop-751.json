@@ -1,7 +1,7 @@
 {
   "pluginId": "tutorial",
   "version": "current",
-  "label": "Nexta",
+  "label": "Next",
   "banner": null,
   "badge": false,
   "noIndex": false,
@@ -18,7 +18,7 @@
           {
             "type": "link",
             "label": "第一層的文件",
-            "href": "/zh-TW/tutorial/test-folder/intro",
+            "href": "/tutorial/test-folder/intro",
             "docId": "test-folder/intro"
           },
           {
@@ -30,43 +30,43 @@
               {
                 "type": "link",
                 "label": "測試第二層的文件",
-                "href": "/zh-TW/tutorial/test-folder/test-folder-2/intro",
+                "href": "/tutorial/test-folder/test-folder-2/intro",
                 "docId": "test-folder/test-folder-2/intro"
               }
             ],
-            "href": "/zh-TW/tutorial/test-folder/test-folder-2/"
+            "href": "/tutorial/test-folder/test-folder-2/"
           }
         ],
-        "href": "/zh-TW/tutorial/test-folder/"
+        "href": "/tutorial/test-folder/"
       },
       {
         "type": "link",
-        "label": "從這裡開始 zh-TW",
-        "href": "/zh-TW/tutorial/intro",
+        "label": "從這裡開始",
+        "href": "/tutorial/intro",
         "docId": "intro"
       },
       {
         "type": "link",
         "label": "金流服務",
-        "href": "/zh-TW/tutorial/payment",
+        "href": "/tutorial/payment",
         "docId": "payment"
       },
       {
         "type": "link",
         "label": "金流後台",
-        "href": "/zh-TW/tutorial/payment-admin",
+        "href": "/tutorial/payment-admin",
         "docId": "payment-admin"
       },
       {
         "type": "link",
         "label": "物流後台",
-        "href": "/zh-TW/tutorial/logistics",
+        "href": "/tutorial/logistics",
         "docId": "logistics"
       },
       {
         "type": "link",
         "label": "發票後台",
-        "href": "/zh-TW/tutorial/01-intro",
+        "href": "/tutorial/01-intro",
         "docId": "01-intro"
       }
     ]
@@ -80,7 +80,7 @@
     },
     "intro": {
       "id": "intro",
-      "title": "從這裡開始 zh-TW",
+      "title": "從這裡開始",
       "description": "以下的文件將帶您快速了解 PayNow 系統的操作。",
       "sidebar": "default"
     },

@@ -1,14 +1,14 @@
 {
-  "permalink": "/zh-TW/blog/mdx-blog-post",
+  "permalink": "/blog/mdx-blog-post",
   "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
   "title": "MDX Blog Post",
   "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
   "date": "2021-08-01T00:00:00.000Z",
-  "formattedDate": "2021年8月1日",
+  "formattedDate": "August 1, 2021",
   "tags": [
     {
       "label": "docusaurus",
-      "permalink": "/zh-TW/blog/tags/docusaurus"
+      "permalink": "/blog/tags/docusaurus"
     }
   ],
   "readingTime": 0.175,
@@ -34,10 +34,10 @@
   },
   "prevItem": {
     "title": "Welcome",
-    "permalink": "/zh-TW/blog/welcome"
+    "permalink": "/blog/welcome"
   },
   "nextItem": {
     "title": "Long Blog Post",
-    "permalink": "/zh-TW/blog/long-blog-post"
+    "permalink": "/blog/long-blog-post"
   }
 }

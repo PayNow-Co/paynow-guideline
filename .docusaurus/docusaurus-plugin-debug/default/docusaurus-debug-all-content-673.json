@@ -1,502 +1,14 @@
 {
-  "docusaurus-plugin-content-blog": {
-    "default": {
-      "blogSidebarTitle": "Recent posts",
-      "blogPosts": [
-        {
-          "id": "welcome",
-          "metadata": {
-            "permalink": "/zh-TW/blog/welcome",
-            "source": "@site/blog/2021-08-26-welcome/index.md",
-            "title": "Welcome",
-            "description": "Docusaurus blogging features are powered by the blog plugin.",
-            "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "2021年8月26日",
-            "tags": [
-              {
-                "label": "facebook",
-                "permalink": "/zh-TW/blog/tags/facebook"
-              },
-              {
-                "label": "hello",
-                "permalink": "/zh-TW/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/zh-TW/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.405,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              },
-              {
-                "name": "Yangshun Tay",
-                "title": "Front End Engineer @ Facebook",
-                "url": "https://github.com/yangshun",
-                "imageURL": "https://github.com/yangshun.png",
-                "key": "yangshun"
-              }
-            ],
-            "frontMatter": {
-              "slug": "welcome",
-              "title": "Welcome",
-              "authors": [
-                "slorber",
-                "yangshun"
-              ],
-              "tags": [
-                "facebook",
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "nextItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/zh-TW/blog/mdx-blog-post"
-            }
-          },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
-        },
-        {
-          "id": "mdx-blog-post",
-          "metadata": {
-            "permalink": "/zh-TW/blog/mdx-blog-post",
-            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-            "title": "MDX Blog Post",
-            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-            "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "2021年8月1日",
-            "tags": [
-              {
-                "label": "docusaurus",
-                "permalink": "/zh-TW/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.175,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              }
-            ],
-            "frontMatter": {
-              "slug": "mdx-blog-post",
-              "title": "MDX Blog Post",
-              "authors": [
-                "slorber"
-              ],
-              "tags": [
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Welcome",
-              "permalink": "/zh-TW/blog/welcome"
-            },
-            "nextItem": {
-              "title": "Long Blog Post",
-              "permalink": "/zh-TW/blog/long-blog-post"
-            }
-          },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
-        },
-        {
-          "id": "long-blog-post",
-          "metadata": {
-            "permalink": "/zh-TW/blog/long-blog-post",
-            "source": "@site/blog/2019-05-29-long-blog-post.md",
-            "title": "Long Blog Post",
-            "description": "This is the summary of a very long blog post,",
-            "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "2019年5月29日",
-            "tags": [
-              {
-                "label": "hello",
-                "permalink": "/zh-TW/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/zh-TW/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 2.05,
-            "hasTruncateMarker": true,
-            "authors": [
-              {
-                "name": "Endilie Yacop Sucipto",
-                "title": "Maintainer of Docusaurus",
-                "url": "https://github.com/endiliey",
-                "imageURL": "https://github.com/endiliey.png",
-                "key": "endi"
-              }
-            ],
-            "frontMatter": {
-              "slug": "long-blog-post",
-              "title": "Long Blog Post",
-              "authors": "endi",
-              "tags": [
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/zh-TW/blog/mdx-blog-post"
-            },
-            "nextItem": {
-              "title": "First Blog Post",
-              "permalink": "/zh-TW/blog/first-blog-post"
-            }
-          },
-          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        },
-        {
-          "id": "first-blog-post",
-          "metadata": {
-            "permalink": "/zh-TW/blog/first-blog-post",
-            "source": "@site/blog/2019-05-28-first-blog-post.md",
-            "title": "First Blog Post",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "2019年5月28日",
-            "tags": [
-              {
-                "label": "hola",
-                "permalink": "/zh-TW/blog/tags/hola"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/zh-TW/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.12,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              }
-            ],
-            "frontMatter": {
-              "slug": "first-blog-post",
-              "title": "First Blog Post",
-              "authors": {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              },
-              "tags": [
-                "hola",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Long Blog Post",
-              "permalink": "/zh-TW/blog/long-blog-post"
-            }
-          },
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        }
-      ],
-      "blogListPaginated": [
-        {
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "metadata": {
-            "permalink": "/zh-TW/blog",
-            "page": 1,
-            "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 4,
-            "blogDescription": "Blog",
-            "blogTitle": "Blog"
-          }
-        }
-      ],
-      "blogTags": {
-        "/zh-TW/blog/tags/facebook": {
-          "label": "facebook",
-          "items": [
-            "welcome"
-          ],
-          "permalink": "/zh-TW/blog/tags/facebook",
-          "pages": [
-            {
-              "items": [
-                "welcome"
-              ],
-              "metadata": {
-                "permalink": "/zh-TW/blog/tags/facebook",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/zh-TW/blog/tags/hello": {
-          "label": "hello",
-          "items": [
-            "welcome",
-            "long-blog-post"
-          ],
-          "permalink": "/zh-TW/blog/tags/hello",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "long-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/zh-TW/blog/tags/hello",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/zh-TW/blog/tags/docusaurus": {
-          "label": "docusaurus",
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "permalink": "/zh-TW/blog/tags/docusaurus",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "mdx-blog-post",
-                "long-blog-post",
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/zh-TW/blog/tags/docusaurus",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 4,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/zh-TW/blog/tags/hola": {
-          "label": "hola",
-          "items": [
-            "first-blog-post"
-          ],
-          "permalink": "/zh-TW/blog/tags/hola",
-          "pages": [
-            {
-              "items": [
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/zh-TW/blog/tags/hola",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        }
-      },
-      "blogTagsListPath": "/zh-TW/blog/tags"
-    },
-    "release-note": {
-      "blogSidebarTitle": "Version",
-      "blogPosts": [
-        {
-          "id": "v1.1.3",
-          "metadata": {
-            "permalink": "/zh-TW/release-note/v1.1.3",
-            "source": "@site/release-note/v1.1.3.md",
-            "title": "v1.1.3",
-            "description": "新增",
-            "date": "2023-07-13T04:25:34.000Z",
-            "formattedDate": "2023年7月13日",
-            "tags": [
-              {
-                "label": "feature",
-                "permalink": "/zh-TW/release-note/tags/feature"
-              },
-              {
-                "label": "hotfix",
-                "permalink": "/zh-TW/release-note/tags/hotfix"
-              }
-            ],
-            "readingTime": 0.285,
-            "hasTruncateMarker": false,
-            "authors": [],
-            "frontMatter": {
-              "slug": "v1.1.3",
-              "title": "v1.1.3",
-              "tags": [
-                "feature",
-                "hotfix"
-              ]
-            },
-            "nextItem": {
-              "title": "v1.0.0",
-              "permalink": "/zh-TW/release-note/v1.0.0"
-            }
-          },
-          "content": "## 新增\n- 新增 付款途徑 名詞介紹\n- 新增 錢包 功能，當付款閘道為 NIUM 時可檢視帳戶內各幣別的餘額\n\n## 修正\n- 修正 圖片顯示不出來\n\n## 移除\n- AML 驗證通知"
-        },
-        {
-          "id": "v1.0.0",
-          "metadata": {
-            "permalink": "/zh-TW/release-note/v1.0.0",
-            "source": "@site/release-note/v1.0.0/index.md",
-            "title": "v1.0.0",
-            "description": "新增",
-            "date": "2023-07-13T04:25:34.000Z",
-            "formattedDate": "2023年7月13日",
-            "tags": [
-              {
-                "label": "feature",
-                "permalink": "/zh-TW/release-note/tags/feature"
-              },
-              {
-                "label": "hotfix",
-                "permalink": "/zh-TW/release-note/tags/hotfix"
-              }
-            ],
-            "readingTime": 0.315,
-            "hasTruncateMarker": false,
-            "authors": [],
-            "frontMatter": {
-              "slug": "v1.0.0",
-              "title": "v1.0.0",
-              "tags": [
-                "feature",
-                "hotfix"
-              ]
-            },
-            "prevItem": {
-              "title": "v1.1.3",
-              "permalink": "/zh-TW/release-note/v1.1.3"
-            }
-          },
-          "content": "## 新增\n- 新增 付款途徑 名詞介紹\n- 新增 錢包 功能，當付款閘道為 NIUM 時可檢視帳戶內各幣別的餘額\n\n## 修正\n- 修正 圖片顯示不出來\n\n## 移除\n- AML 驗證通知\n\n# 畫面預覽\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)"
-        }
-      ],
-      "blogListPaginated": [
-        {
-          "items": [
-            "v1.1.3",
-            "v1.0.0"
-          ],
-          "metadata": {
-            "permalink": "/zh-TW/release-note",
-            "page": 1,
-            "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 2,
-            "blogDescription": "Blog",
-            "blogTitle": "Release Note"
-          }
-        }
-      ],
-      "blogTags": {
-        "/zh-TW/release-note/tags/feature": {
-          "label": "feature",
-          "items": [
-            "v1.1.3",
-            "v1.0.0"
-          ],
-          "permalink": "/zh-TW/release-note/tags/feature",
-          "pages": [
-            {
-              "items": [
-                "v1.1.3",
-                "v1.0.0"
-              ],
-              "metadata": {
-                "permalink": "/zh-TW/release-note/tags/feature",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Release Note"
-              }
-            }
-          ]
-        },
-        "/zh-TW/release-note/tags/hotfix": {
-          "label": "hotfix",
-          "items": [
-            "v1.1.3",
-            "v1.0.0"
-          ],
-          "permalink": "/zh-TW/release-note/tags/hotfix",
-          "pages": [
-            {
-              "items": [
-                "v1.1.3",
-                "v1.0.0"
-              ],
-              "metadata": {
-                "permalink": "/zh-TW/release-note/tags/hotfix",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Release Note"
-              }
-            }
-          ]
-        }
-      },
-      "blogTagsListPath": "/zh-TW/release-note/tags"
-    }
-  },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/zh-TW/",
+        "permalink": "/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
-        "permalink": "/zh-TW/markdown-page",
+        "permalink": "/markdown-page",
         "source": "@site/src/pages/markdown-page.md",
         "title": "Markdown page example",
         "description": "You don't need React to write simple standalone pages.",
@@ -537,12 +49,12 @@
               "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/introduction",
+          "permalink": "/api/introduction",
           "next": {
             "title": "Add a new pet to the store",
-            "permalink": "/zh-TW/api/add-a-new-pet-to-the-store"
+            "permalink": "/api/add-a-new-pet-to-the-store"
           }
         },
         {
@@ -863,16 +375,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/add-a-new-pet-to-the-store",
+          "permalink": "/api/add-a-new-pet-to-the-store",
           "previous": {
             "title": "Introduction",
-            "permalink": "/zh-TW/api/introduction"
+            "permalink": "/api/introduction"
           },
           "next": {
             "title": "Update an existing pet",
-            "permalink": "/zh-TW/api/update-an-existing-pet"
+            "permalink": "/api/update-an-existing-pet"
           }
         },
         {
@@ -1195,16 +707,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/update-an-existing-pet",
+          "permalink": "/api/update-an-existing-pet",
           "previous": {
             "title": "Add a new pet to the store",
-            "permalink": "/zh-TW/api/add-a-new-pet-to-the-store"
+            "permalink": "/api/add-a-new-pet-to-the-store"
           },
           "next": {
             "title": "Find pet by ID",
-            "permalink": "/zh-TW/api/find-pet-by-id"
+            "permalink": "/api/find-pet-by-id"
           }
         },
         {
@@ -1602,16 +1114,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/find-pet-by-id",
+          "permalink": "/api/find-pet-by-id",
           "previous": {
             "title": "Update an existing pet",
-            "permalink": "/zh-TW/api/update-an-existing-pet"
+            "permalink": "/api/update-an-existing-pet"
           },
           "next": {
             "title": "Updates a pet in the store with form data",
-            "permalink": "/zh-TW/api/updates-a-pet-in-the-store-with-form-data"
+            "permalink": "/api/updates-a-pet-in-the-store-with-form-data"
           }
         },
         {
@@ -1785,16 +1297,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/updates-a-pet-in-the-store-with-form-data",
+          "permalink": "/api/updates-a-pet-in-the-store-with-form-data",
           "previous": {
             "title": "Find pet by ID",
-            "permalink": "/zh-TW/api/find-pet-by-id"
+            "permalink": "/api/find-pet-by-id"
           },
           "next": {
             "title": "Deletes a pet",
-            "permalink": "/zh-TW/api/deletes-a-pet"
+            "permalink": "/api/deletes-a-pet"
           }
         },
         {
@@ -1941,16 +1453,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/deletes-a-pet",
+          "permalink": "/api/deletes-a-pet",
           "previous": {
             "title": "Updates a pet in the store with form data",
-            "permalink": "/zh-TW/api/updates-a-pet-in-the-store-with-form-data"
+            "permalink": "/api/updates-a-pet-in-the-store-with-form-data"
           },
           "next": {
             "title": "uploads an image",
-            "permalink": "/zh-TW/api/uploads-an-image"
+            "permalink": "/api/uploads-an-image"
           }
         },
         {
@@ -2118,16 +1630,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/uploads-an-image",
+          "permalink": "/api/uploads-an-image",
           "previous": {
             "title": "Deletes a pet",
-            "permalink": "/zh-TW/api/deletes-a-pet"
+            "permalink": "/api/deletes-a-pet"
           },
           "next": {
             "title": "Finds Pets by status",
-            "permalink": "/zh-TW/api/finds-pets-by-status"
+            "permalink": "/api/finds-pets-by-status"
           }
         },
         {
@@ -2524,16 +2036,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/finds-pets-by-status",
+          "permalink": "/api/finds-pets-by-status",
           "previous": {
             "title": "uploads an image",
-            "permalink": "/zh-TW/api/uploads-an-image"
+            "permalink": "/api/uploads-an-image"
           },
           "next": {
             "title": "Finds Pets by tags",
-            "permalink": "/zh-TW/api/finds-pets-by-tags"
+            "permalink": "/api/finds-pets-by-tags"
           }
         },
         {
@@ -2931,16 +2443,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/finds-pets-by-tags",
+          "permalink": "/api/finds-pets-by-tags",
           "previous": {
             "title": "Finds Pets by status",
-            "permalink": "/zh-TW/api/finds-pets-by-status"
+            "permalink": "/api/finds-pets-by-status"
           },
           "next": {
             "title": "Returns pet inventories by status",
-            "permalink": "/zh-TW/api/returns-pet-inventories-by-status"
+            "permalink": "/api/returns-pet-inventories-by-status"
           }
         },
         {
@@ -3071,16 +2583,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/returns-pet-inventories-by-status",
+          "permalink": "/api/returns-pet-inventories-by-status",
           "previous": {
             "title": "Finds Pets by tags",
-            "permalink": "/zh-TW/api/finds-pets-by-tags"
+            "permalink": "/api/finds-pets-by-tags"
           },
           "next": {
             "title": "Place an order for a pet",
-            "permalink": "/zh-TW/api/place-an-order-for-a-pet"
+            "permalink": "/api/place-an-order-for-a-pet"
           }
         },
         {
@@ -3372,16 +2884,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/place-an-order-for-a-pet",
+          "permalink": "/api/place-an-order-for-a-pet",
           "previous": {
             "title": "Returns pet inventories by status",
-            "permalink": "/zh-TW/api/returns-pet-inventories-by-status"
+            "permalink": "/api/returns-pet-inventories-by-status"
           },
           "next": {
             "title": "Find purchase order by ID",
-            "permalink": "/zh-TW/api/find-purchase-order-by-id"
+            "permalink": "/api/find-purchase-order-by-id"
           }
         },
         {
@@ -3614,16 +3126,16 @@
               "method": "GET"
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/find-purchase-order-by-id",
+          "permalink": "/api/find-purchase-order-by-id",
           "previous": {
             "title": "Place an order for a pet",
-            "permalink": "/zh-TW/api/place-an-order-for-a-pet"
+            "permalink": "/api/place-an-order-for-a-pet"
           },
           "next": {
             "title": "Delete purchase order by ID",
-            "permalink": "/zh-TW/api/delete-purchase-order-by-id"
+            "permalink": "/api/delete-purchase-order-by-id"
           }
         },
         {
@@ -3743,16 +3255,16 @@
               "method": "DELETE"
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/delete-purchase-order-by-id",
+          "permalink": "/api/delete-purchase-order-by-id",
           "previous": {
             "title": "Find purchase order by ID",
-            "permalink": "/zh-TW/api/find-purchase-order-by-id"
+            "permalink": "/api/find-purchase-order-by-id"
           },
           "next": {
             "title": "Subscribe to the Store events",
-            "permalink": "/zh-TW/api/subscribe-to-the-store-events"
+            "permalink": "/api/subscribe-to-the-store-events"
           }
         },
         {
@@ -4136,16 +3648,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/subscribe-to-the-store-events",
+          "permalink": "/api/subscribe-to-the-store-events",
           "previous": {
             "title": "Delete purchase order by ID",
-            "permalink": "/zh-TW/api/delete-purchase-order-by-id"
+            "permalink": "/api/delete-purchase-order-by-id"
           },
           "next": {
             "title": "Create user",
-            "permalink": "/zh-TW/api/create-user"
+            "permalink": "/api/create-user"
           }
         },
         {
@@ -4468,16 +3980,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/create-user",
+          "permalink": "/api/create-user",
           "previous": {
             "title": "Subscribe to the Store events",
-            "permalink": "/zh-TW/api/subscribe-to-the-store-events"
+            "permalink": "/api/subscribe-to-the-store-events"
           },
           "next": {
             "title": "Get user by user name",
-            "permalink": "/zh-TW/api/get-user-by-user-name"
+            "permalink": "/api/get-user-by-user-name"
           }
         },
         {
@@ -5006,16 +4518,16 @@
               "method": "GET"
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/get-user-by-user-name",
+          "permalink": "/api/get-user-by-user-name",
           "previous": {
             "title": "Create user",
-            "permalink": "/zh-TW/api/create-user"
+            "permalink": "/api/create-user"
           },
           "next": {
             "title": "Updated user",
-            "permalink": "/zh-TW/api/updated-user"
+            "permalink": "/api/updated-user"
           }
         },
         {
@@ -5362,16 +4874,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/updated-user",
+          "permalink": "/api/updated-user",
           "previous": {
             "title": "Get user by user name",
-            "permalink": "/zh-TW/api/get-user-by-user-name"
+            "permalink": "/api/get-user-by-user-name"
           },
           "next": {
             "title": "Delete user",
-            "permalink": "/zh-TW/api/delete-user"
+            "permalink": "/api/delete-user"
           }
         },
         {
@@ -5489,16 +5001,16 @@
               "method": "DELETE"
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/delete-user",
+          "permalink": "/api/delete-user",
           "previous": {
             "title": "Updated user",
-            "permalink": "/zh-TW/api/updated-user"
+            "permalink": "/api/updated-user"
           },
           "next": {
             "title": "Creates list of users with given input array",
-            "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array"
+            "permalink": "/api/creates-list-of-users-with-given-input-array"
           }
         },
         {
@@ -5827,16 +5339,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array",
+          "permalink": "/api/creates-list-of-users-with-given-input-array",
           "previous": {
             "title": "Delete user",
-            "permalink": "/zh-TW/api/delete-user"
+            "permalink": "/api/delete-user"
           },
           "next": {
             "title": "Creates list of users with given input array",
-            "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array-1"
+            "permalink": "/api/creates-list-of-users-with-given-input-array-1"
           }
         },
         {
@@ -6165,16 +5677,16 @@
               }
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array-1",
+          "permalink": "/api/creates-list-of-users-with-given-input-array-1",
           "previous": {
             "title": "Creates list of users with given input array",
-            "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array"
+            "permalink": "/api/creates-list-of-users-with-given-input-array"
           },
           "next": {
             "title": "Logs user into the system",
-            "permalink": "/zh-TW/api/logs-user-into-the-system"
+            "permalink": "/api/logs-user-into-the-system"
           }
         },
         {
@@ -6353,16 +5865,16 @@
               "method": "GET"
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/logs-user-into-the-system",
+          "permalink": "/api/logs-user-into-the-system",
           "previous": {
             "title": "Creates list of users with given input array",
-            "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array-1"
+            "permalink": "/api/creates-list-of-users-with-given-input-array-1"
           },
           "next": {
             "title": "Logs out current logged in user session",
-            "permalink": "/zh-TW/api/logs-out-current-logged-in-user-session"
+            "permalink": "/api/logs-out-current-logged-in-user-session"
           }
         },
         {
@@ -6457,12 +5969,12 @@
               "method": "GET"
             }
           },
-          "source": "@site/api/example.yml",
+          "source": "@site/current/api/example.yml",
           "sourceDirName": ".",
-          "permalink": "/zh-TW/api/logs-out-current-logged-in-user-session",
+          "permalink": "/api/logs-out-current-logged-in-user-session",
           "previous": {
             "title": "Logs user into the system",
-            "permalink": "/zh-TW/api/logs-user-into-the-system"
+            "permalink": "/api/logs-user-into-the-system"
           }
         }
       ]
@@ -6482,23 +5994,23 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/zh-TW/guide",
-          "tagsPath": "/zh-TW/guide/tags",
+          "path": "/guide",
+          "tagsPath": "/guide/tags",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/home/ubuntu/code/owlpay/paynow-guideline/sidebars/guide.js",
-          "contentPath": "/home/ubuntu/code/owlpay/paynow-guideline/guide",
-          "contentPathLocalized": "/home/ubuntu/code/owlpay/paynow-guideline/i18n/zh-TW/docusaurus-plugin-content-docs-guide/current",
+          "contentPath": "/home/ubuntu/code/owlpay/paynow-guideline/current/guide",
+          "contentPathLocalized": "/home/ubuntu/code/owlpay/paynow-guideline/i18n/en/docusaurus-plugin-content-docs-guide/current",
           "docs": [
             {
               "unversionedId": "intro",
               "id": "intro",
               "title": "從這裡開始",
               "description": "以下的文件將帶您快速了解 PayNow 系統的操作。",
-              "source": "@site/guide/intro.md",
+              "source": "@site/current/guide/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/zh-TW/guide/intro",
+              "permalink": "/guide/intro",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6509,7 +6021,7 @@
               "sidebar": "default",
               "next": {
                 "title": "金流服務",
-                "permalink": "/zh-TW/guide/payment"
+                "permalink": "/guide/payment"
               }
             },
             {
@@ -6517,10 +6029,10 @@
               "id": "invoice",
               "title": "發票後台",
               "description": "使用 PayNow 的賣家可使用發票後台處理發票。",
-              "source": "@site/guide/invoice.md",
+              "source": "@site/current/guide/invoice.md",
               "sourceDirName": ".",
               "slug": "/invoice",
-              "permalink": "/zh-TW/guide/invoice",
+              "permalink": "/guide/invoice",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6534,10 +6046,10 @@
               "id": "logistics",
               "title": "物流後台",
               "description": "使用 PayNow 的賣家可使用物流後台管理商店。",
-              "source": "@site/guide/logistics.md",
+              "source": "@site/current/guide/logistics.md",
               "sourceDirName": ".",
               "slug": "/logistics",
-              "permalink": "/zh-TW/guide/logistics",
+              "permalink": "/guide/logistics",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6551,10 +6063,10 @@
               "id": "payment",
               "title": "金流服務",
               "description": "PayNow 提供多元的線上金流與行動支付服務，讓您收款更便利！",
-              "source": "@site/guide/payment.md",
+              "source": "@site/current/guide/payment.md",
               "sourceDirName": ".",
               "slug": "/payment",
-              "permalink": "/zh-TW/guide/payment",
+              "permalink": "/guide/payment",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6565,11 +6077,11 @@
               "sidebar": "default",
               "previous": {
                 "title": "從這裡開始",
-                "permalink": "/zh-TW/guide/intro"
+                "permalink": "/guide/intro"
               },
               "next": {
                 "title": "從這裡開始",
-                "permalink": "/zh-TW/guide/intro"
+                "permalink": "/guide/intro"
               }
             },
             {
@@ -6577,10 +6089,10 @@
               "id": "payment-admin",
               "title": "金流後台",
               "description": "使用 PayNow 的賣家，可使用金流後台管理商店的金流服務。",
-              "source": "@site/guide/payment-admin.md",
+              "source": "@site/current/guide/payment-admin.md",
               "sourceDirName": ".",
               "slug": "/payment-admin",
-              "permalink": "/zh-TW/guide/payment-admin",
+              "permalink": "/guide/payment-admin",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6626,28 +6138,28 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "label": "Nexta",
+          "label": "Next",
           "banner": null,
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/zh-TW/tutorial",
-          "tagsPath": "/zh-TW/tutorial/tags",
+          "path": "/tutorial",
+          "tagsPath": "/tutorial/tags",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/home/ubuntu/code/owlpay/paynow-guideline/sidebars/tutorial.js",
-          "contentPath": "/home/ubuntu/code/owlpay/paynow-guideline/tutorial",
-          "contentPathLocalized": "/home/ubuntu/code/owlpay/paynow-guideline/i18n/zh-TW/docusaurus-plugin-content-docs-tutorial/current",
+          "contentPath": "/home/ubuntu/code/owlpay/paynow-guideline/current/tutorial",
+          "contentPathLocalized": "/home/ubuntu/code/owlpay/paynow-guideline/i18n/en/docusaurus-plugin-content-docs-tutorial/current",
           "docs": [
             {
               "unversionedId": "01-intro",
               "id": "01-intro",
               "title": "發票後台",
               "description": "使用 PayNow 的賣家可使用發票後台處理發票。",
-              "source": "@site/tutorial/invoice.md",
+              "source": "@site/current/tutorial/invoice.md",
               "sourceDirName": ".",
               "slug": "/01-intro",
-              "permalink": "/zh-TW/tutorial/01-intro",
+              "permalink": "/tutorial/01-intro",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6659,18 +6171,18 @@
               "sidebar": "default",
               "previous": {
                 "title": "物流後台",
-                "permalink": "/zh-TW/tutorial/logistics"
+                "permalink": "/tutorial/logistics"
               }
             },
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "從這裡開始 zh-TW",
+              "title": "從這裡開始",
               "description": "以下的文件將帶您快速了解 PayNow 系統的操作。",
-              "source": "@site/i18n/zh-TW/docusaurus-plugin-content-docs-tutorial/current/01-intro.md",
+              "source": "@site/current/tutorial/01-intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/zh-TW/tutorial/intro",
+              "permalink": "/tutorial/intro",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6679,11 +6191,11 @@
               "sidebar": "default",
               "previous": {
                 "title": "測試第二層的文件",
-                "permalink": "/zh-TW/tutorial/test-folder/test-folder-2/intro"
+                "permalink": "/tutorial/test-folder/test-folder-2/intro"
               },
               "next": {
                 "title": "金流服務",
-                "permalink": "/zh-TW/tutorial/payment"
+                "permalink": "/tutorial/payment"
               }
             },
             {
@@ -6691,10 +6203,10 @@
               "id": "logistics",
               "title": "物流後台",
               "description": "使用 PayNow 的賣家可使用物流後台管理商店。",
-              "source": "@site/tutorial/logistics.md",
+              "source": "@site/current/tutorial/logistics.md",
               "sourceDirName": ".",
               "slug": "/logistics",
-              "permalink": "/zh-TW/tutorial/logistics",
+              "permalink": "/tutorial/logistics",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6705,11 +6217,11 @@
               "sidebar": "default",
               "previous": {
                 "title": "金流後台",
-                "permalink": "/zh-TW/tutorial/payment-admin"
+                "permalink": "/tutorial/payment-admin"
               },
               "next": {
                 "title": "發票後台",
-                "permalink": "/zh-TW/tutorial/01-intro"
+                "permalink": "/tutorial/01-intro"
               }
             },
             {
@@ -6717,10 +6229,10 @@
               "id": "payment",
               "title": "金流服務",
               "description": "PayNow 提供多元的線上金流與行動支付服務，讓您收款更便利！",
-              "source": "@site/tutorial/02-payment.md",
+              "source": "@site/current/tutorial/02-payment.md",
               "sourceDirName": ".",
               "slug": "/payment",
-              "permalink": "/zh-TW/tutorial/payment",
+              "permalink": "/tutorial/payment",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6728,12 +6240,12 @@
               "frontMatter": {},
               "sidebar": "default",
               "previous": {
-                "title": "從這裡開始 zh-TW",
-                "permalink": "/zh-TW/tutorial/intro"
+                "title": "從這裡開始",
+                "permalink": "/tutorial/intro"
               },
               "next": {
                 "title": "金流後台",
-                "permalink": "/zh-TW/tutorial/payment-admin"
+                "permalink": "/tutorial/payment-admin"
               }
             },
             {
@@ -6741,10 +6253,10 @@
               "id": "payment-admin",
               "title": "金流後台",
               "description": "使用 PayNow 的賣家，可使用金流後台管理商店的金流服務。",
-              "source": "@site/tutorial/03-payment-admin.md",
+              "source": "@site/current/tutorial/03-payment-admin.md",
               "sourceDirName": ".",
               "slug": "/payment-admin",
-              "permalink": "/zh-TW/tutorial/payment-admin",
+              "permalink": "/tutorial/payment-admin",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6753,11 +6265,11 @@
               "sidebar": "default",
               "previous": {
                 "title": "金流服務",
-                "permalink": "/zh-TW/tutorial/payment"
+                "permalink": "/tutorial/payment"
               },
               "next": {
                 "title": "物流後台",
-                "permalink": "/zh-TW/tutorial/logistics"
+                "permalink": "/tutorial/logistics"
               }
             },
             {
@@ -6765,10 +6277,10 @@
               "id": "test-folder/index",
               "title": "第一層資料夾",
               "description": "測試看看多資料夾會怎麼樣",
-              "source": "@site/tutorial/test-folder/index.md",
+              "source": "@site/current/tutorial/test-folder/index.md",
               "sourceDirName": "test-folder",
               "slug": "/test-folder/",
-              "permalink": "/zh-TW/tutorial/test-folder/",
+              "permalink": "/tutorial/test-folder/",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6779,7 +6291,7 @@
               "sidebar": "default",
               "next": {
                 "title": "第一層的文件",
-                "permalink": "/zh-TW/tutorial/test-folder/intro"
+                "permalink": "/tutorial/test-folder/intro"
               }
             },
             {
@@ -6787,10 +6299,10 @@
               "id": "test-folder/intro",
               "title": "第一層的文件",
               "description": "第一層資料夾來一篇文章",
-              "source": "@site/tutorial/test-folder/intro.md",
+              "source": "@site/current/tutorial/test-folder/intro.md",
               "sourceDirName": "test-folder",
               "slug": "/test-folder/intro",
-              "permalink": "/zh-TW/tutorial/test-folder/intro",
+              "permalink": "/tutorial/test-folder/intro",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6798,11 +6310,11 @@
               "sidebar": "default",
               "previous": {
                 "title": "第一層資料夾",
-                "permalink": "/zh-TW/tutorial/test-folder/"
+                "permalink": "/tutorial/test-folder/"
               },
               "next": {
                 "title": "第二層資料夾",
-                "permalink": "/zh-TW/tutorial/test-folder/test-folder-2/"
+                "permalink": "/tutorial/test-folder/test-folder-2/"
               }
             },
             {
@@ -6810,10 +6322,10 @@
               "id": "test-folder/test-folder-2/index",
               "title": "第二層資料夾",
               "description": "改用 meta 的方式命名，可以發現 sidebar 跟 這裡的標題不一樣",
-              "source": "@site/tutorial/test-folder/test-folder-2/index.md",
+              "source": "@site/current/tutorial/test-folder/test-folder-2/index.md",
               "sourceDirName": "test-folder/test-folder-2",
               "slug": "/test-folder/test-folder-2/",
-              "permalink": "/zh-TW/tutorial/test-folder/test-folder-2/",
+              "permalink": "/tutorial/test-folder/test-folder-2/",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6823,11 +6335,11 @@
               "sidebar": "default",
               "previous": {
                 "title": "第一層的文件",
-                "permalink": "/zh-TW/tutorial/test-folder/intro"
+                "permalink": "/tutorial/test-folder/intro"
               },
               "next": {
                 "title": "測試第二層的文件",
-                "permalink": "/zh-TW/tutorial/test-folder/test-folder-2/intro"
+                "permalink": "/tutorial/test-folder/test-folder-2/intro"
               }
             },
             {
@@ -6835,10 +6347,10 @@
               "id": "test-folder/test-folder-2/intro",
               "title": "測試第二層的文件",
               "description": "也來一篇文件好了",
-              "source": "@site/tutorial/test-folder/test-folder-2/intro.md",
+              "source": "@site/current/tutorial/test-folder/test-folder-2/intro.md",
               "sourceDirName": "test-folder/test-folder-2",
               "slug": "/test-folder/test-folder-2/intro",
-              "permalink": "/zh-TW/tutorial/test-folder/test-folder-2/intro",
+              "permalink": "/tutorial/test-folder/test-folder-2/intro",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -6846,11 +6358,11 @@
               "sidebar": "default",
               "previous": {
                 "title": "第二層資料夾",
-                "permalink": "/zh-TW/tutorial/test-folder/test-folder-2/"
+                "permalink": "/tutorial/test-folder/test-folder-2/"
               },
               "next": {
-                "title": "從這裡開始 zh-TW",
-                "permalink": "/zh-TW/tutorial/intro"
+                "title": "從這裡開始",
+                "permalink": "/tutorial/intro"
               }
             }
           ],
@@ -6913,6 +6425,157 @@
           }
         }
       ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "release-note": {
+      "blogSidebarTitle": "Version",
+      "blogPosts": [
+        {
+          "id": "v1.1.3",
+          "metadata": {
+            "permalink": "/release-note/v1.1.3",
+            "source": "@site/current/release-note/v1.1.3.md",
+            "title": "v1.1.3",
+            "description": "新增",
+            "date": "2023-07-13T04:32:38.738Z",
+            "formattedDate": "July 13, 2023",
+            "tags": [
+              {
+                "label": "feature",
+                "permalink": "/release-note/tags/feature"
+              },
+              {
+                "label": "hotfix",
+                "permalink": "/release-note/tags/hotfix"
+              }
+            ],
+            "readingTime": 0.285,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {
+              "slug": "v1.1.3",
+              "title": "v1.1.3",
+              "tags": [
+                "feature",
+                "hotfix"
+              ]
+            },
+            "nextItem": {
+              "title": "v1.0.0",
+              "permalink": "/release-note/v1.0.0"
+            }
+          },
+          "content": "## 新增\n- 新增 付款途徑 名詞介紹\n- 新增 錢包 功能，當付款閘道為 NIUM 時可檢視帳戶內各幣別的餘額\n\n## 修正\n- 修正 圖片顯示不出來\n\n## 移除\n- AML 驗證通知"
+        },
+        {
+          "id": "v1.0.0",
+          "metadata": {
+            "permalink": "/release-note/v1.0.0",
+            "source": "@site/current/release-note/v1.0.0/index.md",
+            "title": "v1.0.0",
+            "description": "新增",
+            "date": "2023-07-13T04:32:38.738Z",
+            "formattedDate": "July 13, 2023",
+            "tags": [
+              {
+                "label": "feature",
+                "permalink": "/release-note/tags/feature"
+              },
+              {
+                "label": "hotfix",
+                "permalink": "/release-note/tags/hotfix"
+              }
+            ],
+            "readingTime": 0.315,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {
+              "slug": "v1.0.0",
+              "title": "v1.0.0",
+              "tags": [
+                "feature",
+                "hotfix"
+              ]
+            },
+            "prevItem": {
+              "title": "v1.1.3",
+              "permalink": "/release-note/v1.1.3"
+            }
+          },
+          "content": "## 新增\n- 新增 付款途徑 名詞介紹\n- 新增 錢包 功能，當付款閘道為 NIUM 時可檢視帳戶內各幣別的餘額\n\n## 修正\n- 修正 圖片顯示不出來\n\n## 移除\n- AML 驗證通知\n\n# 畫面預覽\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "v1.1.3",
+            "v1.0.0"
+          ],
+          "metadata": {
+            "permalink": "/release-note",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 2,
+            "blogDescription": "Blog",
+            "blogTitle": "Release Note"
+          }
+        }
+      ],
+      "blogTags": {
+        "/release-note/tags/feature": {
+          "label": "feature",
+          "items": [
+            "v1.1.3",
+            "v1.0.0"
+          ],
+          "permalink": "/release-note/tags/feature",
+          "pages": [
+            {
+              "items": [
+                "v1.1.3",
+                "v1.0.0"
+              ],
+              "metadata": {
+                "permalink": "/release-note/tags/feature",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Release Note"
+              }
+            }
+          ]
+        },
+        "/release-note/tags/hotfix": {
+          "label": "hotfix",
+          "items": [
+            "v1.1.3",
+            "v1.0.0"
+          ],
+          "permalink": "/release-note/tags/hotfix",
+          "pages": [
+            {
+              "items": [
+                "v1.1.3",
+                "v1.0.0"
+              ],
+              "metadata": {
+                "permalink": "/release-note/tags/hotfix",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Release Note"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/release-note/tags"
     }
   },
   "docusaurus-bootstrap-plugin": {},

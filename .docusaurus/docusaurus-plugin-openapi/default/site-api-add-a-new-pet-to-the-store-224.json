@@ -316,15 +316,15 @@
       }
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/add-a-new-pet-to-the-store",
+  "permalink": "/api/add-a-new-pet-to-the-store",
   "previous": {
     "title": "Introduction",
-    "permalink": "/zh-TW/api/introduction"
+    "permalink": "/api/introduction"
   },
   "next": {
     "title": "Update an existing pet",
-    "permalink": "/zh-TW/api/update-an-existing-pet"
+    "permalink": "/api/update-an-existing-pet"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "logistics",
+  "id": "logistics",
+  "title": "物流後台",
+  "description": "使用 PayNow 的賣家可使用物流後台管理商店。",
+  "source": "@site/current/guide/logistics.md",
+  "sourceDirName": ".",
+  "slug": "/logistics",
+  "permalink": "/guide/logistics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

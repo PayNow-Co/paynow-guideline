@@ -318,15 +318,15 @@
       }
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/create-user",
+  "permalink": "/api/create-user",
   "previous": {
     "title": "Subscribe to the Store events",
-    "permalink": "/zh-TW/api/subscribe-to-the-store-events"
+    "permalink": "/api/subscribe-to-the-store-events"
   },
   "next": {
     "title": "Get user by user name",
-    "permalink": "/zh-TW/api/get-user-by-user-name"
+    "permalink": "/api/get-user-by-user-name"
   }
 }

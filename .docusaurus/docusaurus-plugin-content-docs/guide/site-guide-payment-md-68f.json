@@ -6,7 +6,7 @@
   "source": "@site/guide/payment.md",
   "sourceDirName": ".",
   "slug": "/payment",
-  "permalink": "/zh-TW/guide/payment",
+  "permalink": "/guide/payment",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "default",
   "previous": {
     "title": "從這裡開始",
-    "permalink": "/zh-TW/guide/intro"
+    "permalink": "/guide/intro"
   },
   "next": {
     "title": "從這裡開始",
-    "permalink": "/zh-TW/guide/intro"
+    "permalink": "/guide/intro"
   }
 }

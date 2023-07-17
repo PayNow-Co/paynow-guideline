@@ -392,15 +392,15 @@
       }
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/finds-pets-by-status",
+  "permalink": "/api/finds-pets-by-status",
   "previous": {
     "title": "uploads an image",
-    "permalink": "/zh-TW/api/uploads-an-image"
+    "permalink": "/api/uploads-an-image"
   },
   "next": {
     "title": "Finds Pets by tags",
-    "permalink": "/zh-TW/api/finds-pets-by-tags"
+    "permalink": "/api/finds-pets-by-tags"
   }
 }

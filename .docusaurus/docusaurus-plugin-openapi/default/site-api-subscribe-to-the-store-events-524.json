@@ -379,15 +379,15 @@
       }
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/subscribe-to-the-store-events",
+  "permalink": "/api/subscribe-to-the-store-events",
   "previous": {
     "title": "Delete purchase order by ID",
-    "permalink": "/zh-TW/api/delete-purchase-order-by-id"
+    "permalink": "/api/delete-purchase-order-by-id"
   },
   "next": {
     "title": "Create user",
-    "permalink": "/zh-TW/api/create-user"
+    "permalink": "/api/create-user"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/tutorial/test-folder/intro.md",
   "sourceDirName": "test-folder",
   "slug": "/test-folder/intro",
-  "permalink": "/zh-TW/tutorial/test-folder/intro",
+  "permalink": "/tutorial/test-folder/intro",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "default",
   "previous": {
     "title": "第一層資料夾",
-    "permalink": "/zh-TW/tutorial/test-folder/"
+    "permalink": "/tutorial/test-folder/"
   },
   "next": {
     "title": "第二層資料夾",
-    "permalink": "/zh-TW/tutorial/test-folder/test-folder-2/"
+    "permalink": "/tutorial/test-folder/test-folder-2/"
   }
 }

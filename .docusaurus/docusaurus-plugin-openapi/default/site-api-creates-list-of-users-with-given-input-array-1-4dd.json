@@ -324,15 +324,15 @@
       }
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array-1",
+  "permalink": "/api/creates-list-of-users-with-given-input-array-1",
   "previous": {
     "title": "Creates list of users with given input array",
-    "permalink": "/zh-TW/api/creates-list-of-users-with-given-input-array"
+    "permalink": "/api/creates-list-of-users-with-given-input-array"
   },
   "next": {
     "title": "Logs user into the system",
-    "permalink": "/zh-TW/api/logs-user-into-the-system"
+    "permalink": "/api/logs-user-into-the-system"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/tutorial/02-payment.md",
   "sourceDirName": ".",
   "slug": "/payment",
-  "permalink": "/zh-TW/tutorial/payment",
+  "permalink": "/tutorial/payment",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
-    "title": "從這裡開始 zh-TW",
-    "permalink": "/zh-TW/tutorial/intro"
+    "title": "從這裡開始",
+    "permalink": "/tutorial/intro"
   },
   "next": {
     "title": "金流後台",
-    "permalink": "/zh-TW/tutorial/payment-admin"
+    "permalink": "/tutorial/payment-admin"
   }
 }

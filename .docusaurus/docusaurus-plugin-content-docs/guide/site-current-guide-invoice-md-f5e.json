@@ -1,0 +1,17 @@
+{
+  "unversionedId": "invoice",
+  "id": "invoice",
+  "title": "發票後台",
+  "description": "使用 PayNow 的賣家可使用發票後台處理發票。",
+  "source": "@site/current/guide/invoice.md",
+  "sourceDirName": ".",
+  "slug": "/invoice",
+  "permalink": "/guide/invoice",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  }
+}

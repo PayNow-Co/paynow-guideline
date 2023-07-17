@@ -393,15 +393,15 @@
       }
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/finds-pets-by-tags",
+  "permalink": "/api/finds-pets-by-tags",
   "previous": {
     "title": "Finds Pets by status",
-    "permalink": "/zh-TW/api/finds-pets-by-status"
+    "permalink": "/api/finds-pets-by-status"
   },
   "next": {
     "title": "Returns pet inventories by status",
-    "permalink": "/zh-TW/api/returns-pet-inventories-by-status"
+    "permalink": "/api/returns-pet-inventories-by-status"
   }
 }

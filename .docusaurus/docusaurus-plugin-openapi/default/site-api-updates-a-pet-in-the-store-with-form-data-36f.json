@@ -169,15 +169,15 @@
       }
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/updates-a-pet-in-the-store-with-form-data",
+  "permalink": "/api/updates-a-pet-in-the-store-with-form-data",
   "previous": {
     "title": "Find pet by ID",
-    "permalink": "/zh-TW/api/find-pet-by-id"
+    "permalink": "/api/find-pet-by-id"
   },
   "next": {
     "title": "Deletes a pet",
-    "permalink": "/zh-TW/api/deletes-a-pet"
+    "permalink": "/api/deletes-a-pet"
   }
 }

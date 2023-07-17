@@ -228,15 +228,15 @@
       "method": "GET"
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/find-purchase-order-by-id",
+  "permalink": "/api/find-purchase-order-by-id",
   "previous": {
     "title": "Place an order for a pet",
-    "permalink": "/zh-TW/api/place-an-order-for-a-pet"
+    "permalink": "/api/place-an-order-for-a-pet"
   },
   "next": {
     "title": "Delete purchase order by ID",
-    "permalink": "/zh-TW/api/delete-purchase-order-by-id"
+    "permalink": "/api/delete-purchase-order-by-id"
   }
 }

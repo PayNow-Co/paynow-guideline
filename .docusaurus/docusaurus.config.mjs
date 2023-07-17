@@ -8,29 +8,21 @@ export default {
   "tagline": "The document of PayNow.",
   "favicon": "img/logo.svg",
   "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/zh-TW/",
+  "baseUrl": "/",
   "organizationName": "OwlTing",
   "projectName": "paynow-guideline",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "i18n": {
-    "defaultLocale": "en",
-    "locales": [
-      "en",
-      "zh-TW"
-    ],
-    "path": "i18n",
-    "localeConfigs": {}
-  },
   "presets": [
     [
       "docusaurus-preset-openapi",
       {
         "api": {
-          "path": "api",
+          "path": "current/api",
           "routeBasePath": "/api"
         },
         "docs": false,
+        "blog": false,
         "theme": {
           "customCss": [
             "/home/ubuntu/code/owlpay/paynow-guideline/src/css/custom.scss"
@@ -45,7 +37,7 @@ export default {
       "@docusaurus/plugin-content-docs",
       {
         "id": "guide",
-        "path": "guide",
+        "path": "current/guide",
         "routeBasePath": "guide",
         "sidebarPath": "/home/ubuntu/code/owlpay/paynow-guideline/sidebars/guide.js"
       }
@@ -54,7 +46,7 @@ export default {
       "@docusaurus/plugin-content-docs",
       {
         "id": "tutorial",
-        "path": "tutorial",
+        "path": "current/tutorial",
         "routeBasePath": "tutorial",
         "sidebarPath": "/home/ubuntu/code/owlpay/paynow-guideline/sidebars/tutorial.js"
       }
@@ -63,7 +55,7 @@ export default {
       "@docusaurus/plugin-content-blog",
       {
         "id": "release-note",
-        "path": "release-note",
+        "path": "current/release-note",
         "blogTitle": "Release Note",
         "routeBasePath": "release-note",
         "blogSidebarTitle": "Version"
@@ -101,53 +93,8 @@ export default {
           "label": "Guide"
         },
         {
-          "type": "dropdown",
-          "label": "Community",
-          "position": "left",
-          "items": [
-            {
-              "label": "Facebook",
-              "href": "https://www.facebook.com"
-            },
-            {
-              "type": "docSidebar",
-              "docsPluginId": "guide",
-              "sidebarId": "default",
-              "label": "Guide"
-            }
-          ]
-        },
-        {
-          "to": "/api",
-          "label": "API",
-          "position": "left"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
           "to": "/release-note",
           "label": "Release Note",
-          "position": "left"
-        },
-        {
-          "type": "docsVersionDropdown",
-          "docsPluginId": "tutorial",
-          "position": "right",
-          "dropdownItemsBefore": [],
-          "dropdownItemsAfter": []
-        },
-        {
-          "type": "localeDropdown",
-          "position": "right",
-          "dropdownItemsBefore": [],
-          "dropdownItemsAfter": []
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
           "position": "right"
         }
       ],
@@ -155,48 +102,8 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "links": [],
+      "copyright": "©2023 OBOOK Holdings Inc. or its affiliates"
     },
     "prism": {
       "theme": {
@@ -421,6 +328,14 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "i18n": {
+    "defaultLocale": "en",
+    "path": "i18n",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
+  },
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"

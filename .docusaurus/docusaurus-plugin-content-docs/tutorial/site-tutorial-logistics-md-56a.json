@@ -6,7 +6,7 @@
   "source": "@site/tutorial/logistics.md",
   "sourceDirName": ".",
   "slug": "/logistics",
-  "permalink": "/zh-TW/tutorial/logistics",
+  "permalink": "/tutorial/logistics",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "default",
   "previous": {
     "title": "金流後台",
-    "permalink": "/zh-TW/tutorial/payment-admin"
+    "permalink": "/tutorial/payment-admin"
   },
   "next": {
     "title": "發票後台",
-    "permalink": "/zh-TW/tutorial/01-intro"
+    "permalink": "/tutorial/01-intro"
   }
 }

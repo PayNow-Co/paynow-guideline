@@ -115,15 +115,15 @@
       "method": "DELETE"
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/delete-purchase-order-by-id",
+  "permalink": "/api/delete-purchase-order-by-id",
   "previous": {
     "title": "Find purchase order by ID",
-    "permalink": "/zh-TW/api/find-purchase-order-by-id"
+    "permalink": "/api/find-purchase-order-by-id"
   },
   "next": {
     "title": "Subscribe to the Store events",
-    "permalink": "/zh-TW/api/subscribe-to-the-store-events"
+    "permalink": "/api/subscribe-to-the-store-events"
   }
 }

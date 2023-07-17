@@ -342,15 +342,15 @@
       }
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/updated-user",
+  "permalink": "/api/updated-user",
   "previous": {
     "title": "Get user by user name",
-    "permalink": "/zh-TW/api/get-user-by-user-name"
+    "permalink": "/api/get-user-by-user-name"
   },
   "next": {
     "title": "Delete user",
-    "permalink": "/zh-TW/api/delete-user"
+    "permalink": "/api/delete-user"
   }
 }

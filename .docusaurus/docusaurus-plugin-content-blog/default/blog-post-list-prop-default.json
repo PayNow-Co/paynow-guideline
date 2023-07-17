@@ -1,21 +1,4 @@
 {
   "title": "Recent posts",
-  "items": [
-    {
-      "title": "Welcome",
-      "permalink": "/zh-TW/blog/welcome"
-    },
-    {
-      "title": "MDX Blog Post",
-      "permalink": "/zh-TW/blog/mdx-blog-post"
-    },
-    {
-      "title": "Long Blog Post",
-      "permalink": "/zh-TW/blog/long-blog-post"
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/zh-TW/blog/first-blog-post"
-    }
-  ]
+  "items": []
 }

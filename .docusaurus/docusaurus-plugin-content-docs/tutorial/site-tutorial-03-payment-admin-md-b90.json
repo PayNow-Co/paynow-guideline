@@ -6,7 +6,7 @@
   "source": "@site/tutorial/03-payment-admin.md",
   "sourceDirName": ".",
   "slug": "/payment-admin",
-  "permalink": "/zh-TW/tutorial/payment-admin",
+  "permalink": "/tutorial/payment-admin",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "金流服務",
-    "permalink": "/zh-TW/tutorial/payment"
+    "permalink": "/tutorial/payment"
   },
   "next": {
     "title": "物流後台",
-    "permalink": "/zh-TW/tutorial/logistics"
+    "permalink": "/tutorial/logistics"
   }
 }

@@ -4,7 +4,7 @@
       {
         "type": "link",
         "label": "Introduction",
-        "href": "/zh-TW/api/introduction",
+        "href": "/api/introduction",
         "docId": "introduction",
         "position": 999999
       },
@@ -17,7 +17,7 @@
           {
             "type": "link",
             "label": "Add a new pet to the store",
-            "href": "/zh-TW/api/add-a-new-pet-to-the-store",
+            "href": "/api/add-a-new-pet-to-the-store",
             "docId": "add-a-new-pet-to-the-store",
             "className": "api-method post",
             "position": 999999
@@ -25,7 +25,7 @@
           {
             "type": "link",
             "label": "Update an existing pet",
-            "href": "/zh-TW/api/update-an-existing-pet",
+            "href": "/api/update-an-existing-pet",
             "docId": "update-an-existing-pet",
             "className": "api-method put",
             "position": 999999
@@ -33,7 +33,7 @@
           {
             "type": "link",
             "label": "Find pet by ID",
-            "href": "/zh-TW/api/find-pet-by-id",
+            "href": "/api/find-pet-by-id",
             "docId": "find-pet-by-id",
             "className": "api-method get",
             "position": 999999
@@ -41,7 +41,7 @@
           {
             "type": "link",
             "label": "Updates a pet in the store with form data",
-            "href": "/zh-TW/api/updates-a-pet-in-the-store-with-form-data",
+            "href": "/api/updates-a-pet-in-the-store-with-form-data",
             "docId": "updates-a-pet-in-the-store-with-form-data",
             "className": "api-method post",
             "position": 999999
@@ -49,7 +49,7 @@
           {
             "type": "link",
             "label": "Deletes a pet",
-            "href": "/zh-TW/api/deletes-a-pet",
+            "href": "/api/deletes-a-pet",
             "docId": "deletes-a-pet",
             "className": "api-method delete",
             "position": 999999
@@ -57,7 +57,7 @@
           {
             "type": "link",
             "label": "uploads an image",
-            "href": "/zh-TW/api/uploads-an-image",
+            "href": "/api/uploads-an-image",
             "docId": "uploads-an-image",
             "className": "api-method post",
             "position": 999999
@@ -65,7 +65,7 @@
           {
             "type": "link",
             "label": "Finds Pets by status",
-            "href": "/zh-TW/api/finds-pets-by-status",
+            "href": "/api/finds-pets-by-status",
             "docId": "finds-pets-by-status",
             "className": "api-method get",
             "position": 999999
@@ -73,7 +73,7 @@
           {
             "type": "link",
             "label": "Finds Pets by tags",
-            "href": "/zh-TW/api/finds-pets-by-tags",
+            "href": "/api/finds-pets-by-tags",
             "docId": "finds-pets-by-tags",
             "className": "menu__list-item--deprecated api-method get",
             "position": 999999
@@ -90,7 +90,7 @@
           {
             "type": "link",
             "label": "Returns pet inventories by status",
-            "href": "/zh-TW/api/returns-pet-inventories-by-status",
+            "href": "/api/returns-pet-inventories-by-status",
             "docId": "returns-pet-inventories-by-status",
             "className": "api-method get",
             "position": 999999
@@ -98,7 +98,7 @@
           {
             "type": "link",
             "label": "Place an order for a pet",
-            "href": "/zh-TW/api/place-an-order-for-a-pet",
+            "href": "/api/place-an-order-for-a-pet",
             "docId": "place-an-order-for-a-pet",
             "className": "api-method post",
             "position": 999999
@@ -106,7 +106,7 @@
           {
             "type": "link",
             "label": "Find purchase order by ID",
-            "href": "/zh-TW/api/find-purchase-order-by-id",
+            "href": "/api/find-purchase-order-by-id",
             "docId": "find-purchase-order-by-id",
             "className": "api-method get",
             "position": 999999
@@ -114,7 +114,7 @@
           {
             "type": "link",
             "label": "Delete purchase order by ID",
-            "href": "/zh-TW/api/delete-purchase-order-by-id",
+            "href": "/api/delete-purchase-order-by-id",
             "docId": "delete-purchase-order-by-id",
             "className": "api-method delete",
             "position": 999999
@@ -122,7 +122,7 @@
           {
             "type": "link",
             "label": "Subscribe to the Store events",
-            "href": "/zh-TW/api/subscribe-to-the-store-events",
+            "href": "/api/subscribe-to-the-store-events",
             "docId": "subscribe-to-the-store-events",
             "className": "api-method post",
             "position": 999999
@@ -139,7 +139,7 @@
           {
             "type": "link",
             "label": "Create user",
-            "href": "/zh-TW/api/create-user",
+            "href": "/api/create-user",
             "docId": "create-user",
             "className": "api-method post",
             "position": 999999
@@ -147,7 +147,7 @@
           {
             "type": "link",
             "label": "Get user by user name",
-            "href": "/zh-TW/api/get-user-by-user-name",
+            "href": "/api/get-user-by-user-name",
             "docId": "get-user-by-user-name",
             "className": "api-method get",
             "position": 999999
@@ -155,7 +155,7 @@
           {
             "type": "link",
             "label": "Updated user",
-            "href": "/zh-TW/api/updated-user",
+            "href": "/api/updated-user",
             "docId": "updated-user",
             "className": "api-method put",
             "position": 999999
@@ -163,7 +163,7 @@
           {
             "type": "link",
             "label": "Delete user",
-            "href": "/zh-TW/api/delete-user",
+            "href": "/api/delete-user",
             "docId": "delete-user",
             "className": "api-method delete",
             "position": 999999
@@ -171,7 +171,7 @@
           {
             "type": "link",
             "label": "Creates list of users with given input array",
-            "href": "/zh-TW/api/creates-list-of-users-with-given-input-array",
+            "href": "/api/creates-list-of-users-with-given-input-array",
             "docId": "creates-list-of-users-with-given-input-array",
             "className": "api-method post",
             "position": 999999
@@ -179,7 +179,7 @@
           {
             "type": "link",
             "label": "Creates list of users with given input array",
-            "href": "/zh-TW/api/creates-list-of-users-with-given-input-array-1",
+            "href": "/api/creates-list-of-users-with-given-input-array-1",
             "docId": "creates-list-of-users-with-given-input-array-1",
             "className": "api-method post",
             "position": 999999
@@ -187,7 +187,7 @@
           {
             "type": "link",
             "label": "Logs user into the system",
-            "href": "/zh-TW/api/logs-user-into-the-system",
+            "href": "/api/logs-user-into-the-system",
             "docId": "logs-user-into-the-system",
             "className": "api-method get",
             "position": 999999
@@ -195,7 +195,7 @@
           {
             "type": "link",
             "label": "Logs out current logged in user session",
-            "href": "/zh-TW/api/logs-out-current-logged-in-user-session",
+            "href": "/api/logs-out-current-logged-in-user-session",
             "docId": "logs-out-current-logged-in-user-session",
             "className": "api-method get",
             "position": 999999

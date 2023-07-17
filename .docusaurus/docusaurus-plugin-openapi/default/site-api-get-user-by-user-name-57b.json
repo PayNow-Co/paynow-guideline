@@ -524,15 +524,15 @@
       "method": "GET"
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/get-user-by-user-name",
+  "permalink": "/api/get-user-by-user-name",
   "previous": {
     "title": "Create user",
-    "permalink": "/zh-TW/api/create-user"
+    "permalink": "/api/create-user"
   },
   "next": {
     "title": "Updated user",
-    "permalink": "/zh-TW/api/updated-user"
+    "permalink": "/api/updated-user"
   }
 }

@@ -3,375 +3,320 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/zh-TW/__docusaurus/debug',
-    component: ComponentCreator('/zh-TW/__docusaurus/debug', '476'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '9e8'),
     exact: true
   },
   {
-    path: '/zh-TW/__docusaurus/debug/config',
-    component: ComponentCreator('/zh-TW/__docusaurus/debug/config', '8e8'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', 'd21'),
     exact: true
   },
   {
-    path: '/zh-TW/__docusaurus/debug/content',
-    component: ComponentCreator('/zh-TW/__docusaurus/debug/content', 'e09'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '150'),
     exact: true
   },
   {
-    path: '/zh-TW/__docusaurus/debug/globalData',
-    component: ComponentCreator('/zh-TW/__docusaurus/debug/globalData', '1b8'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', '3e9'),
     exact: true
   },
   {
-    path: '/zh-TW/__docusaurus/debug/metadata',
-    component: ComponentCreator('/zh-TW/__docusaurus/debug/metadata', '038'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '6d5'),
     exact: true
   },
   {
-    path: '/zh-TW/__docusaurus/debug/registry',
-    component: ComponentCreator('/zh-TW/__docusaurus/debug/registry', 'ae1'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '48d'),
     exact: true
   },
   {
-    path: '/zh-TW/__docusaurus/debug/routes',
-    component: ComponentCreator('/zh-TW/__docusaurus/debug/routes', '2b7'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '3af'),
     exact: true
   },
   {
-    path: '/zh-TW/blog',
-    component: ComponentCreator('/zh-TW/blog', 'd76'),
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '23a'),
     exact: true
   },
   {
-    path: '/zh-TW/blog/archive',
-    component: ComponentCreator('/zh-TW/blog/archive', '4ba'),
+    path: '/release-note',
+    component: ComponentCreator('/release-note', 'cf7'),
     exact: true
   },
   {
-    path: '/zh-TW/blog/first-blog-post',
-    component: ComponentCreator('/zh-TW/blog/first-blog-post', '881'),
+    path: '/release-note/archive',
+    component: ComponentCreator('/release-note/archive', '322'),
     exact: true
   },
   {
-    path: '/zh-TW/blog/long-blog-post',
-    component: ComponentCreator('/zh-TW/blog/long-blog-post', '4c7'),
+    path: '/release-note/tags',
+    component: ComponentCreator('/release-note/tags', '363'),
     exact: true
   },
   {
-    path: '/zh-TW/blog/mdx-blog-post',
-    component: ComponentCreator('/zh-TW/blog/mdx-blog-post', '236'),
+    path: '/release-note/tags/feature',
+    component: ComponentCreator('/release-note/tags/feature', 'de9'),
     exact: true
   },
   {
-    path: '/zh-TW/blog/tags',
-    component: ComponentCreator('/zh-TW/blog/tags', '324'),
+    path: '/release-note/tags/hotfix',
+    component: ComponentCreator('/release-note/tags/hotfix', 'ced'),
     exact: true
   },
   {
-    path: '/zh-TW/blog/tags/docusaurus',
-    component: ComponentCreator('/zh-TW/blog/tags/docusaurus', '7ac'),
+    path: '/release-note/v1.0.0',
+    component: ComponentCreator('/release-note/v1.0.0', '432'),
     exact: true
   },
   {
-    path: '/zh-TW/blog/tags/facebook',
-    component: ComponentCreator('/zh-TW/blog/tags/facebook', 'e5d'),
+    path: '/release-note/v1.1.3',
+    component: ComponentCreator('/release-note/v1.1.3', '414'),
     exact: true
   },
   {
-    path: '/zh-TW/blog/tags/hello',
-    component: ComponentCreator('/zh-TW/blog/tags/hello', '5d5'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/blog/tags/hola',
-    component: ComponentCreator('/zh-TW/blog/tags/hola', '026'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/blog/welcome',
-    component: ComponentCreator('/zh-TW/blog/welcome', '759'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/markdown-page',
-    component: ComponentCreator('/zh-TW/markdown-page', '7c7'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/release-note',
-    component: ComponentCreator('/zh-TW/release-note', '9b7'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/release-note/archive',
-    component: ComponentCreator('/zh-TW/release-note/archive', '2b8'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/release-note/tags',
-    component: ComponentCreator('/zh-TW/release-note/tags', 'dcd'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/release-note/tags/feature',
-    component: ComponentCreator('/zh-TW/release-note/tags/feature', 'f4f'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/release-note/tags/hotfix',
-    component: ComponentCreator('/zh-TW/release-note/tags/hotfix', '0b1'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/release-note/v1.0.0',
-    component: ComponentCreator('/zh-TW/release-note/v1.0.0', 'c18'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/release-note/v1.1.3',
-    component: ComponentCreator('/zh-TW/release-note/v1.1.3', 'dfb'),
-    exact: true
-  },
-  {
-    path: '/zh-TW/api',
-    component: ComponentCreator('/zh-TW/api', '563'),
+    path: '/api',
+    component: ComponentCreator('/api', '025'),
     routes: [
       {
-        path: '/zh-TW/api',
-        component: ComponentCreator('/zh-TW/api', '1ac'),
+        path: '/api',
+        component: ComponentCreator('/api', 'd7f'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/add-a-new-pet-to-the-store',
-        component: ComponentCreator('/zh-TW/api/add-a-new-pet-to-the-store', 'd4d'),
+        path: '/api/add-a-new-pet-to-the-store',
+        component: ComponentCreator('/api/add-a-new-pet-to-the-store', '41e'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/create-user',
-        component: ComponentCreator('/zh-TW/api/create-user', '340'),
+        path: '/api/create-user',
+        component: ComponentCreator('/api/create-user', 'd9b'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/creates-list-of-users-with-given-input-array',
-        component: ComponentCreator('/zh-TW/api/creates-list-of-users-with-given-input-array', '36e'),
+        path: '/api/creates-list-of-users-with-given-input-array',
+        component: ComponentCreator('/api/creates-list-of-users-with-given-input-array', 'a3e'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/creates-list-of-users-with-given-input-array-1',
-        component: ComponentCreator('/zh-TW/api/creates-list-of-users-with-given-input-array-1', '565'),
+        path: '/api/creates-list-of-users-with-given-input-array-1',
+        component: ComponentCreator('/api/creates-list-of-users-with-given-input-array-1', '4cc'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/delete-purchase-order-by-id',
-        component: ComponentCreator('/zh-TW/api/delete-purchase-order-by-id', '25a'),
+        path: '/api/delete-purchase-order-by-id',
+        component: ComponentCreator('/api/delete-purchase-order-by-id', '38f'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/delete-user',
-        component: ComponentCreator('/zh-TW/api/delete-user', '79e'),
+        path: '/api/delete-user',
+        component: ComponentCreator('/api/delete-user', 'f49'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/deletes-a-pet',
-        component: ComponentCreator('/zh-TW/api/deletes-a-pet', '51b'),
+        path: '/api/deletes-a-pet',
+        component: ComponentCreator('/api/deletes-a-pet', '175'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/find-pet-by-id',
-        component: ComponentCreator('/zh-TW/api/find-pet-by-id', '118'),
+        path: '/api/find-pet-by-id',
+        component: ComponentCreator('/api/find-pet-by-id', 'dde'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/find-purchase-order-by-id',
-        component: ComponentCreator('/zh-TW/api/find-purchase-order-by-id', 'b61'),
+        path: '/api/find-purchase-order-by-id',
+        component: ComponentCreator('/api/find-purchase-order-by-id', '751'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/finds-pets-by-status',
-        component: ComponentCreator('/zh-TW/api/finds-pets-by-status', '584'),
+        path: '/api/finds-pets-by-status',
+        component: ComponentCreator('/api/finds-pets-by-status', 'ef6'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/finds-pets-by-tags',
-        component: ComponentCreator('/zh-TW/api/finds-pets-by-tags', '9e4'),
+        path: '/api/finds-pets-by-tags',
+        component: ComponentCreator('/api/finds-pets-by-tags', 'b33'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/get-user-by-user-name',
-        component: ComponentCreator('/zh-TW/api/get-user-by-user-name', 'ebe'),
+        path: '/api/get-user-by-user-name',
+        component: ComponentCreator('/api/get-user-by-user-name', '746'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/introduction',
-        component: ComponentCreator('/zh-TW/api/introduction', 'e45'),
+        path: '/api/introduction',
+        component: ComponentCreator('/api/introduction', 'b15'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/logs-out-current-logged-in-user-session',
-        component: ComponentCreator('/zh-TW/api/logs-out-current-logged-in-user-session', 'af2'),
+        path: '/api/logs-out-current-logged-in-user-session',
+        component: ComponentCreator('/api/logs-out-current-logged-in-user-session', '08d'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/logs-user-into-the-system',
-        component: ComponentCreator('/zh-TW/api/logs-user-into-the-system', '209'),
+        path: '/api/logs-user-into-the-system',
+        component: ComponentCreator('/api/logs-user-into-the-system', '5c8'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/place-an-order-for-a-pet',
-        component: ComponentCreator('/zh-TW/api/place-an-order-for-a-pet', '2e3'),
+        path: '/api/place-an-order-for-a-pet',
+        component: ComponentCreator('/api/place-an-order-for-a-pet', 'a4d'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/returns-pet-inventories-by-status',
-        component: ComponentCreator('/zh-TW/api/returns-pet-inventories-by-status', 'cc0'),
+        path: '/api/returns-pet-inventories-by-status',
+        component: ComponentCreator('/api/returns-pet-inventories-by-status', '0c1'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/subscribe-to-the-store-events',
-        component: ComponentCreator('/zh-TW/api/subscribe-to-the-store-events', '85d'),
+        path: '/api/subscribe-to-the-store-events',
+        component: ComponentCreator('/api/subscribe-to-the-store-events', 'dba'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/update-an-existing-pet',
-        component: ComponentCreator('/zh-TW/api/update-an-existing-pet', 'e15'),
+        path: '/api/update-an-existing-pet',
+        component: ComponentCreator('/api/update-an-existing-pet', 'c2a'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/updated-user',
-        component: ComponentCreator('/zh-TW/api/updated-user', '68d'),
+        path: '/api/updated-user',
+        component: ComponentCreator('/api/updated-user', '0d2'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/updates-a-pet-in-the-store-with-form-data',
-        component: ComponentCreator('/zh-TW/api/updates-a-pet-in-the-store-with-form-data', '78b'),
+        path: '/api/updates-a-pet-in-the-store-with-form-data',
+        component: ComponentCreator('/api/updates-a-pet-in-the-store-with-form-data', '4bf'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
-        path: '/zh-TW/api/uploads-an-image',
-        component: ComponentCreator('/zh-TW/api/uploads-an-image', 'ff6'),
+        path: '/api/uploads-an-image',
+        component: ComponentCreator('/api/uploads-an-image', '6ac'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       }
     ]
   },
   {
-    path: '/zh-TW/guide',
-    component: ComponentCreator('/zh-TW/guide', 'd14'),
+    path: '/guide',
+    component: ComponentCreator('/guide', '811'),
     routes: [
       {
-        path: '/zh-TW/guide/intro',
-        component: ComponentCreator('/zh-TW/guide/intro', 'e66'),
+        path: '/guide/intro',
+        component: ComponentCreator('/guide/intro', 'b1a'),
         exact: true,
         sidebar: "default"
       },
       {
-        path: '/zh-TW/guide/invoice',
-        component: ComponentCreator('/zh-TW/guide/invoice', '81a'),
+        path: '/guide/invoice',
+        component: ComponentCreator('/guide/invoice', 'c05'),
         exact: true
       },
       {
-        path: '/zh-TW/guide/logistics',
-        component: ComponentCreator('/zh-TW/guide/logistics', 'f92'),
+        path: '/guide/logistics',
+        component: ComponentCreator('/guide/logistics', '55f'),
         exact: true
       },
       {
-        path: '/zh-TW/guide/payment',
-        component: ComponentCreator('/zh-TW/guide/payment', '4fc'),
+        path: '/guide/payment',
+        component: ComponentCreator('/guide/payment', '210'),
         exact: true,
         sidebar: "default"
       },
       {
-        path: '/zh-TW/guide/payment-admin',
-        component: ComponentCreator('/zh-TW/guide/payment-admin', '8e5'),
+        path: '/guide/payment-admin',
+        component: ComponentCreator('/guide/payment-admin', 'c62'),
         exact: true
       }
     ]
   },
   {
-    path: '/zh-TW/tutorial',
-    component: ComponentCreator('/zh-TW/tutorial', 'bed'),
+    path: '/tutorial',
+    component: ComponentCreator('/tutorial', 'f09'),
     routes: [
       {
-        path: '/zh-TW/tutorial/01-intro',
-        component: ComponentCreator('/zh-TW/tutorial/01-intro', '090'),
+        path: '/tutorial/01-intro',
+        component: ComponentCreator('/tutorial/01-intro', '61a'),
         exact: true,
         sidebar: "default"
       },
       {
-        path: '/zh-TW/tutorial/intro',
-        component: ComponentCreator('/zh-TW/tutorial/intro', '517'),
+        path: '/tutorial/intro',
+        component: ComponentCreator('/tutorial/intro', 'a5f'),
         exact: true,
         sidebar: "default"
       },
       {
-        path: '/zh-TW/tutorial/logistics',
-        component: ComponentCreator('/zh-TW/tutorial/logistics', '80d'),
+        path: '/tutorial/logistics',
+        component: ComponentCreator('/tutorial/logistics', 'd21'),
         exact: true,
         sidebar: "default"
       },
       {
-        path: '/zh-TW/tutorial/payment',
-        component: ComponentCreator('/zh-TW/tutorial/payment', '29e'),
+        path: '/tutorial/payment',
+        component: ComponentCreator('/tutorial/payment', 'ee3'),
         exact: true,
         sidebar: "default"
       },
       {
-        path: '/zh-TW/tutorial/payment-admin',
-        component: ComponentCreator('/zh-TW/tutorial/payment-admin', 'cf7'),
+        path: '/tutorial/payment-admin',
+        component: ComponentCreator('/tutorial/payment-admin', 'a4c'),
         exact: true,
         sidebar: "default"
       },
       {
-        path: '/zh-TW/tutorial/test-folder/',
-        component: ComponentCreator('/zh-TW/tutorial/test-folder/', 'd5a'),
+        path: '/tutorial/test-folder/',
+        component: ComponentCreator('/tutorial/test-folder/', 'c1c'),
         exact: true,
         sidebar: "default"
       },
       {
-        path: '/zh-TW/tutorial/test-folder/intro',
-        component: ComponentCreator('/zh-TW/tutorial/test-folder/intro', 'c59'),
+        path: '/tutorial/test-folder/intro',
+        component: ComponentCreator('/tutorial/test-folder/intro', 'aae'),
         exact: true,
         sidebar: "default"
       },
       {
-        path: '/zh-TW/tutorial/test-folder/test-folder-2/',
-        component: ComponentCreator('/zh-TW/tutorial/test-folder/test-folder-2/', 'd6d'),
+        path: '/tutorial/test-folder/test-folder-2/',
+        component: ComponentCreator('/tutorial/test-folder/test-folder-2/', '227'),
         exact: true,
         sidebar: "default"
       },
       {
-        path: '/zh-TW/tutorial/test-folder/test-folder-2/intro',
-        component: ComponentCreator('/zh-TW/tutorial/test-folder/test-folder-2/intro', 'e1b'),
+        path: '/tutorial/test-folder/test-folder-2/intro',
+        component: ComponentCreator('/tutorial/test-folder/test-folder-2/intro', 'ea1'),
         exact: true,
         sidebar: "default"
       }
     ]
   },
   {
-    path: '/zh-TW/',
-    component: ComponentCreator('/zh-TW/', 'fa2'),
+    path: '/',
+    component: ComponentCreator('/', 'fb8'),
     exact: true
   },
   {

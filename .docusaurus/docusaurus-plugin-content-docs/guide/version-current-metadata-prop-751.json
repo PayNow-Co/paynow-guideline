@@ -12,13 +12,13 @@
       {
         "type": "link",
         "label": "從這裡開始",
-        "href": "/zh-TW/guide/intro",
+        "href": "/guide/intro",
         "docId": "intro"
       },
       {
         "type": "link",
         "label": "金流服務",
-        "href": "/zh-TW/guide/payment",
+        "href": "/guide/payment",
         "docId": "payment"
       },
       {
@@ -28,13 +28,13 @@
           {
             "type": "link",
             "label": "從這裡開始",
-            "href": "/zh-TW/guide/intro",
+            "href": "/guide/intro",
             "docId": "intro"
           },
           {
             "type": "link",
             "label": "金流服務",
-            "href": "/zh-TW/guide/payment",
+            "href": "/guide/payment",
             "docId": "payment"
           }
         ],

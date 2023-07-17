@@ -6,7 +6,7 @@
   "source": "@site/tutorial/invoice.md",
   "sourceDirName": ".",
   "slug": "/01-intro",
-  "permalink": "/zh-TW/tutorial/01-intro",
+  "permalink": "/tutorial/01-intro",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,6 +18,6 @@
   "sidebar": "default",
   "previous": {
     "title": "物流後台",
-    "permalink": "/zh-TW/tutorial/logistics"
+    "permalink": "/tutorial/logistics"
   }
 }

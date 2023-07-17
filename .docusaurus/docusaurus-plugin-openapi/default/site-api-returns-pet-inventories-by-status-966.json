@@ -126,15 +126,15 @@
       }
     }
   },
-  "source": "@site/api/example.yml",
+  "source": "@site/current/api/example.yml",
   "sourceDirName": ".",
-  "permalink": "/zh-TW/api/returns-pet-inventories-by-status",
+  "permalink": "/api/returns-pet-inventories-by-status",
   "previous": {
     "title": "Finds Pets by tags",
-    "permalink": "/zh-TW/api/finds-pets-by-tags"
+    "permalink": "/api/finds-pets-by-tags"
   },
   "next": {
     "title": "Place an order for a pet",
-    "permalink": "/zh-TW/api/place-an-order-for-a-pet"
+    "permalink": "/api/place-an-order-for-a-pet"
   }
 }
