@@ -10,10 +10,7 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 0,
-  "frontMatter": {
-    "sidebar_position": 0
-  },
+  "frontMatter": {},
   "sidebar": "default",
   "next": {
     "title": "第一層的文件",

@@ -256,7 +256,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---guide-payment-admind-76-8f9"
   },
-  "/tutorial-f09": {
+  "/tutorial-265": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---tutorial-82-d-5f7"
@@ -290,10 +290,6 @@
   "/tutorial/test-folder/intro-aae": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---tutorial-test-folder-introc-92-176"
-  },
-  "/tutorial/test-folder/test-folder-2/-227": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---tutorial-test-folder-test-folder-2-b-8-c-fb1"
   },
   "/tutorial/test-folder/test-folder-2/intro-ea1": {
     "__comp": "__comp---theme-doc-item-178-a40",

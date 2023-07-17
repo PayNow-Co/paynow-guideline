@@ -17,7 +17,7 @@
     "permalink": "/tutorial/test-folder/"
   },
   "next": {
-    "title": "第二層資料夾",
-    "permalink": "/tutorial/test-folder/test-folder-2/"
+    "title": "測試第二層的文件",
+    "permalink": "/tutorial/test-folder/test-folder-2/intro"
   }
 }

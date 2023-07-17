@@ -33,8 +33,7 @@
                 "href": "/tutorial/test-folder/test-folder-2/intro",
                 "docId": "test-folder/test-folder-2/intro"
               }
-            ],
-            "href": "/tutorial/test-folder/test-folder-2/"
+            ]
           }
         ],
         "href": "/tutorial/test-folder/"
@@ -112,12 +111,6 @@
       "id": "test-folder/intro",
       "title": "第一層的文件",
       "description": "第一層資料夾來一篇文章",
-      "sidebar": "default"
-    },
-    "test-folder/test-folder-2/index": {
-      "id": "test-folder/test-folder-2/index",
-      "title": "第二層資料夾",
-      "description": "改用 meta 的方式命名，可以發現 sidebar 跟 這裡的標題不一樣",
       "sidebar": "default"
     },
     "test-folder/test-folder-2/intro": {

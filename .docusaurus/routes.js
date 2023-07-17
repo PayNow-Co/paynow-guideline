@@ -256,7 +256,7 @@ export default [
   },
   {
     path: '/tutorial',
-    component: ComponentCreator('/tutorial', 'f09'),
+    component: ComponentCreator('/tutorial', '265'),
     routes: [
       {
         path: '/tutorial/01-intro',
@@ -297,12 +297,6 @@ export default [
       {
         path: '/tutorial/test-folder/intro',
         component: ComponentCreator('/tutorial/test-folder/intro', 'aae'),
-        exact: true,
-        sidebar: "default"
-      },
-      {
-        path: '/tutorial/test-folder/test-folder-2/',
-        component: ComponentCreator('/tutorial/test-folder/test-folder-2/', '227'),
         exact: true,
         sidebar: "default"
       },

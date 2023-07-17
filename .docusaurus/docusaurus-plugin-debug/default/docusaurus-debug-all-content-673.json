@@ -6284,10 +6284,7 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 0,
-              "frontMatter": {
-                "sidebar_position": 0
-              },
+              "frontMatter": {},
               "sidebar": "default",
               "next": {
                 "title": "第一層的文件",
@@ -6313,31 +6310,6 @@
                 "permalink": "/tutorial/test-folder/"
               },
               "next": {
-                "title": "第二層資料夾",
-                "permalink": "/tutorial/test-folder/test-folder-2/"
-              }
-            },
-            {
-              "unversionedId": "test-folder/test-folder-2/index",
-              "id": "test-folder/test-folder-2/index",
-              "title": "第二層資料夾",
-              "description": "改用 meta 的方式命名，可以發現 sidebar 跟 這裡的標題不一樣",
-              "source": "@site/current/tutorial/test-folder/test-folder-2/index.md",
-              "sourceDirName": "test-folder/test-folder-2",
-              "slug": "/test-folder/test-folder-2/",
-              "permalink": "/tutorial/test-folder/test-folder-2/",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "title": "第二層資料夾"
-              },
-              "sidebar": "default",
-              "previous": {
-                "title": "第一層的文件",
-                "permalink": "/tutorial/test-folder/intro"
-              },
-              "next": {
                 "title": "測試第二層的文件",
                 "permalink": "/tutorial/test-folder/test-folder-2/intro"
               }
@@ -6357,8 +6329,8 @@
               "frontMatter": {},
               "sidebar": "default",
               "previous": {
-                "title": "第二層資料夾",
-                "permalink": "/tutorial/test-folder/test-folder-2/"
+                "title": "第一層的文件",
+                "permalink": "/tutorial/test-folder/intro"
               },
               "next": {
                 "title": "從這裡開始",
@@ -6389,11 +6361,7 @@
                         "type": "doc",
                         "id": "test-folder/test-folder-2/intro"
                       }
-                    ],
-                    "link": {
-                      "type": "doc",
-                      "id": "test-folder/test-folder-2/index"
-                    }
+                    ]
                   }
                 ],
                 "link": {

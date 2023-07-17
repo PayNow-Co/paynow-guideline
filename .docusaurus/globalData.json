@@ -92,11 +92,6 @@
               "sidebar": "default"
             },
             {
-              "id": "test-folder/test-folder-2/index",
-              "path": "/tutorial/test-folder/test-folder-2/",
-              "sidebar": "default"
-            },
-            {
               "id": "test-folder/test-folder-2/intro",
               "path": "/tutorial/test-folder/test-folder-2/intro",
               "sidebar": "default"
