@@ -1,0 +1,33 @@
+{
+  "permalink": "/zh-TW/release-note/v1.0.0",
+  "source": "@site/release-note/v1.0.0/index.md",
+  "title": "v1.0.0",
+  "description": "新增",
+  "date": "2023-07-13T04:25:34.000Z",
+  "formattedDate": "2023年7月13日",
+  "tags": [
+    {
+      "label": "feature",
+      "permalink": "/zh-TW/release-note/tags/feature"
+    },
+    {
+      "label": "hotfix",
+      "permalink": "/zh-TW/release-note/tags/hotfix"
+    }
+  ],
+  "readingTime": 0.315,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "v1.0.0",
+    "title": "v1.0.0",
+    "tags": [
+      "feature",
+      "hotfix"
+    ]
+  },
+  "prevItem": {
+    "title": "v1.1.3",
+    "permalink": "/zh-TW/release-note/v1.1.3"
+  }
+}
