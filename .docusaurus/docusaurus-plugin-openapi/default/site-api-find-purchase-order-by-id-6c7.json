@@ -228,7 +228,7 @@
       "method": "GET"
     }
   },
-  "source": "@site/current/api/example.yml",
+  "source": "@site/docs/api/example.yml",
   "sourceDirName": ".",
   "permalink": "/api/find-purchase-order-by-id",
   "previous": {

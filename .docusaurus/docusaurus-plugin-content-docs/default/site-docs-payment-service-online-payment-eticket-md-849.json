@@ -1,0 +1,26 @@
+{
+  "unversionedId": "payment-service/online-payment/eticket",
+  "id": "payment-service/online-payment/eticket",
+  "title": "票券系統",
+  "description": "電子票券是數位形式的票券，透過系統產生 QR 碼、並記錄到消費者的系統帳戶中。",
+  "source": "@site/docs/payment-service/online-payment/eticket.md",
+  "sourceDirName": "payment-service/online-payment",
+  "slug": "/payment-service/online-payment/eticket",
+  "permalink": "/docs/current/payment-service/online-payment/eticket",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "mPOS 刷卡機",
+    "permalink": "/docs/current/payment-service/online-payment/mpos"
+  },
+  "next": {
+    "title": "Shopify 串接",
+    "permalink": "/docs/current/payment-service/online-payment/shopify"
+  }
+}

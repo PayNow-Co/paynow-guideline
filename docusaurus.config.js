@@ -63,11 +63,17 @@ const config = {
       /** @type {import('docusaurus-preset-openapi').Options} */
       {
         api: {
-          path: 'current/api',
+          path: 'docs/api',
           routeBasePath: '/api',
         },
-        docs: false,
-        blog: false,
+        docs: {
+          path: 'docs/current',
+          routeBasePath: 'docs'
+        },
+        blog: {
+          path: 'docs/release-note',
+          routeBasePath: 'release-note'
+        },
         theme: {
           customCss: [
             require.resolve('./src/css/custom.scss')
@@ -79,26 +85,60 @@ const config = {
 
   plugins: [
     'docusaurus-plugin-sass',
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'guide',
-        path: 'current/guide',
-        routeBasePath: 'guide',
-        sidebarPath: require.resolve('./sidebars/guide.js'),
-        // ... other options
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'tutorial',
-        path: 'current/tutorial',
-        routeBasePath: 'tutorial',
-        sidebarPath: require.resolve('./sidebars/tutorial.js'),
-        // ... other options
-      },
-    ],
+    // [
+      // '@docusaurus/plugin-content-docs',
+      // {
+      //   id: 'guide',
+      //   path: 'current/guide',
+      //   routeBasePath: 'guide',
+      //   sidebarPath: require.resolve('./sidebars/guide.js'),
+      // },
+    // ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'tutorial',
+    //     path: 'current/tutorial',
+    //     routeBasePath: 'tutorial',
+    //     sidebarPath: require.resolve('./sidebars/tutorial.js'),
+    //   },
+    // ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'payment-service',
+    //     path: 'current/payment-service',
+    //     routeBasePath: 'payment-service',
+    //     sidebarPath: require.resolve('./sidebars/payment-service.js'),
+    //   },
+    // ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'payment-admin',
+    //     path: 'current/payment-admin',
+    //     routeBasePath: 'payment-admin',
+    //     sidebarPath: require.resolve('./sidebars/payment-admin.js'),
+    //   },
+    // ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'logistics-admin',
+    //     path: 'current/logistics-admin',
+    //     routeBasePath: 'logistics-admin',
+    //     sidebarPath: require.resolve('./sidebars/logistics-admin.js'),
+    //   },
+    // ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'invoice-admin',
+    //     path: 'current/invoice-admin',
+    //     routeBasePath: 'invoice-admin',
+    //     sidebarPath: require.resolve('./sidebars/invoice-admin.js'),
+    //   },
+    // ],
     [
       '@docusaurus/plugin-content-blog',
       {
@@ -133,20 +173,71 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          // {
+          //   type: 'docSidebar',
+          //   docsPluginId: 'tutorial',
+          //   sidebarId: 'default',
+          //   position: 'left',
+          //   label: 'Tutorial'
+          // },
           {
-            type: 'docSidebar',
-            docsPluginId: 'tutorial',
-            sidebarId: 'default',
-            position: 'left',
-            label: 'Tutorial'
+            to: 'docs/api-reference/',
+            label: 'API 技術文件',
+            position: 'right'
           },
           {
-            type: 'docSidebar',
-            docsPluginId: 'guide',
-            sidebarId: 'default',
-            position: 'left',
-            label: 'Guide',
+            to: 'docs/payment-service/',
+            label: '金流服務',
+            position: 'left'
           },
+          {
+            to: 'docs/payment-admin/',
+            label: '金流後台',
+            position: 'left'
+          },
+          {
+            to: 'docs/logistics-admin/',
+            label: '物流後台',
+            position: 'left'
+          },
+          {
+            to: 'docs/invoice-admin/',
+            label: '發票後台',
+            position: 'left'
+          },
+          // {
+          //   type: 'docSidebar',
+          //   docsPluginId: 'payment-admin',
+          //   sidebarId: 'default',
+          //   position: 'left',
+          //   label: '金流後台'
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   docsPluginId: 'logistics-admin',
+          //   sidebarId: 'default',
+          //   position: 'left',
+          //   label: '物流後台'
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   docsPluginId: 'invoice-admin',
+          //   sidebarId: 'default',
+          //   position: 'left',
+          //   label: '發票後台'
+          // },
+          // {
+          //   to: '/payment-service/online-payment/',
+          //   label: 'Test',
+          //   position: 'left'
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   docsPluginId: 'guide',
+          //   sidebarId: 'default',
+          //   position: 'left',
+          //   label: 'Guide',
+          // },
           // { to: '/api', label: 'API' , position: 'left'},
           // { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/release-note', label: 'Release Note', position: 'right' },
@@ -237,3 +328,4 @@ const config = {
 };
 
 module.exports = config;
+

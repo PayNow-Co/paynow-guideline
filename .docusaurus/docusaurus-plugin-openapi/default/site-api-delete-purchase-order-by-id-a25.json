@@ -115,7 +115,7 @@
       "method": "DELETE"
     }
   },
-  "source": "@site/current/api/example.yml",
+  "source": "@site/docs/api/example.yml",
   "sourceDirName": ".",
   "permalink": "/api/delete-purchase-order-by-id",
   "previous": {

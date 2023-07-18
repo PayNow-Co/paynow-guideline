@@ -287,7 +287,7 @@
       }
     }
   },
-  "source": "@site/current/api/example.yml",
+  "source": "@site/docs/api/example.yml",
   "sourceDirName": ".",
   "permalink": "/api/place-an-order-for-a-pet",
   "previous": {

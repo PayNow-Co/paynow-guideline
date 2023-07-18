@@ -4,313 +4,370 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '9e8'),
+    component: ComponentCreator('/__docusaurus/debug', 'd66'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'd21'),
+    component: ComponentCreator('/__docusaurus/debug/config', '308'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '150'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'e92'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '3e9'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '49e'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '6d5'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'c9e'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '48d'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '18b'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '3af'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '955'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '23a'),
+    component: ComponentCreator('/markdown-page', '24f'),
     exact: true
   },
   {
     path: '/release-note',
-    component: ComponentCreator('/release-note', 'cf7'),
+    component: ComponentCreator('/release-note', '4fc'),
     exact: true
   },
   {
     path: '/release-note/archive',
-    component: ComponentCreator('/release-note/archive', '322'),
+    component: ComponentCreator('/release-note/archive', '467'),
     exact: true
   },
   {
     path: '/release-note/tags',
-    component: ComponentCreator('/release-note/tags', '363'),
+    component: ComponentCreator('/release-note/tags', '5c7'),
     exact: true
   },
   {
     path: '/release-note/tags/feature',
-    component: ComponentCreator('/release-note/tags/feature', 'de9'),
+    component: ComponentCreator('/release-note/tags/feature', 'f3a'),
     exact: true
   },
   {
     path: '/release-note/tags/hotfix',
-    component: ComponentCreator('/release-note/tags/hotfix', 'ced'),
+    component: ComponentCreator('/release-note/tags/hotfix', '508'),
     exact: true
   },
   {
     path: '/release-note/v1.0.0',
-    component: ComponentCreator('/release-note/v1.0.0', '432'),
+    component: ComponentCreator('/release-note/v1.0.0', '794'),
     exact: true
   },
   {
     path: '/release-note/v1.1.3',
-    component: ComponentCreator('/release-note/v1.1.3', '414'),
+    component: ComponentCreator('/release-note/v1.1.3', '1c6'),
     exact: true
   },
   {
     path: '/api',
-    component: ComponentCreator('/api', '025'),
+    component: ComponentCreator('/api', '62f'),
     routes: [
       {
         path: '/api',
-        component: ComponentCreator('/api', 'd7f'),
+        component: ComponentCreator('/api', '223'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/add-a-new-pet-to-the-store',
-        component: ComponentCreator('/api/add-a-new-pet-to-the-store', '41e'),
+        component: ComponentCreator('/api/add-a-new-pet-to-the-store', '3ed'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/create-user',
-        component: ComponentCreator('/api/create-user', 'd9b'),
+        component: ComponentCreator('/api/create-user', '14f'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/creates-list-of-users-with-given-input-array',
-        component: ComponentCreator('/api/creates-list-of-users-with-given-input-array', 'a3e'),
+        component: ComponentCreator('/api/creates-list-of-users-with-given-input-array', '349'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/creates-list-of-users-with-given-input-array-1',
-        component: ComponentCreator('/api/creates-list-of-users-with-given-input-array-1', '4cc'),
+        component: ComponentCreator('/api/creates-list-of-users-with-given-input-array-1', 'c10'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/delete-purchase-order-by-id',
-        component: ComponentCreator('/api/delete-purchase-order-by-id', '38f'),
+        component: ComponentCreator('/api/delete-purchase-order-by-id', '1d8'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/delete-user',
-        component: ComponentCreator('/api/delete-user', 'f49'),
+        component: ComponentCreator('/api/delete-user', 'da1'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/deletes-a-pet',
-        component: ComponentCreator('/api/deletes-a-pet', '175'),
+        component: ComponentCreator('/api/deletes-a-pet', '46c'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/find-pet-by-id',
-        component: ComponentCreator('/api/find-pet-by-id', 'dde'),
+        component: ComponentCreator('/api/find-pet-by-id', '61e'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/find-purchase-order-by-id',
-        component: ComponentCreator('/api/find-purchase-order-by-id', '751'),
+        component: ComponentCreator('/api/find-purchase-order-by-id', '0df'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/finds-pets-by-status',
-        component: ComponentCreator('/api/finds-pets-by-status', 'ef6'),
+        component: ComponentCreator('/api/finds-pets-by-status', '688'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/finds-pets-by-tags',
-        component: ComponentCreator('/api/finds-pets-by-tags', 'b33'),
+        component: ComponentCreator('/api/finds-pets-by-tags', '633'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/get-user-by-user-name',
-        component: ComponentCreator('/api/get-user-by-user-name', '746'),
+        component: ComponentCreator('/api/get-user-by-user-name', 'd1a'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/introduction',
-        component: ComponentCreator('/api/introduction', 'b15'),
+        component: ComponentCreator('/api/introduction', 'd08'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/logs-out-current-logged-in-user-session',
-        component: ComponentCreator('/api/logs-out-current-logged-in-user-session', '08d'),
+        component: ComponentCreator('/api/logs-out-current-logged-in-user-session', 'd41'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/logs-user-into-the-system',
-        component: ComponentCreator('/api/logs-user-into-the-system', '5c8'),
+        component: ComponentCreator('/api/logs-user-into-the-system', '24c'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/place-an-order-for-a-pet',
-        component: ComponentCreator('/api/place-an-order-for-a-pet', 'a4d'),
+        component: ComponentCreator('/api/place-an-order-for-a-pet', '26c'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/returns-pet-inventories-by-status',
-        component: ComponentCreator('/api/returns-pet-inventories-by-status', '0c1'),
+        component: ComponentCreator('/api/returns-pet-inventories-by-status', 'b1f'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/subscribe-to-the-store-events',
-        component: ComponentCreator('/api/subscribe-to-the-store-events', 'dba'),
+        component: ComponentCreator('/api/subscribe-to-the-store-events', '0a0'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/update-an-existing-pet',
-        component: ComponentCreator('/api/update-an-existing-pet', 'c2a'),
+        component: ComponentCreator('/api/update-an-existing-pet', '396'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/updated-user',
-        component: ComponentCreator('/api/updated-user', '0d2'),
+        component: ComponentCreator('/api/updated-user', 'e78'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/updates-a-pet-in-the-store-with-form-data',
-        component: ComponentCreator('/api/updates-a-pet-in-the-store-with-form-data', '4bf'),
+        component: ComponentCreator('/api/updates-a-pet-in-the-store-with-form-data', 'b95'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       },
       {
         path: '/api/uploads-an-image',
-        component: ComponentCreator('/api/uploads-an-image', '6ac'),
+        component: ComponentCreator('/api/uploads-an-image', '973'),
         exact: true,
         sidebar: "openapi-sidebar-default"
       }
     ]
   },
   {
-    path: '/guide',
-    component: ComponentCreator('/guide', '811'),
+    path: '/docs',
+    component: ComponentCreator('/docs', 'fcb'),
     routes: [
       {
-        path: '/guide/intro',
-        component: ComponentCreator('/guide/intro', 'b1a'),
+        path: '/docs/',
+        component: ComponentCreator('/docs/', '50d'),
         exact: true,
-        sidebar: "default"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/guide/invoice',
-        component: ComponentCreator('/guide/invoice', 'c05'),
-        exact: true
-      },
-      {
-        path: '/guide/logistics',
-        component: ComponentCreator('/guide/logistics', '55f'),
-        exact: true
-      },
-      {
-        path: '/guide/payment',
-        component: ComponentCreator('/guide/payment', '210'),
+        path: '/docs/api-reference/',
+        component: ComponentCreator('/docs/api-reference/', 'af7'),
         exact: true,
-        sidebar: "default"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/guide/payment-admin',
-        component: ComponentCreator('/guide/payment-admin', 'c62'),
-        exact: true
-      }
-    ]
-  },
-  {
-    path: '/tutorial',
-    component: ComponentCreator('/tutorial', '265'),
-    routes: [
-      {
-        path: '/tutorial/01-intro',
-        component: ComponentCreator('/tutorial/01-intro', '61a'),
+        path: '/docs/invoice-admin/',
+        component: ComponentCreator('/docs/invoice-admin/', '07a'),
         exact: true,
-        sidebar: "default"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/tutorial/intro',
-        component: ComponentCreator('/tutorial/intro', 'a5f'),
+        path: '/docs/invoice-admin/generation',
+        component: ComponentCreator('/docs/invoice-admin/generation', '43b'),
         exact: true,
-        sidebar: "default"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/tutorial/logistics',
-        component: ComponentCreator('/tutorial/logistics', 'd21'),
+        path: '/docs/invoice-admin/inquiry',
+        component: ComponentCreator('/docs/invoice-admin/inquiry', '7e8'),
         exact: true,
-        sidebar: "default"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/tutorial/payment',
-        component: ComponentCreator('/tutorial/payment', 'ee3'),
+        path: '/docs/invoice-admin/operation',
+        component: ComponentCreator('/docs/invoice-admin/operation', 'fdc'),
         exact: true,
-        sidebar: "default"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/tutorial/payment-admin',
-        component: ComponentCreator('/tutorial/payment-admin', 'a4c'),
+        path: '/docs/logistics-admin/',
+        component: ComponentCreator('/docs/logistics-admin/', '383'),
         exact: true,
-        sidebar: "default"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/tutorial/test-folder/',
-        component: ComponentCreator('/tutorial/test-folder/', 'c1c'),
+        path: '/docs/logistics-admin/print-tag',
+        component: ComponentCreator('/docs/logistics-admin/print-tag', 'e41'),
         exact: true,
-        sidebar: "default"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/tutorial/test-folder/intro',
-        component: ComponentCreator('/tutorial/test-folder/intro', 'aae'),
+        path: '/docs/logistics-admin/store-management',
+        component: ComponentCreator('/docs/logistics-admin/store-management', 'a6c'),
         exact: true,
-        sidebar: "default"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/tutorial/test-folder/test-folder-2/intro',
-        component: ComponentCreator('/tutorial/test-folder/test-folder-2/intro', 'ea1'),
+        path: '/docs/payment-admin/',
+        component: ComponentCreator('/docs/payment-admin/', '783'),
         exact: true,
-        sidebar: "default"
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-admin/configuration',
+        component: ComponentCreator('/docs/payment-admin/configuration', 'a57'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-admin/finance',
+        component: ComponentCreator('/docs/payment-admin/finance', '1f8'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-admin/refund',
+        component: ComponentCreator('/docs/payment-admin/refund', '41d'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-admin/seller',
+        component: ComponentCreator('/docs/payment-admin/seller', '975'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-service/',
+        component: ComponentCreator('/docs/payment-service/', '74e'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-service/mobile-payment/',
+        component: ComponentCreator('/docs/payment-service/mobile-payment/', '2d5'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-service/mobile-payment/apple-pay',
+        component: ComponentCreator('/docs/payment-service/mobile-payment/apple-pay', '4de'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-service/mobile-payment/icash-pay',
+        component: ComponentCreator('/docs/payment-service/mobile-payment/icash-pay', '887'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-service/online-payment/',
+        component: ComponentCreator('/docs/payment-service/online-payment/', 'ff2'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-service/online-payment/eticket',
+        component: ComponentCreator('/docs/payment-service/online-payment/eticket', '6d9'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-service/online-payment/landing-page',
+        component: ComponentCreator('/docs/payment-service/online-payment/landing-page', '7d8'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-service/online-payment/mpos',
+        component: ComponentCreator('/docs/payment-service/online-payment/mpos', 'e00'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/payment-service/online-payment/shopify',
+        component: ComponentCreator('/docs/payment-service/online-payment/shopify', 'bf0'),
+        exact: true,
+        sidebar: "defaultSidebar"
       }
     ]
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'fb8'),
+    component: ComponentCreator('/', '1ee'),
     exact: true
   },
   {

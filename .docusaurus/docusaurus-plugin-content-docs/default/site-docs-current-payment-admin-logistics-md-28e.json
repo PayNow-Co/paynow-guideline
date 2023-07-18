@@ -1,0 +1,26 @@
+{
+  "unversionedId": "payment-admin/logistics",
+  "id": "payment-admin/logistics",
+  "title": "物流後台",
+  "description": "使用 PayNow 的賣家可使用物流後台管理商店。",
+  "source": "@site/docs/current/payment-admin/logistics.md",
+  "sourceDirName": "payment-admin",
+  "slug": "/payment-admin/logistics",
+  "permalink": "/docs/payment-admin/logistics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "測試第二層的文件",
+    "permalink": "/docs/payment-admin/test-folder/test-folder-2/intro"
+  },
+  "next": {
+    "title": "發票後台",
+    "permalink": "/docs/payment-admin/01-intro"
+  }
+}

@@ -1,304 +1,337 @@
 {
-  "/__docusaurus/debug-9e8": {
+  "/__docusaurus/debug-d66": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-968-a7b"
+      "plugin": "plugin---docusaurus-debug-162-c10"
     }
   },
-  "/__docusaurus/debug/config-d21": {
+  "/__docusaurus/debug/config-308": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-968-a7b"
+      "plugin": "plugin---docusaurus-debug-162-c10"
     }
   },
-  "/__docusaurus/debug/content-150": {
+  "/__docusaurus/debug/content-e92": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-968-a7b"
+      "plugin": "plugin---docusaurus-debug-162-c10"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-3e9": {
+  "/__docusaurus/debug/globalData-49e": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-968-a7b"
+      "plugin": "plugin---docusaurus-debug-162-c10"
     }
   },
-  "/__docusaurus/debug/metadata-6d5": {
+  "/__docusaurus/debug/metadata-c9e": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-968-a7b"
+      "plugin": "plugin---docusaurus-debug-162-c10"
     }
   },
-  "/__docusaurus/debug/registry-48d": {
+  "/__docusaurus/debug/registry-18b": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-968-a7b"
+      "plugin": "plugin---docusaurus-debug-162-c10"
     }
   },
-  "/__docusaurus/debug/routes-3af": {
+  "/__docusaurus/debug/routes-955": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-968-a7b"
+      "plugin": "plugin---docusaurus-debug-162-c10"
     }
   },
-  "/markdown-page-23a": {
+  "/markdown-page-24f": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-pagec-52-482"
+      "plugin": "plugin---markdown-page-3-a-0-509"
     },
     "content": "content---markdown-page-393-028"
   },
-  "/release-note-cf7": {
+  "/release-note-4fc": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---release-note-2-c-9-383"
+      "plugin": "plugin---release-note-809-701"
     },
-    "sidebar": "sidebar---release-note-0-a-2-95e",
+    "sidebar": "sidebar---release-note-814-4c7",
     "items": [
       {
-        "content": "content---release-notefb-0-893"
+        "content": "content---release-note-969-60a"
       },
       {
-        "content": "content---release-note-972-07d"
+        "content": "content---release-note-94-b-f6c"
       }
     ],
-    "metadata": "metadata---release-note-8-d-0-e4c"
+    "metadata": "metadata---release-notee-4-d-2ce"
   },
-  "/release-note/archive-322": {
+  "/release-note/archive-467": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---release-note-2-c-9-383"
+      "plugin": "plugin---release-note-809-701"
     },
-    "archive": "archive---release-note-archivee-99-802"
+    "archive": "archive---release-note-archivef-46-ae9"
   },
-  "/release-note/tags-363": {
+  "/release-note/tags-5c7": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "plugin---release-note-2-c-9-383"
+      "plugin": "plugin---release-note-809-701"
     },
-    "sidebar": "sidebar---release-note-0-a-2-95e",
-    "tags": "tags---release-note-tagsf-14-3bf"
+    "sidebar": "sidebar---release-note-814-4c7",
+    "tags": "tags---release-note-tags-013-5b1"
   },
-  "/release-note/tags/feature-de9": {
+  "/release-note/tags/feature-f3a": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---release-note-2-c-9-383"
+      "plugin": "plugin---release-note-809-701"
     },
-    "sidebar": "sidebar---release-note-0-a-2-95e",
+    "sidebar": "sidebar---release-note-814-4c7",
     "items": [
       {
-        "content": "content---release-notefb-0-893"
+        "content": "content---release-note-969-60a"
       },
       {
-        "content": "content---release-note-972-07d"
+        "content": "content---release-note-94-b-f6c"
       }
     ],
-    "tag": "tag---release-note-tags-feature-81-c-7ec",
-    "listMetadata": "listMetadata---release-note-tags-feature-628-48e"
+    "tag": "tag---release-note-tags-feature-80-e-f02",
+    "listMetadata": "listMetadata---release-note-tags-feature-5-ee-b8f"
   },
-  "/release-note/tags/hotfix-ced": {
+  "/release-note/tags/hotfix-508": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---release-note-2-c-9-383"
+      "plugin": "plugin---release-note-809-701"
     },
-    "sidebar": "sidebar---release-note-0-a-2-95e",
+    "sidebar": "sidebar---release-note-814-4c7",
     "items": [
       {
-        "content": "content---release-notefb-0-893"
+        "content": "content---release-note-969-60a"
       },
       {
-        "content": "content---release-note-972-07d"
+        "content": "content---release-note-94-b-f6c"
       }
     ],
-    "tag": "tag---release-note-tags-hotfixa-9-a-7c4",
-    "listMetadata": "listMetadata---release-note-tags-hotfix-298-a24"
+    "tag": "tag---release-note-tags-hotfix-4-f-4-019",
+    "listMetadata": "listMetadata---release-note-tags-hotfixa-54-449"
   },
-  "/release-note/v1.0.0-432": {
+  "/release-note/v1.0.0-794": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---release-note-2-c-9-383"
+      "plugin": "plugin---release-note-809-701"
     },
-    "sidebar": "sidebar---release-note-0-a-2-95e",
-    "content": "content---release-note-v-1-0-0256-3b1"
+    "sidebar": "sidebar---release-note-814-4c7",
+    "content": "content---release-note-v-1-0-0-a-35-4ac"
   },
-  "/release-note/v1.1.3-414": {
+  "/release-note/v1.1.3-1c6": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---release-note-2-c-9-383"
+      "plugin": "plugin---release-note-809-701"
     },
-    "sidebar": "sidebar---release-note-0-a-2-95e",
-    "content": "content---release-note-v-1-1-3137-a24"
+    "sidebar": "sidebar---release-note-814-4c7",
+    "content": "content---release-note-v-1-1-3725-ef0"
   },
-  "/api-025": {
+  "/api-62f": {
     "__comp": "__comp---theme-api-pageac-3-ebb",
     "__context": {
-      "plugin": "plugin---apida-1-3ba"
+      "plugin": "plugin---api-32-c-2e7"
     },
     "apiMetadata": "apiMetadata---apib-52-345"
   },
-  "/api-d7f": {
+  "/api-223": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-46-e-456"
+    "content": "content---api-5-c-6-c6c"
   },
-  "/api/add-a-new-pet-to-the-store-41e": {
+  "/api/add-a-new-pet-to-the-store-3ed": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-add-a-new-pet-to-the-store-8-d-7-04a"
+    "content": "content---api-add-a-new-pet-to-the-stored-13-0c8"
   },
-  "/api/create-user-d9b": {
+  "/api/create-user-14f": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-create-user-057-6f4"
+    "content": "content---api-create-userf-3-f-ad8"
   },
-  "/api/creates-list-of-users-with-given-input-array-a3e": {
+  "/api/creates-list-of-users-with-given-input-array-349": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-creates-list-of-users-with-given-input-array-291-2d0"
+    "content": "content---api-creates-list-of-users-with-given-input-array-6-cf-4c7"
   },
-  "/api/creates-list-of-users-with-given-input-array-1-4cc": {
+  "/api/creates-list-of-users-with-given-input-array-1-c10": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-creates-list-of-users-with-given-input-array-196-b-0ef"
+    "content": "content---api-creates-list-of-users-with-given-input-array-1-c-5-a-3db"
   },
-  "/api/delete-purchase-order-by-id-38f": {
+  "/api/delete-purchase-order-by-id-1d8": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-delete-purchase-order-by-id-4-a-1-3dc"
+    "content": "content---api-delete-purchase-order-by-idac-0-1a9"
   },
-  "/api/delete-user-f49": {
+  "/api/delete-user-da1": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-delete-usercda-bf9"
+    "content": "content---api-delete-usere-75-209"
   },
-  "/api/deletes-a-pet-175": {
+  "/api/deletes-a-pet-46c": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-deletes-a-pete-94-9e8"
+    "content": "content---api-deletes-a-pet-65-b-bbf"
   },
-  "/api/find-pet-by-id-dde": {
+  "/api/find-pet-by-id-61e": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-find-pet-by-id-9-fb-5ca"
+    "content": "content---api-find-pet-by-id-6-d-5-0af"
   },
-  "/api/find-purchase-order-by-id-751": {
+  "/api/find-purchase-order-by-id-0df": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-find-purchase-order-by-id-46-e-ef3"
+    "content": "content---api-find-purchase-order-by-id-0-b-7-99c"
   },
-  "/api/finds-pets-by-status-ef6": {
+  "/api/finds-pets-by-status-688": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-finds-pets-by-statuscb-0-469"
+    "content": "content---api-finds-pets-by-status-4-ce-648"
   },
-  "/api/finds-pets-by-tags-b33": {
+  "/api/finds-pets-by-tags-633": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-finds-pets-by-tags-87-b-4ce"
+    "content": "content---api-finds-pets-by-tagsf-73-a9e"
   },
-  "/api/get-user-by-user-name-746": {
+  "/api/get-user-by-user-name-d1a": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-get-user-by-user-name-6-bf-9fc"
+    "content": "content---api-get-user-by-user-name-7-d-6-c23"
   },
-  "/api/introduction-b15": {
+  "/api/introduction-d08": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-46-e-456"
+    "content": "content---api-5-c-6-c6c"
   },
-  "/api/logs-out-current-logged-in-user-session-08d": {
+  "/api/logs-out-current-logged-in-user-session-d41": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-logs-out-current-logged-in-user-sessiond-48-fe4"
+    "content": "content---api-logs-out-current-logged-in-user-sessionc-81-aa1"
   },
-  "/api/logs-user-into-the-system-5c8": {
+  "/api/logs-user-into-the-system-24c": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-logs-user-into-the-system-4-ed-572"
+    "content": "content---api-logs-user-into-the-system-3-c-3-da7"
   },
-  "/api/place-an-order-for-a-pet-a4d": {
+  "/api/place-an-order-for-a-pet-26c": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-place-an-order-for-a-pet-9-a-3-799"
+    "content": "content---api-place-an-order-for-a-pet-7-bd-dc3"
   },
-  "/api/returns-pet-inventories-by-status-0c1": {
+  "/api/returns-pet-inventories-by-status-b1f": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-returns-pet-inventories-by-status-08-b-391"
+    "content": "content---api-returns-pet-inventories-by-statusd-50-876"
   },
-  "/api/subscribe-to-the-store-events-dba": {
+  "/api/subscribe-to-the-store-events-0a0": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-subscribe-to-the-store-eventsd-38-f08"
+    "content": "content---api-subscribe-to-the-store-events-703-c1f"
   },
-  "/api/update-an-existing-pet-c2a": {
+  "/api/update-an-existing-pet-396": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-update-an-existing-pet-55-b-07c"
+    "content": "content---api-update-an-existing-pet-5-af-f17"
   },
-  "/api/updated-user-0d2": {
+  "/api/updated-user-e78": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-updated-user-9-c-5-611"
+    "content": "content---api-updated-userb-19-1c7"
   },
-  "/api/updates-a-pet-in-the-store-with-form-data-4bf": {
+  "/api/updates-a-pet-in-the-store-with-form-data-b95": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-updates-a-pet-in-the-store-with-form-data-805-846"
+    "content": "content---api-updates-a-pet-in-the-store-with-form-dataf-05-b42"
   },
-  "/api/uploads-an-image-6ac": {
+  "/api/uploads-an-image-973": {
     "__comp": "__comp---theme-api-item-4-c-5-a29",
-    "content": "content---api-uploads-an-image-936-36f"
+    "content": "content---api-uploads-an-imagea-3-b-055"
   },
-  "/guide-811": {
+  "/docs-fcb": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---guidea-62-1e4"
+      "plugin": "plugin---docs-888-141"
     },
-    "versionMetadata": "versionMetadata---guide-62-a-27a"
+    "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/guide/intro-b1a": {
+  "/docs/-50d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-intro-793-7f7"
+    "content": "content---docs-662-8f2"
   },
-  "/guide/invoice-c05": {
+  "/docs/api-reference/-af7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-invoicef-5-e-d07"
+    "content": "content---docs-api-reference-35-a-4b2"
   },
-  "/guide/logistics-55f": {
+  "/docs/invoice-admin/-07a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-logisticsede-c32"
+    "content": "content---docs-invoice-admin-854-c5f"
   },
-  "/guide/payment-210": {
+  "/docs/invoice-admin/generation-43b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-paymenta-82-f58"
+    "content": "content---docs-invoice-admin-generation-211-1e9"
   },
-  "/guide/payment-admin-c62": {
+  "/docs/invoice-admin/inquiry-7e8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-payment-admind-76-8f9"
+    "content": "content---docs-invoice-admin-inquirya-23-2c1"
   },
-  "/tutorial-265": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
-    "__context": {
-      "plugin": "plugin---tutorial-82-d-5f7"
-    },
-    "versionMetadata": "versionMetadata---tutorialf-89-467"
-  },
-  "/tutorial/01-intro-61a": {
+  "/docs/invoice-admin/operation-fdc": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---tutorial-01-intro-22-e-f0b"
+    "content": "content---docs-invoice-admin-operationfa-1-e8d"
   },
-  "/tutorial/intro-a5f": {
+  "/docs/logistics-admin/-383": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---tutorial-intro-7-a-0-28a"
+    "content": "content---docs-logistics-admin-974-169"
   },
-  "/tutorial/logistics-d21": {
+  "/docs/logistics-admin/print-tag-e41": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---tutorial-logisticscaf-7a9"
+    "content": "content---docs-logistics-admin-print-tag-309-bd3"
   },
-  "/tutorial/payment-ee3": {
+  "/docs/logistics-admin/store-management-a6c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---tutorial-paymentb-56-6ca"
+    "content": "content---docs-logistics-admin-store-management-56-a-741"
   },
-  "/tutorial/payment-admin-a4c": {
+  "/docs/payment-admin/-783": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---tutorial-payment-admin-10-e-d40"
+    "content": "content---docs-payment-admin-599-902"
   },
-  "/tutorial/test-folder/-c1c": {
+  "/docs/payment-admin/configuration-a57": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---tutorial-test-folder-84-d-7e3"
+    "content": "content---docs-payment-admin-configuration-312-f98"
   },
-  "/tutorial/test-folder/intro-aae": {
+  "/docs/payment-admin/finance-1f8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---tutorial-test-folder-introc-92-176"
+    "content": "content---docs-payment-admin-finance-54-c-dea"
   },
-  "/tutorial/test-folder/test-folder-2/intro-ea1": {
+  "/docs/payment-admin/refund-41d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---tutorial-test-folder-test-folder-2-introc-4-d-acb"
+    "content": "content---docs-payment-admin-refund-035-e59"
   },
-  "/-fb8": {
+  "/docs/payment-admin/seller-975": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-payment-admin-sellerb-33-af3"
+  },
+  "/docs/payment-service/-74e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-payment-service-0-bc-cc0"
+  },
+  "/docs/payment-service/mobile-payment/-2d5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-payment-service-mobile-payment-2-d-1-ad0"
+  },
+  "/docs/payment-service/mobile-payment/apple-pay-4de": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-payment-service-mobile-payment-apple-pay-8-a-8-737"
+  },
+  "/docs/payment-service/mobile-payment/icash-pay-887": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-payment-service-mobile-payment-icash-pay-92-d-bdc"
+  },
+  "/docs/payment-service/online-payment/-ff2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-payment-service-online-payment-99-b-cba"
+  },
+  "/docs/payment-service/online-payment/eticket-6d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-payment-service-online-payment-eticket-615-827"
+  },
+  "/docs/payment-service/online-payment/landing-page-7d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-payment-service-online-payment-landing-page-693-37a"
+  },
+  "/docs/payment-service/online-payment/mpos-e00": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-payment-service-online-payment-mpos-942-2db"
+  },
+  "/docs/payment-service/online-payment/shopify-bf0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-payment-service-online-payment-shopify-28-d-29f"
+  },
+  "/-1ee": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---markdown-pagec-52-482"
+      "plugin": "plugin---markdown-page-3-a-0-509"
     },
     "config": "config---5-e-9-4f3"
   }

@@ -379,7 +379,7 @@
       }
     }
   },
-  "source": "@site/current/api/example.yml",
+  "source": "@site/docs/api/example.yml",
   "sourceDirName": ".",
   "permalink": "/api/subscribe-to-the-store-events",
   "previous": {

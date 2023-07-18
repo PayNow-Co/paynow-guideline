@@ -1,0 +1,123 @@
+{
+  "pluginId": "invoice-admin",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "default": [
+      {
+        "type": "category",
+        "label": "第一層資料夾",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "第一層的文件",
+            "href": "/invoice-admin/test-folder/intro",
+            "docId": "test-folder/intro"
+          },
+          {
+            "type": "category",
+            "label": "第二層資料夾",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "測試第二層的文件",
+                "href": "/invoice-admin/test-folder/test-folder-2/intro",
+                "docId": "test-folder/test-folder-2/intro"
+              }
+            ]
+          }
+        ],
+        "href": "/invoice-admin/test-folder/"
+      },
+      {
+        "type": "link",
+        "label": "從這裡開始",
+        "href": "/invoice-admin/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "link",
+        "label": "金流服務",
+        "href": "/invoice-admin/payment",
+        "docId": "payment"
+      },
+      {
+        "type": "link",
+        "label": "金流後台",
+        "href": "/invoice-admin/payment-admin",
+        "docId": "payment-admin"
+      },
+      {
+        "type": "link",
+        "label": "物流後台",
+        "href": "/invoice-admin/logistics",
+        "docId": "logistics"
+      },
+      {
+        "type": "link",
+        "label": "發票後台",
+        "href": "/invoice-admin/01-intro",
+        "docId": "01-intro"
+      }
+    ]
+  },
+  "docs": {
+    "01-intro": {
+      "id": "01-intro",
+      "title": "發票後台",
+      "description": "使用 PayNow 的賣家可使用發票後台處理發票。",
+      "sidebar": "default"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "從這裡開始",
+      "description": "以下的文件將帶您快速了解 PayNow 系統的操作。",
+      "sidebar": "default"
+    },
+    "logistics": {
+      "id": "logistics",
+      "title": "物流後台",
+      "description": "使用 PayNow 的賣家可使用物流後台管理商店。",
+      "sidebar": "default"
+    },
+    "payment": {
+      "id": "payment",
+      "title": "金流服務",
+      "description": "PayNow 提供多元的線上金流與行動支付服務，讓您收款更便利！",
+      "sidebar": "default"
+    },
+    "payment-admin": {
+      "id": "payment-admin",
+      "title": "金流後台",
+      "description": "使用 PayNow 的賣家，可使用金流後台管理商店的金流服務。",
+      "sidebar": "default"
+    },
+    "test-folder/index": {
+      "id": "test-folder/index",
+      "title": "第一層資料夾",
+      "description": "測試看看多資料夾會怎麼樣",
+      "sidebar": "default"
+    },
+    "test-folder/intro": {
+      "id": "test-folder/intro",
+      "title": "第一層的文件",
+      "description": "第一層資料夾來一篇文章",
+      "sidebar": "default"
+    },
+    "test-folder/test-folder-2/intro": {
+      "id": "test-folder/test-folder-2/intro",
+      "title": "測試第二層的文件",
+      "description": "也來一篇文件好了",
+      "sidebar": "default"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "payment-service/online-payment/mpos",
+  "id": "payment-service/online-payment/mpos",
+  "title": "mPOS 刷卡機",
+  "description": "PayNow 提供凱基 mPOS 刷卡機收單服務，適用於中小行商家、個人商家與實體店面。",
+  "source": "@site/docs/payment-service/online-payment/mpos.md",
+  "sourceDirName": "payment-service/online-payment",
+  "slug": "/payment-service/online-payment/mpos",
+  "permalink": "/docs/current/payment-service/online-payment/mpos",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "線上金流簡介",
+    "permalink": "/docs/current/payment-service/online-payment/"
+  },
+  "next": {
+    "title": "票券系統",
+    "permalink": "/docs/current/payment-service/online-payment/eticket"
+  }
+}

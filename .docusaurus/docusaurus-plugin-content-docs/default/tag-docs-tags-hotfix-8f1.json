@@ -1,0 +1,20 @@
+{
+  "label": "hotfix",
+  "permalink": "/docs/tags/hotfix",
+  "allTagsPath": "/docs/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "release-note/v1.0.0/index",
+      "title": "v1.0.0",
+      "description": "新增",
+      "permalink": "/docs/release-note/v1.0.0/v1.0.0"
+    },
+    {
+      "id": "release-note/v1.1.3",
+      "title": "v1.1.3",
+      "description": "新增",
+      "permalink": "/docs/release-note/v1.1.3"
+    }
+  ]
+}

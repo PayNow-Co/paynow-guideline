@@ -1,0 +1,23 @@
+{
+  "unversionedId": "invoice-admin/operation",
+  "id": "invoice-admin/operation",
+  "title": "功能操作",
+  "description": "您可以在 PayNow 後台修改發票開立的相關設定。",
+  "source": "@site/docs/current/invoice-admin/operation.md",
+  "sourceDirName": "invoice-admin",
+  "slug": "/invoice-admin/operation",
+  "permalink": "/docs/invoice-admin/operation",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "查詢作業",
+    "permalink": "/docs/invoice-admin/inquiry"
+  },
+  "next": {
+    "title": "PayNow API 技術文件",
+    "permalink": "/docs/api-reference/"
+  }
+}

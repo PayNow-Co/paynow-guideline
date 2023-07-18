@@ -1,0 +1,19 @@
+{
+  "unversionedId": "api-reference/index",
+  "id": "api-reference/index",
+  "title": "PayNow API 技術文件",
+  "description": "以下為 PayNow API 技術文件與簡介 (均為 PDF 檔案)。",
+  "source": "@site/docs/current/api-reference/index.md",
+  "sourceDirName": "api-reference",
+  "slug": "/api-reference/",
+  "permalink": "/docs/api-reference/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "功能操作",
+    "permalink": "/docs/invoice-admin/operation"
+  }
+}

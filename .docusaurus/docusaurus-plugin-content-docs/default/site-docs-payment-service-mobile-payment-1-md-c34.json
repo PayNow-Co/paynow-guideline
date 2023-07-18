@@ -1,0 +1,23 @@
+{
+  "unversionedId": "payment-service/mobile-payment/1",
+  "id": "payment-service/mobile-payment/1",
+  "title": "1",
+  "description": "",
+  "source": "@site/docs/payment-service/mobile-payment/1.md",
+  "sourceDirName": "payment-service/mobile-payment",
+  "slug": "/payment-service/mobile-payment/1",
+  "permalink": "/docs/current/payment-service/mobile-payment/1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "行動支付",
+    "permalink": "/docs/current/payment-service/mobile-payment/"
+  },
+  "next": {
+    "title": "從這裡開始",
+    "permalink": "/docs/current/guide/intro"
+  }
+}

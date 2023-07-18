@@ -1,0 +1,26 @@
+{
+  "unversionedId": "guide/payment",
+  "id": "guide/payment",
+  "title": "金流服務",
+  "description": "PayNow 提供多元的線上金流與行動支付服務，讓您收款更便利！",
+  "source": "@site/docs/guide/payment.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/payment",
+  "permalink": "/docs/current/guide/payment",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "從這裡開始",
+    "permalink": "/docs/current/guide/intro"
+  },
+  "next": {
+    "title": "金流後台",
+    "permalink": "/docs/current/guide/payment-admin"
+  }
+}

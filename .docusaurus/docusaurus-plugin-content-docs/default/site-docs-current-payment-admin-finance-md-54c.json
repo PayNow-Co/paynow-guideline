@@ -1,0 +1,26 @@
+{
+  "unversionedId": "payment-admin/finance",
+  "id": "payment-admin/finance",
+  "title": "帳務資訊",
+  "description": "PayNow 提供商店賣家請/退款對帳查詢、撥款手續費發票查詢...等帳務交易操作。",
+  "source": "@site/docs/current/payment-admin/finance.md",
+  "sourceDirName": "payment-admin",
+  "slug": "/payment-admin/finance",
+  "permalink": "/docs/payment-admin/finance",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "賣家功能",
+    "permalink": "/docs/payment-admin/seller"
+  },
+  "next": {
+    "title": "資料設定",
+    "permalink": "/docs/payment-admin/configuration"
+  }
+}

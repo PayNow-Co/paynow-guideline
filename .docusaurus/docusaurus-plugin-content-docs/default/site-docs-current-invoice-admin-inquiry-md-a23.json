@@ -1,0 +1,23 @@
+{
+  "unversionedId": "invoice-admin/inquiry",
+  "id": "invoice-admin/inquiry",
+  "title": "查詢作業",
+  "description": "當您 開立發票 給買家後，可以在 PayNow 後台查詢發票作業的細節。",
+  "source": "@site/docs/current/invoice-admin/inquiry.md",
+  "sourceDirName": "invoice-admin",
+  "slug": "/invoice-admin/inquiry",
+  "permalink": "/docs/invoice-admin/inquiry",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "發票開立",
+    "permalink": "/docs/invoice-admin/generation"
+  },
+  "next": {
+    "title": "功能操作",
+    "permalink": "/docs/invoice-admin/operation"
+  }
+}

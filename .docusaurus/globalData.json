@@ -1,108 +1,137 @@
 {
   "docusaurus-plugin-content-docs": {
-    "guide": {
-      "path": "/guide",
+    "default": {
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/guide",
-          "mainDocId": "intro",
+          "path": "/docs",
+          "mainDocId": "index",
           "docs": [
             {
-              "id": "intro",
-              "path": "/guide/intro",
-              "sidebar": "default"
+              "id": "api-reference/index",
+              "path": "/docs/api-reference/",
+              "sidebar": "defaultSidebar"
             },
             {
-              "id": "invoice",
-              "path": "/guide/invoice"
+              "id": "index",
+              "path": "/docs/",
+              "sidebar": "defaultSidebar"
             },
             {
-              "id": "logistics",
-              "path": "/guide/logistics"
+              "id": "invoice-admin/generation",
+              "path": "/docs/invoice-admin/generation",
+              "sidebar": "defaultSidebar"
             },
             {
-              "id": "payment",
-              "path": "/guide/payment",
-              "sidebar": "default"
+              "id": "invoice-admin/index",
+              "path": "/docs/invoice-admin/",
+              "sidebar": "defaultSidebar"
             },
             {
-              "id": "payment-admin",
-              "path": "/guide/payment-admin"
+              "id": "invoice-admin/inquiry",
+              "path": "/docs/invoice-admin/inquiry",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "invoice-admin/operation",
+              "path": "/docs/invoice-admin/operation",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "logistics-admin/index",
+              "path": "/docs/logistics-admin/",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "logistics-admin/print-tag",
+              "path": "/docs/logistics-admin/print-tag",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "logistics-admin/store-management",
+              "path": "/docs/logistics-admin/store-management",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-admin/configuration",
+              "path": "/docs/payment-admin/configuration",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-admin/finance",
+              "path": "/docs/payment-admin/finance",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-admin/index",
+              "path": "/docs/payment-admin/",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-admin/refund",
+              "path": "/docs/payment-admin/refund",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-admin/seller",
+              "path": "/docs/payment-admin/seller",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-service/index",
+              "path": "/docs/payment-service/",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-service/mobile-payment/apple-pay",
+              "path": "/docs/payment-service/mobile-payment/apple-pay",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-service/mobile-payment/icash-pay",
+              "path": "/docs/payment-service/mobile-payment/icash-pay",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-service/mobile-payment/index",
+              "path": "/docs/payment-service/mobile-payment/",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-service/online-payment/eticket",
+              "path": "/docs/payment-service/online-payment/eticket",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-service/online-payment/index",
+              "path": "/docs/payment-service/online-payment/",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-service/online-payment/landing-page",
+              "path": "/docs/payment-service/online-payment/landing-page",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-service/online-payment/mpos",
+              "path": "/docs/payment-service/online-payment/mpos",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "payment-service/online-payment/shopify",
+              "path": "/docs/payment-service/online-payment/shopify",
+              "sidebar": "defaultSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "default": {
+            "defaultSidebar": {
               "link": {
-                "path": "/guide/intro",
-                "label": "intro"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "tutorial": {
-      "path": "/tutorial",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/tutorial",
-          "mainDocId": "test-folder/index",
-          "docs": [
-            {
-              "id": "01-intro",
-              "path": "/tutorial/01-intro",
-              "sidebar": "default"
-            },
-            {
-              "id": "intro",
-              "path": "/tutorial/intro",
-              "sidebar": "default"
-            },
-            {
-              "id": "logistics",
-              "path": "/tutorial/logistics",
-              "sidebar": "default"
-            },
-            {
-              "id": "payment",
-              "path": "/tutorial/payment",
-              "sidebar": "default"
-            },
-            {
-              "id": "payment-admin",
-              "path": "/tutorial/payment-admin",
-              "sidebar": "default"
-            },
-            {
-              "id": "test-folder/index",
-              "path": "/tutorial/test-folder/",
-              "sidebar": "default"
-            },
-            {
-              "id": "test-folder/intro",
-              "path": "/tutorial/test-folder/intro",
-              "sidebar": "default"
-            },
-            {
-              "id": "test-folder/test-folder-2/intro",
-              "path": "/tutorial/test-folder/test-folder-2/intro",
-              "sidebar": "default"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "default": {
-              "link": {
-                "path": "/tutorial/test-folder/",
-                "label": "第一層資料夾"
+                "path": "/docs/",
+                "label": "index"
               }
             }
           }

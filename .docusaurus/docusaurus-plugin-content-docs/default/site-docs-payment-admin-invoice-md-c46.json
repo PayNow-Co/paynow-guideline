@@ -1,0 +1,27 @@
+{
+  "unversionedId": "payment-admin/01-intro",
+  "id": "payment-admin/01-intro",
+  "title": "發票後台",
+  "description": "使用 PayNow 的賣家可使用發票後台處理發票。",
+  "source": "@site/docs/payment-admin/invoice.md",
+  "sourceDirName": "payment-admin",
+  "slug": "/payment-admin/01-intro",
+  "permalink": "/docs/current/payment-admin/01-intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "01-intro",
+    "sidebar_position": 5
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "物流後台",
+    "permalink": "/docs/current/payment-admin/logistics"
+  },
+  "next": {
+    "title": "v1.0.0",
+    "permalink": "/docs/current/release-note/v1.0.0/v1.0.0"
+  }
+}

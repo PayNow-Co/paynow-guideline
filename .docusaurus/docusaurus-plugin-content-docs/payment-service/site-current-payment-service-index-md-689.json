@@ -1,0 +1,23 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "金流服務",
+  "description": "金流服務簡介",
+  "source": "@site/current/payment-service/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/payment-service/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "金流服務",
+    "sidebar_position": 0
+  },
+  "sidebar": "default",
+  "next": {
+    "title": "線上金流簡介",
+    "permalink": "/payment-service/online-payment/"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "logistics-admin/print-tag",
+  "id": "logistics-admin/print-tag",
+  "title": "批次列印標籤",
+  "description": "當您使用超商物流寄出商品時，可使用此功能批次列印訂單標籤。",
+  "source": "@site/docs/current/logistics-admin/print-tag.md",
+  "sourceDirName": "logistics-admin",
+  "slug": "/logistics-admin/print-tag",
+  "permalink": "/docs/logistics-admin/print-tag",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "商家管理",
+    "permalink": "/docs/logistics-admin/store-management"
+  },
+  "next": {
+    "title": "發票後台",
+    "permalink": "/docs/invoice-admin/"
+  }
+}

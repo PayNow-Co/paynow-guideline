@@ -1,0 +1,19 @@
+{
+  "unversionedId": "mobile-payment/intro",
+  "id": "mobile-payment/intro",
+  "title": "測試第二層的文件",
+  "description": "也來一篇文件好了",
+  "source": "@site/current/payment-service/mobile-payment/intro.md",
+  "sourceDirName": "mobile-payment",
+  "slug": "/mobile-payment/intro",
+  "permalink": "/payment-service/mobile-payment/intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "1",
+    "permalink": "/payment-service/online-payment/1"
+  }
+}

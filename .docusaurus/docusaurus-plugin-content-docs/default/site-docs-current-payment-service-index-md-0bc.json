@@ -1,0 +1,27 @@
+{
+  "unversionedId": "payment-service/index",
+  "id": "payment-service/index",
+  "title": "金流服務",
+  "description": "金流服務簡介",
+  "source": "@site/docs/current/payment-service/index.md",
+  "sourceDirName": "payment-service",
+  "slug": "/payment-service/",
+  "permalink": "/docs/payment-service/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "金流服務",
+    "sidebar_position": 0
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "👋 從這裡開始",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "線上金流",
+    "permalink": "/docs/payment-service/online-payment/"
+  }
+}

@@ -2,6 +2,16 @@
   "docusaurusVersion": "2.4.1",
   "siteVersion": "0.0.0",
   "pluginVersions": {
+    "docusaurus-plugin-content-docs": {
+      "type": "package",
+      "name": "@docusaurus/plugin-content-docs",
+      "version": "2.4.1"
+    },
+    "docusaurus-plugin-content-blog": {
+      "type": "package",
+      "name": "@docusaurus/plugin-content-blog",
+      "version": "2.4.1"
+    },
     "docusaurus-plugin-content-pages": {
       "type": "package",
       "name": "@docusaurus/plugin-content-pages",
@@ -36,16 +46,6 @@
       "type": "package",
       "name": "docusaurus-plugin-sass",
       "version": "0.2.4"
-    },
-    "docusaurus-plugin-content-docs": {
-      "type": "package",
-      "name": "@docusaurus/plugin-content-docs",
-      "version": "2.4.1"
-    },
-    "docusaurus-plugin-content-blog": {
-      "type": "package",
-      "name": "@docusaurus/plugin-content-blog",
-      "version": "2.4.1"
     }
   }
 }

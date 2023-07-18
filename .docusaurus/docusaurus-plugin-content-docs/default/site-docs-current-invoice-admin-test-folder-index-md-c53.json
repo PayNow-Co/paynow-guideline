@@ -1,0 +1,23 @@
+{
+  "unversionedId": "invoice-admin/test-folder/index",
+  "id": "invoice-admin/test-folder/index",
+  "title": "第一層資料夾",
+  "description": "測試看看多資料夾會怎麼樣",
+  "source": "@site/docs/current/invoice-admin/test-folder/index.md",
+  "sourceDirName": "invoice-admin/test-folder",
+  "slug": "/invoice-admin/test-folder/",
+  "permalink": "/docs/invoice-admin/test-folder/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "發票後台",
+    "permalink": "/docs/guide/invoice"
+  },
+  "next": {
+    "title": "第一層的文件",
+    "permalink": "/docs/invoice-admin/test-folder/intro"
+  }
+}

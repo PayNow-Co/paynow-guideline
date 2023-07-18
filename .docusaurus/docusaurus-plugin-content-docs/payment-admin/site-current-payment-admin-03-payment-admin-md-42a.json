@@ -1,0 +1,24 @@
+{
+  "unversionedId": "payment-admin",
+  "id": "payment-admin",
+  "title": "金流後台",
+  "description": "使用 PayNow 的賣家，可使用金流後台管理商店的金流服務。",
+  "source": "@site/current/payment-admin/03-payment-admin.md",
+  "sourceDirName": ".",
+  "slug": "/payment-admin",
+  "permalink": "/payment-admin/payment-admin",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "金流服務",
+    "permalink": "/payment-admin/payment"
+  },
+  "next": {
+    "title": "物流後台",
+    "permalink": "/payment-admin/logistics"
+  }
+}

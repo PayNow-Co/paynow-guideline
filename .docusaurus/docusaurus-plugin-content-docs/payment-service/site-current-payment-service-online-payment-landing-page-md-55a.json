@@ -1,0 +1,26 @@
+{
+  "unversionedId": "online-payment/landing-page",
+  "id": "online-payment/landing-page",
+  "title": "一頁式購物車",
+  "description": "讓您讓您輕鬆上架產品並建立一頁式購物網頁，方便客戶下單購買。另外，我們提供簡單易用的產品管理後台，讓您在業務發展中省時省力。",
+  "source": "@site/current/payment-service/online-payment/landing-page.md",
+  "sourceDirName": "online-payment",
+  "slug": "/online-payment/landing-page",
+  "permalink": "/payment-service/online-payment/landing-page",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Shopify 串接",
+    "permalink": "/payment-service/online-payment/shopify"
+  },
+  "next": {
+    "title": "行動支付",
+    "permalink": "/payment-service/mobile-payment/"
+  }
+}

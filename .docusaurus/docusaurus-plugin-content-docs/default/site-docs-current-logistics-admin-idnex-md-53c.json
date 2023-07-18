@@ -1,0 +1,23 @@
+{
+  "unversionedId": "logistics-admin/idnex",
+  "id": "logistics-admin/idnex",
+  "title": "物流後台",
+  "description": "使用 PayNow 的賣家可使用物流後台管理商店，功能如下",
+  "source": "@site/docs/current/logistics-admin/idnex.md",
+  "sourceDirName": "logistics-admin",
+  "slug": "/logistics-admin/idnex",
+  "permalink": "/docs/logistics-admin/idnex",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "發票後台",
+    "permalink": "/docs/invoice-admin/01-intro"
+  },
+  "next": {
+    "title": "批次列印標籤",
+    "permalink": "/docs/logistics-admin/print-tag"
+  }
+}

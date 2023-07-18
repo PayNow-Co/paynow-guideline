@@ -1,4 +1,906 @@
 {
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "contentPath": "/Users/henry/Documents/GitHub/paynow-guideline/docs/current",
+          "contentPathLocalized": "/Users/henry/Documents/GitHub/paynow-guideline/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "api-reference/index",
+              "id": "api-reference/index",
+              "title": "PayNow API 技術文件",
+              "description": "以下為 PayNow API 技術文件與簡介 (均為 PDF 檔案)。",
+              "source": "@site/docs/current/api-reference/index.md",
+              "sourceDirName": "api-reference",
+              "slug": "/api-reference/",
+              "permalink": "/docs/api-reference/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "功能操作",
+                "permalink": "/docs/invoice-admin/operation"
+              }
+            },
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "👋 從這裡開始",
+              "description": "以下的文件將帶您快速了解 PayNow 系統的操作。",
+              "source": "@site/docs/current/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_position": 0
+              },
+              "sidebar": "defaultSidebar",
+              "next": {
+                "title": "金流服務",
+                "permalink": "/docs/payment-service/"
+              }
+            },
+            {
+              "unversionedId": "invoice-admin/generation",
+              "id": "invoice-admin/generation",
+              "title": "發票開立",
+              "description": "當買家從您的商店購買商品後，您可以在 PayNow 頁面開立發票給買家。",
+              "source": "@site/docs/current/invoice-admin/generation.md",
+              "sourceDirName": "invoice-admin",
+              "slug": "/invoice-admin/generation",
+              "permalink": "/docs/invoice-admin/generation",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "發票後台",
+                "permalink": "/docs/invoice-admin/"
+              },
+              "next": {
+                "title": "查詢作業",
+                "permalink": "/docs/invoice-admin/inquiry"
+              }
+            },
+            {
+              "unversionedId": "invoice-admin/index",
+              "id": "invoice-admin/index",
+              "title": "發票後台",
+              "description": "使用 PayNow 的賣家可使用發票後台處理發票，功能如下",
+              "source": "@site/docs/current/invoice-admin/index.md",
+              "sourceDirName": "invoice-admin",
+              "slug": "/invoice-admin/",
+              "permalink": "/docs/invoice-admin/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "批次列印標籤",
+                "permalink": "/docs/logistics-admin/print-tag"
+              },
+              "next": {
+                "title": "發票開立",
+                "permalink": "/docs/invoice-admin/generation"
+              }
+            },
+            {
+              "unversionedId": "invoice-admin/inquiry",
+              "id": "invoice-admin/inquiry",
+              "title": "查詢作業",
+              "description": "當您 開立發票 給買家後，可以在 PayNow 後台查詢發票作業的細節。",
+              "source": "@site/docs/current/invoice-admin/inquiry.md",
+              "sourceDirName": "invoice-admin",
+              "slug": "/invoice-admin/inquiry",
+              "permalink": "/docs/invoice-admin/inquiry",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "發票開立",
+                "permalink": "/docs/invoice-admin/generation"
+              },
+              "next": {
+                "title": "功能操作",
+                "permalink": "/docs/invoice-admin/operation"
+              }
+            },
+            {
+              "unversionedId": "invoice-admin/operation",
+              "id": "invoice-admin/operation",
+              "title": "功能操作",
+              "description": "您可以在 PayNow 後台修改發票開立的相關設定。",
+              "source": "@site/docs/current/invoice-admin/operation.md",
+              "sourceDirName": "invoice-admin",
+              "slug": "/invoice-admin/operation",
+              "permalink": "/docs/invoice-admin/operation",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "查詢作業",
+                "permalink": "/docs/invoice-admin/inquiry"
+              },
+              "next": {
+                "title": "PayNow API 技術文件",
+                "permalink": "/docs/api-reference/"
+              }
+            },
+            {
+              "unversionedId": "logistics-admin/index",
+              "id": "logistics-admin/index",
+              "title": "物流後台",
+              "description": "使用 PayNow 的賣家可使用物流後台管理商店，功能如下",
+              "source": "@site/docs/current/logistics-admin/index.md",
+              "sourceDirName": "logistics-admin",
+              "slug": "/logistics-admin/",
+              "permalink": "/docs/logistics-admin/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "ATM 退款",
+                "permalink": "/docs/payment-admin/refund"
+              },
+              "next": {
+                "title": "商家管理",
+                "permalink": "/docs/logistics-admin/store-management"
+              }
+            },
+            {
+              "unversionedId": "logistics-admin/print-tag",
+              "id": "logistics-admin/print-tag",
+              "title": "批次列印標籤",
+              "description": "當您使用超商物流寄出商品時，可使用此功能批次列印訂單標籤。",
+              "source": "@site/docs/current/logistics-admin/print-tag.md",
+              "sourceDirName": "logistics-admin",
+              "slug": "/logistics-admin/print-tag",
+              "permalink": "/docs/logistics-admin/print-tag",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "商家管理",
+                "permalink": "/docs/logistics-admin/store-management"
+              },
+              "next": {
+                "title": "發票後台",
+                "permalink": "/docs/invoice-admin/"
+              }
+            },
+            {
+              "unversionedId": "logistics-admin/store-management",
+              "id": "logistics-admin/store-management",
+              "title": "商家管理",
+              "description": "PayNow 提供完整的商店後台管理系統，方便您管理訂單、商店、人員...資訊。",
+              "source": "@site/docs/current/logistics-admin/store-management.md",
+              "sourceDirName": "logistics-admin",
+              "slug": "/logistics-admin/store-management",
+              "permalink": "/docs/logistics-admin/store-management",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_position": 0
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "物流後台",
+                "permalink": "/docs/logistics-admin/"
+              },
+              "next": {
+                "title": "批次列印標籤",
+                "permalink": "/docs/logistics-admin/print-tag"
+              }
+            },
+            {
+              "unversionedId": "payment-admin/configuration",
+              "id": "payment-admin/configuration",
+              "title": "資料設定",
+              "description": "PayNow 提供商店進行商家資料修改、技術參數修改、信用卡分期設定...等交易設定。",
+              "source": "@site/docs/current/payment-admin/configuration.md",
+              "sourceDirName": "payment-admin",
+              "slug": "/payment-admin/configuration",
+              "permalink": "/docs/payment-admin/configuration",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "帳務資訊",
+                "permalink": "/docs/payment-admin/finance"
+              },
+              "next": {
+                "title": "ATM 退款",
+                "permalink": "/docs/payment-admin/refund"
+              }
+            },
+            {
+              "unversionedId": "payment-admin/finance",
+              "id": "payment-admin/finance",
+              "title": "帳務資訊",
+              "description": "PayNow 提供商店賣家請/退款對帳查詢、撥款手續費發票查詢...等帳務交易操作。",
+              "source": "@site/docs/current/payment-admin/finance.md",
+              "sourceDirName": "payment-admin",
+              "slug": "/payment-admin/finance",
+              "permalink": "/docs/payment-admin/finance",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "賣家功能",
+                "permalink": "/docs/payment-admin/seller"
+              },
+              "next": {
+                "title": "資料設定",
+                "permalink": "/docs/payment-admin/configuration"
+              }
+            },
+            {
+              "unversionedId": "payment-admin/index",
+              "id": "payment-admin/index",
+              "title": "金流後台",
+              "description": "使用 PayNow 的賣家，可使用金流後台管理商店的金流服務。",
+              "source": "@site/docs/current/payment-admin/index.md",
+              "sourceDirName": "payment-admin",
+              "slug": "/payment-admin/",
+              "permalink": "/docs/payment-admin/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "icash Pay",
+                "permalink": "/docs/payment-service/mobile-payment/icash-pay"
+              },
+              "next": {
+                "title": "賣家功能",
+                "permalink": "/docs/payment-admin/seller"
+              }
+            },
+            {
+              "unversionedId": "payment-admin/refund",
+              "id": "payment-admin/refund",
+              "title": "ATM 退款",
+              "description": "PayNow 提供買家使用 ATM 支付款項，若買家需要退款，可參考此頁教學。",
+              "source": "@site/docs/current/payment-admin/refund.md",
+              "sourceDirName": "payment-admin",
+              "slug": "/payment-admin/refund",
+              "permalink": "/docs/payment-admin/refund",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "資料設定",
+                "permalink": "/docs/payment-admin/configuration"
+              },
+              "next": {
+                "title": "物流後台",
+                "permalink": "/docs/logistics-admin/"
+              }
+            },
+            {
+              "unversionedId": "payment-admin/seller",
+              "id": "payment-admin/seller",
+              "title": "賣家功能",
+              "description": "PayNow 提供商店賣家查詢、請款、退款...等交易操作。",
+              "source": "@site/docs/current/payment-admin/seller.md",
+              "sourceDirName": "payment-admin",
+              "slug": "/payment-admin/seller",
+              "permalink": "/docs/payment-admin/seller",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_position": 0
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "金流後台",
+                "permalink": "/docs/payment-admin/"
+              },
+              "next": {
+                "title": "帳務資訊",
+                "permalink": "/docs/payment-admin/finance"
+              }
+            },
+            {
+              "unversionedId": "payment-service/index",
+              "id": "payment-service/index",
+              "title": "金流服務",
+              "description": "金流服務簡介",
+              "source": "@site/docs/current/payment-service/index.md",
+              "sourceDirName": "payment-service",
+              "slug": "/payment-service/",
+              "permalink": "/docs/payment-service/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "title": "金流服務",
+                "sidebar_position": 0
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "👋 從這裡開始",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "線上金流",
+                "permalink": "/docs/payment-service/online-payment/"
+              }
+            },
+            {
+              "unversionedId": "payment-service/mobile-payment/apple-pay",
+              "id": "payment-service/mobile-payment/apple-pay",
+              "title": "Apple Pay",
+              "description": "Apple Pay 使用簡單，並能配合您日常所用的 Apple 裝置。無須接觸，您就能在眾多商店、app 以及網頁中安全購物。",
+              "source": "@site/docs/current/payment-service/mobile-payment/apple-pay.md",
+              "sourceDirName": "payment-service/mobile-payment",
+              "slug": "/payment-service/mobile-payment/apple-pay",
+              "permalink": "/docs/payment-service/mobile-payment/apple-pay",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_position": 0
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "行動支付",
+                "permalink": "/docs/payment-service/mobile-payment/"
+              },
+              "next": {
+                "title": "icash Pay",
+                "permalink": "/docs/payment-service/mobile-payment/icash-pay"
+              }
+            },
+            {
+              "unversionedId": "payment-service/mobile-payment/icash-pay",
+              "id": "payment-service/mobile-payment/icash-pay",
+              "title": "icash Pay",
+              "description": "icash Pay是由愛金卡股份有限公司所提供的電子支付服務，新增線上支付、儲值、轉帳與提領等功能。",
+              "source": "@site/docs/current/payment-service/mobile-payment/icash-pay.md",
+              "sourceDirName": "payment-service/mobile-payment",
+              "slug": "/payment-service/mobile-payment/icash-pay",
+              "permalink": "/docs/payment-service/mobile-payment/icash-pay",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Apple Pay",
+                "permalink": "/docs/payment-service/mobile-payment/apple-pay"
+              },
+              "next": {
+                "title": "金流後台",
+                "permalink": "/docs/payment-admin/"
+              }
+            },
+            {
+              "unversionedId": "payment-service/mobile-payment/index",
+              "id": "payment-service/mobile-payment/index",
+              "title": "行動支付",
+              "description": "PayNow 提供以下的行動支付金流服務，讓您收款更便利。",
+              "source": "@site/docs/current/payment-service/mobile-payment/index.md",
+              "sourceDirName": "payment-service/mobile-payment",
+              "slug": "/payment-service/mobile-payment/",
+              "permalink": "/docs/payment-service/mobile-payment/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "行動支付",
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "一頁式購物車",
+                "permalink": "/docs/payment-service/online-payment/landing-page"
+              },
+              "next": {
+                "title": "Apple Pay",
+                "permalink": "/docs/payment-service/mobile-payment/apple-pay"
+              }
+            },
+            {
+              "unversionedId": "payment-service/online-payment/eticket",
+              "id": "payment-service/online-payment/eticket",
+              "title": "票券系統",
+              "description": "電子票券是數位形式的票券，透過系統產生 QR 碼、並記錄到消費者的系統帳戶中。",
+              "source": "@site/docs/current/payment-service/online-payment/eticket.md",
+              "sourceDirName": "payment-service/online-payment",
+              "slug": "/payment-service/online-payment/eticket",
+              "permalink": "/docs/payment-service/online-payment/eticket",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "mPOS 刷卡機",
+                "permalink": "/docs/payment-service/online-payment/mpos"
+              },
+              "next": {
+                "title": "Shopify 串接",
+                "permalink": "/docs/payment-service/online-payment/shopify"
+              }
+            },
+            {
+              "unversionedId": "payment-service/online-payment/index",
+              "id": "payment-service/online-payment/index",
+              "title": "線上金流",
+              "description": "PayNow 提供以下的線上金流服務，讓您收款更便利！",
+              "source": "@site/docs/current/payment-service/online-payment/index.md",
+              "sourceDirName": "payment-service/online-payment",
+              "slug": "/payment-service/online-payment/",
+              "permalink": "/docs/payment-service/online-payment/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "title": "線上金流",
+                "sidebar_position": 0
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "金流服務",
+                "permalink": "/docs/payment-service/"
+              },
+              "next": {
+                "title": "mPOS 刷卡機",
+                "permalink": "/docs/payment-service/online-payment/mpos"
+              }
+            },
+            {
+              "unversionedId": "payment-service/online-payment/landing-page",
+              "id": "payment-service/online-payment/landing-page",
+              "title": "一頁式購物車",
+              "description": "讓您讓您輕鬆上架產品並建立一頁式購物網頁，方便客戶下單購買。另外，我們提供簡單易用的產品管理後台，讓您在業務發展中省時省力。",
+              "source": "@site/docs/current/payment-service/online-payment/landing-page.md",
+              "sourceDirName": "payment-service/online-payment",
+              "slug": "/payment-service/online-payment/landing-page",
+              "permalink": "/docs/payment-service/online-payment/landing-page",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Shopify 串接",
+                "permalink": "/docs/payment-service/online-payment/shopify"
+              },
+              "next": {
+                "title": "行動支付",
+                "permalink": "/docs/payment-service/mobile-payment/"
+              }
+            },
+            {
+              "unversionedId": "payment-service/online-payment/mpos",
+              "id": "payment-service/online-payment/mpos",
+              "title": "mPOS 刷卡機",
+              "description": "PayNow 提供凱基 mPOS 刷卡機收單服務，適用於中小行商家、個人商家與實體店面。",
+              "source": "@site/docs/current/payment-service/online-payment/mpos.md",
+              "sourceDirName": "payment-service/online-payment",
+              "slug": "/payment-service/online-payment/mpos",
+              "permalink": "/docs/payment-service/online-payment/mpos",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_position": 0
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "線上金流",
+                "permalink": "/docs/payment-service/online-payment/"
+              },
+              "next": {
+                "title": "票券系統",
+                "permalink": "/docs/payment-service/online-payment/eticket"
+              }
+            },
+            {
+              "unversionedId": "payment-service/online-payment/shopify",
+              "id": "payment-service/online-payment/shopify",
+              "title": "Shopify 串接",
+              "description": "PayNow 與 Shopify 開店平台合作，打造多元化的付款閘道，搭配金流、物流、電子發票，讓您消費生活更便利。",
+              "source": "@site/docs/current/payment-service/online-payment/shopify.md",
+              "sourceDirName": "payment-service/online-payment",
+              "slug": "/payment-service/online-payment/shopify",
+              "permalink": "/docs/payment-service/online-payment/shopify",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "票券系統",
+                "permalink": "/docs/payment-service/online-payment/eticket"
+              },
+              "next": {
+                "title": "一頁式購物車",
+                "permalink": "/docs/payment-service/online-payment/landing-page"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "defaultSidebar": [
+              {
+                "type": "doc",
+                "id": "index"
+              },
+              {
+                "type": "category",
+                "label": "金流服務",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "線上金流",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "payment-service/online-payment/mpos"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "payment-service/online-payment/eticket"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "payment-service/online-payment/shopify"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "payment-service/online-payment/landing-page"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "payment-service/online-payment/index"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "行動支付",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "payment-service/mobile-payment/apple-pay"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "payment-service/mobile-payment/icash-pay"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "payment-service/mobile-payment/index"
+                    }
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "payment-service/index"
+                }
+              },
+              {
+                "type": "category",
+                "label": "金流後台",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "payment-admin/seller"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "payment-admin/finance"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "payment-admin/configuration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "payment-admin/refund"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "payment-admin/index"
+                }
+              },
+              {
+                "type": "category",
+                "label": "物流後台",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "logistics-admin/store-management"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "logistics-admin/print-tag"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "logistics-admin/index"
+                }
+              },
+              {
+                "type": "category",
+                "label": "發票後台",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "invoice-admin/generation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "invoice-admin/inquiry"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "invoice-admin/operation"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "invoice-admin/index"
+                }
+              },
+              {
+                "type": "doc",
+                "label": "PayNow API 技術文件",
+                "id": "api-reference/index"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "v1.1.3",
+          "metadata": {
+            "permalink": "/release-note/v1.1.3",
+            "source": "@site/docs/release-note/v1.1.3.md",
+            "title": "v1.1.3",
+            "description": "新增",
+            "date": "2023-07-17T04:39:26.042Z",
+            "formattedDate": "July 17, 2023",
+            "tags": [
+              {
+                "label": "feature",
+                "permalink": "/release-note/tags/feature"
+              },
+              {
+                "label": "hotfix",
+                "permalink": "/release-note/tags/hotfix"
+              }
+            ],
+            "readingTime": 0.285,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {
+              "slug": "v1.1.3",
+              "title": "v1.1.3",
+              "tags": [
+                "feature",
+                "hotfix"
+              ]
+            },
+            "nextItem": {
+              "title": "v1.0.0",
+              "permalink": "/release-note/v1.0.0"
+            }
+          },
+          "content": "## 新增\n- 新增 付款途徑 名詞介紹\n- 新增 錢包 功能，當付款閘道為 NIUM 時可檢視帳戶內各幣別的餘額`\n\n## 修正\n- 修正 圖片顯示不出來\n\n## 移除\n- AML 驗證通知"
+        },
+        {
+          "id": "v1.0.0",
+          "metadata": {
+            "permalink": "/release-note/v1.0.0",
+            "source": "@site/docs/release-note/v1.0.0/index.md",
+            "title": "v1.0.0",
+            "description": "新增",
+            "date": "2023-07-17T04:39:26.041Z",
+            "formattedDate": "July 17, 2023",
+            "tags": [
+              {
+                "label": "feature",
+                "permalink": "/release-note/tags/feature"
+              },
+              {
+                "label": "hotfix",
+                "permalink": "/release-note/tags/hotfix"
+              }
+            ],
+            "readingTime": 0.315,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {
+              "slug": "v1.0.0",
+              "title": "v1.0.0",
+              "tags": [
+                "feature",
+                "hotfix"
+              ]
+            },
+            "prevItem": {
+              "title": "v1.1.3",
+              "permalink": "/release-note/v1.1.3"
+            }
+          },
+          "content": "## 新增\n- 新增 付款途徑 名詞介紹\n- 新增 錢包 功能，當付款閘道為 NIUM 時可檢視帳戶內各幣別的餘額\n\n## 修正\n- 修正 圖片顯示不出來\n\n## 移除\n- AML 驗證通知\n\n# 畫面預覽\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "v1.1.3",
+            "v1.0.0"
+          ],
+          "metadata": {
+            "permalink": "/release-note",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 2,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/release-note/tags/feature": {
+          "label": "feature",
+          "items": [
+            "v1.1.3",
+            "v1.0.0"
+          ],
+          "permalink": "/release-note/tags/feature",
+          "pages": [
+            {
+              "items": [
+                "v1.1.3",
+                "v1.0.0"
+              ],
+              "metadata": {
+                "permalink": "/release-note/tags/feature",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/release-note/tags/hotfix": {
+          "label": "hotfix",
+          "items": [
+            "v1.1.3",
+            "v1.0.0"
+          ],
+          "permalink": "/release-note/tags/hotfix",
+          "pages": [
+            {
+              "items": [
+                "v1.1.3",
+                "v1.0.0"
+              ],
+              "metadata": {
+                "permalink": "/release-note/tags/hotfix",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/release-note/tags"
+    },
+    "release-note": {
+      "blogSidebarTitle": "Version",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/release-note/tags",
+      "blogTagsPaginated": []
+    }
+  },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
@@ -49,7 +951,7 @@
               "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/introduction",
           "next": {
@@ -375,7 +1277,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/add-a-new-pet-to-the-store",
           "previous": {
@@ -707,7 +1609,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/update-an-existing-pet",
           "previous": {
@@ -1114,7 +2016,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/find-pet-by-id",
           "previous": {
@@ -1297,7 +2199,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/updates-a-pet-in-the-store-with-form-data",
           "previous": {
@@ -1453,7 +2355,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/deletes-a-pet",
           "previous": {
@@ -1630,7 +2532,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/uploads-an-image",
           "previous": {
@@ -2036,7 +2938,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/finds-pets-by-status",
           "previous": {
@@ -2443,7 +3345,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/finds-pets-by-tags",
           "previous": {
@@ -2583,7 +3485,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/returns-pet-inventories-by-status",
           "previous": {
@@ -2884,7 +3786,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/place-an-order-for-a-pet",
           "previous": {
@@ -3126,7 +4028,7 @@
               "method": "GET"
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/find-purchase-order-by-id",
           "previous": {
@@ -3255,7 +4157,7 @@
               "method": "DELETE"
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/delete-purchase-order-by-id",
           "previous": {
@@ -3648,7 +4550,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/subscribe-to-the-store-events",
           "previous": {
@@ -3980,7 +4882,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/create-user",
           "previous": {
@@ -4518,7 +5420,7 @@
               "method": "GET"
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/get-user-by-user-name",
           "previous": {
@@ -4874,7 +5776,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/updated-user",
           "previous": {
@@ -5001,7 +5903,7 @@
               "method": "DELETE"
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/delete-user",
           "previous": {
@@ -5339,7 +6241,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/creates-list-of-users-with-given-input-array",
           "previous": {
@@ -5677,7 +6579,7 @@
               }
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/creates-list-of-users-with-given-input-array-1",
           "previous": {
@@ -5865,7 +6767,7 @@
               "method": "GET"
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/logs-user-into-the-system",
           "previous": {
@@ -5969,7 +6871,7 @@
               "method": "GET"
             }
           },
-          "source": "@site/current/api/example.yml",
+          "source": "@site/docs/api/example.yml",
           "sourceDirName": ".",
           "permalink": "/api/logs-out-current-logged-in-user-session",
           "previous": {
@@ -5984,568 +6886,6 @@
   "docusaurus-theme-classic": {},
   "docusaurus-theme-openapi": {},
   "docusaurus-plugin-sass": {},
-  "docusaurus-plugin-content-docs": {
-    "guide": {
-      "loadedVersions": [
-        {
-          "versionName": "current",
-          "label": "Next",
-          "banner": null,
-          "badge": false,
-          "noIndex": false,
-          "className": "docs-version-current",
-          "path": "/guide",
-          "tagsPath": "/guide/tags",
-          "isLast": true,
-          "routePriority": -1,
-          "sidebarFilePath": "/home/ubuntu/code/owlpay/paynow-guideline/sidebars/guide.js",
-          "contentPath": "/home/ubuntu/code/owlpay/paynow-guideline/current/guide",
-          "contentPathLocalized": "/home/ubuntu/code/owlpay/paynow-guideline/i18n/en/docusaurus-plugin-content-docs-guide/current",
-          "docs": [
-            {
-              "unversionedId": "intro",
-              "id": "intro",
-              "title": "從這裡開始",
-              "description": "以下的文件將帶您快速了解 PayNow 系統的操作。",
-              "source": "@site/current/guide/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/guide/intro",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "default",
-              "next": {
-                "title": "金流服務",
-                "permalink": "/guide/payment"
-              }
-            },
-            {
-              "unversionedId": "invoice",
-              "id": "invoice",
-              "title": "發票後台",
-              "description": "使用 PayNow 的賣家可使用發票後台處理發票。",
-              "source": "@site/current/guide/invoice.md",
-              "sourceDirName": ".",
-              "slug": "/invoice",
-              "permalink": "/guide/invoice",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              }
-            },
-            {
-              "unversionedId": "logistics",
-              "id": "logistics",
-              "title": "物流後台",
-              "description": "使用 PayNow 的賣家可使用物流後台管理商店。",
-              "source": "@site/current/guide/logistics.md",
-              "sourceDirName": ".",
-              "slug": "/logistics",
-              "permalink": "/guide/logistics",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              }
-            },
-            {
-              "unversionedId": "payment",
-              "id": "payment",
-              "title": "金流服務",
-              "description": "PayNow 提供多元的線上金流與行動支付服務，讓您收款更便利！",
-              "source": "@site/current/guide/payment.md",
-              "sourceDirName": ".",
-              "slug": "/payment",
-              "permalink": "/guide/payment",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "default",
-              "previous": {
-                "title": "從這裡開始",
-                "permalink": "/guide/intro"
-              },
-              "next": {
-                "title": "從這裡開始",
-                "permalink": "/guide/intro"
-              }
-            },
-            {
-              "unversionedId": "payment-admin",
-              "id": "payment-admin",
-              "title": "金流後台",
-              "description": "使用 PayNow 的賣家，可使用金流後台管理商店的金流服務。",
-              "source": "@site/current/guide/payment-admin.md",
-              "sourceDirName": ".",
-              "slug": "/payment-admin",
-              "permalink": "/guide/payment-admin",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              }
-            }
-          ],
-          "drafts": [],
-          "sidebars": {
-            "default": [
-              {
-                "type": "doc",
-                "id": "intro"
-              },
-              {
-                "type": "doc",
-                "id": "payment"
-              },
-              {
-                "type": "category",
-                "label": "Category",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "intro"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "payment"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
-              }
-            ]
-          }
-        }
-      ]
-    },
-    "tutorial": {
-      "loadedVersions": [
-        {
-          "versionName": "current",
-          "label": "Next",
-          "banner": null,
-          "badge": false,
-          "noIndex": false,
-          "className": "docs-version-current",
-          "path": "/tutorial",
-          "tagsPath": "/tutorial/tags",
-          "isLast": true,
-          "routePriority": -1,
-          "sidebarFilePath": "/home/ubuntu/code/owlpay/paynow-guideline/sidebars/tutorial.js",
-          "contentPath": "/home/ubuntu/code/owlpay/paynow-guideline/current/tutorial",
-          "contentPathLocalized": "/home/ubuntu/code/owlpay/paynow-guideline/i18n/en/docusaurus-plugin-content-docs-tutorial/current",
-          "docs": [
-            {
-              "unversionedId": "01-intro",
-              "id": "01-intro",
-              "title": "發票後台",
-              "description": "使用 PayNow 的賣家可使用發票後台處理發票。",
-              "source": "@site/current/tutorial/invoice.md",
-              "sourceDirName": ".",
-              "slug": "/01-intro",
-              "permalink": "/tutorial/01-intro",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "id": "01-intro",
-                "sidebar_position": 5
-              },
-              "sidebar": "default",
-              "previous": {
-                "title": "物流後台",
-                "permalink": "/tutorial/logistics"
-              }
-            },
-            {
-              "unversionedId": "intro",
-              "id": "intro",
-              "title": "從這裡開始",
-              "description": "以下的文件將帶您快速了解 PayNow 系統的操作。",
-              "source": "@site/current/tutorial/01-intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/tutorial/intro",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {},
-              "sidebar": "default",
-              "previous": {
-                "title": "測試第二層的文件",
-                "permalink": "/tutorial/test-folder/test-folder-2/intro"
-              },
-              "next": {
-                "title": "金流服務",
-                "permalink": "/tutorial/payment"
-              }
-            },
-            {
-              "unversionedId": "logistics",
-              "id": "logistics",
-              "title": "物流後台",
-              "description": "使用 PayNow 的賣家可使用物流後台管理商店。",
-              "source": "@site/current/tutorial/logistics.md",
-              "sourceDirName": ".",
-              "slug": "/logistics",
-              "permalink": "/tutorial/logistics",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "default",
-              "previous": {
-                "title": "金流後台",
-                "permalink": "/tutorial/payment-admin"
-              },
-              "next": {
-                "title": "發票後台",
-                "permalink": "/tutorial/01-intro"
-              }
-            },
-            {
-              "unversionedId": "payment",
-              "id": "payment",
-              "title": "金流服務",
-              "description": "PayNow 提供多元的線上金流與行動支付服務，讓您收款更便利！",
-              "source": "@site/current/tutorial/02-payment.md",
-              "sourceDirName": ".",
-              "slug": "/payment",
-              "permalink": "/tutorial/payment",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {},
-              "sidebar": "default",
-              "previous": {
-                "title": "從這裡開始",
-                "permalink": "/tutorial/intro"
-              },
-              "next": {
-                "title": "金流後台",
-                "permalink": "/tutorial/payment-admin"
-              }
-            },
-            {
-              "unversionedId": "payment-admin",
-              "id": "payment-admin",
-              "title": "金流後台",
-              "description": "使用 PayNow 的賣家，可使用金流後台管理商店的金流服務。",
-              "source": "@site/current/tutorial/03-payment-admin.md",
-              "sourceDirName": ".",
-              "slug": "/payment-admin",
-              "permalink": "/tutorial/payment-admin",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {},
-              "sidebar": "default",
-              "previous": {
-                "title": "金流服務",
-                "permalink": "/tutorial/payment"
-              },
-              "next": {
-                "title": "物流後台",
-                "permalink": "/tutorial/logistics"
-              }
-            },
-            {
-              "unversionedId": "test-folder/index",
-              "id": "test-folder/index",
-              "title": "第一層資料夾",
-              "description": "測試看看多資料夾會怎麼樣",
-              "source": "@site/current/tutorial/test-folder/index.md",
-              "sourceDirName": "test-folder",
-              "slug": "/test-folder/",
-              "permalink": "/tutorial/test-folder/",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "default",
-              "next": {
-                "title": "第一層的文件",
-                "permalink": "/tutorial/test-folder/intro"
-              }
-            },
-            {
-              "unversionedId": "test-folder/intro",
-              "id": "test-folder/intro",
-              "title": "第一層的文件",
-              "description": "第一層資料夾來一篇文章",
-              "source": "@site/current/tutorial/test-folder/intro.md",
-              "sourceDirName": "test-folder",
-              "slug": "/test-folder/intro",
-              "permalink": "/tutorial/test-folder/intro",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "default",
-              "previous": {
-                "title": "第一層資料夾",
-                "permalink": "/tutorial/test-folder/"
-              },
-              "next": {
-                "title": "測試第二層的文件",
-                "permalink": "/tutorial/test-folder/test-folder-2/intro"
-              }
-            },
-            {
-              "unversionedId": "test-folder/test-folder-2/intro",
-              "id": "test-folder/test-folder-2/intro",
-              "title": "測試第二層的文件",
-              "description": "也來一篇文件好了",
-              "source": "@site/current/tutorial/test-folder/test-folder-2/intro.md",
-              "sourceDirName": "test-folder/test-folder-2",
-              "slug": "/test-folder/test-folder-2/intro",
-              "permalink": "/tutorial/test-folder/test-folder-2/intro",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "default",
-              "previous": {
-                "title": "第一層的文件",
-                "permalink": "/tutorial/test-folder/intro"
-              },
-              "next": {
-                "title": "從這裡開始",
-                "permalink": "/tutorial/intro"
-              }
-            }
-          ],
-          "drafts": [],
-          "sidebars": {
-            "default": [
-              {
-                "type": "category",
-                "label": "第一層資料夾",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "test-folder/intro"
-                  },
-                  {
-                    "type": "category",
-                    "label": "第二層資料夾",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "test-folder/test-folder-2/intro"
-                      }
-                    ]
-                  }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "test-folder/index"
-                }
-              },
-              {
-                "type": "doc",
-                "id": "intro"
-              },
-              {
-                "type": "doc",
-                "id": "payment"
-              },
-              {
-                "type": "doc",
-                "id": "payment-admin"
-              },
-              {
-                "type": "doc",
-                "id": "logistics"
-              },
-              {
-                "type": "doc",
-                "id": "01-intro"
-              }
-            ]
-          }
-        }
-      ]
-    }
-  },
-  "docusaurus-plugin-content-blog": {
-    "release-note": {
-      "blogSidebarTitle": "Version",
-      "blogPosts": [
-        {
-          "id": "v1.1.3",
-          "metadata": {
-            "permalink": "/release-note/v1.1.3",
-            "source": "@site/current/release-note/v1.1.3.md",
-            "title": "v1.1.3",
-            "description": "新增",
-            "date": "2023-07-13T04:25:34.000Z",
-            "formattedDate": "July 13, 2023",
-            "tags": [
-              {
-                "label": "feature",
-                "permalink": "/release-note/tags/feature"
-              },
-              {
-                "label": "hotfix",
-                "permalink": "/release-note/tags/hotfix"
-              }
-            ],
-            "readingTime": 0.285,
-            "hasTruncateMarker": false,
-            "authors": [],
-            "frontMatter": {
-              "slug": "v1.1.3",
-              "title": "v1.1.3",
-              "tags": [
-                "feature",
-                "hotfix"
-              ]
-            },
-            "nextItem": {
-              "title": "v1.0.0",
-              "permalink": "/release-note/v1.0.0"
-            }
-          },
-          "content": "## 新增\n- 新增 付款途徑 名詞介紹\n- 新增 錢包 功能，當付款閘道為 NIUM 時可檢視帳戶內各幣別的餘額\n\n## 修正\n- 修正 圖片顯示不出來\n\n## 移除\n- AML 驗證通知"
-        },
-        {
-          "id": "v1.0.0",
-          "metadata": {
-            "permalink": "/release-note/v1.0.0",
-            "source": "@site/current/release-note/v1.0.0/index.md",
-            "title": "v1.0.0",
-            "description": "新增",
-            "date": "2023-07-13T04:25:34.000Z",
-            "formattedDate": "July 13, 2023",
-            "tags": [
-              {
-                "label": "feature",
-                "permalink": "/release-note/tags/feature"
-              },
-              {
-                "label": "hotfix",
-                "permalink": "/release-note/tags/hotfix"
-              }
-            ],
-            "readingTime": 0.315,
-            "hasTruncateMarker": false,
-            "authors": [],
-            "frontMatter": {
-              "slug": "v1.0.0",
-              "title": "v1.0.0",
-              "tags": [
-                "feature",
-                "hotfix"
-              ]
-            },
-            "prevItem": {
-              "title": "v1.1.3",
-              "permalink": "/release-note/v1.1.3"
-            }
-          },
-          "content": "## 新增\n- 新增 付款途徑 名詞介紹\n- 新增 錢包 功能，當付款閘道為 NIUM 時可檢視帳戶內各幣別的餘額\n\n## 修正\n- 修正 圖片顯示不出來\n\n## 移除\n- AML 驗證通知\n\n# 畫面預覽\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)"
-        }
-      ],
-      "blogListPaginated": [
-        {
-          "items": [
-            "v1.1.3",
-            "v1.0.0"
-          ],
-          "metadata": {
-            "permalink": "/release-note",
-            "page": 1,
-            "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 2,
-            "blogDescription": "Blog",
-            "blogTitle": "Release Note"
-          }
-        }
-      ],
-      "blogTags": {
-        "/release-note/tags/feature": {
-          "label": "feature",
-          "items": [
-            "v1.1.3",
-            "v1.0.0"
-          ],
-          "permalink": "/release-note/tags/feature",
-          "pages": [
-            {
-              "items": [
-                "v1.1.3",
-                "v1.0.0"
-              ],
-              "metadata": {
-                "permalink": "/release-note/tags/feature",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Release Note"
-              }
-            }
-          ]
-        },
-        "/release-note/tags/hotfix": {
-          "label": "hotfix",
-          "items": [
-            "v1.1.3",
-            "v1.0.0"
-          ],
-          "permalink": "/release-note/tags/hotfix",
-          "pages": [
-            {
-              "items": [
-                "v1.1.3",
-                "v1.0.0"
-              ],
-              "metadata": {
-                "permalink": "/release-note/tags/hotfix",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Release Note"
-              }
-            }
-          ]
-        }
-      },
-      "blogTagsListPath": "/release-note/tags"
-    }
-  },
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

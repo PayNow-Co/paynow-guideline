@@ -1,0 +1,26 @@
+{
+  "unversionedId": "payment-admin/refund",
+  "id": "payment-admin/refund",
+  "title": "ATM 退款",
+  "description": "PayNow 提供買家使用 ATM 支付款項，若買家需要退款，可參考此頁教學。",
+  "source": "@site/docs/current/payment-admin/refund.md",
+  "sourceDirName": "payment-admin",
+  "slug": "/payment-admin/refund",
+  "permalink": "/docs/payment-admin/refund",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "資料設定",
+    "permalink": "/docs/payment-admin/configuration"
+  },
+  "next": {
+    "title": "物流後台",
+    "permalink": "/docs/logistics-admin/"
+  }
+}

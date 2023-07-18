@@ -18,14 +18,20 @@ export default {
       "docusaurus-preset-openapi",
       {
         "api": {
-          "path": "current/api",
+          "path": "docs/api",
           "routeBasePath": "/api"
         },
-        "docs": false,
-        "blog": false,
+        "docs": {
+          "path": "docs/current",
+          "routeBasePath": "docs"
+        },
+        "blog": {
+          "path": "docs/release-note",
+          "routeBasePath": "release-note"
+        },
         "theme": {
           "customCss": [
-            "/home/ubuntu/code/owlpay/paynow-guideline/src/css/custom.scss"
+            "/Users/henry/Documents/GitHub/paynow-guideline/src/css/custom.scss"
           ]
         }
       }
@@ -33,24 +39,6 @@ export default {
   ],
   "plugins": [
     "docusaurus-plugin-sass",
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        "id": "guide",
-        "path": "current/guide",
-        "routeBasePath": "guide",
-        "sidebarPath": "/home/ubuntu/code/owlpay/paynow-guideline/sidebars/guide.js"
-      }
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        "id": "tutorial",
-        "path": "current/tutorial",
-        "routeBasePath": "tutorial",
-        "sidebarPath": "/home/ubuntu/code/owlpay/paynow-guideline/sidebars/tutorial.js"
-      }
-    ],
     [
       "@docusaurus/plugin-content-blog",
       {
@@ -79,18 +67,29 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "docsPluginId": "tutorial",
-          "sidebarId": "default",
-          "position": "left",
-          "label": "Tutorial"
+          "to": "docs/api-reference/",
+          "label": "API 技術文件",
+          "position": "right"
         },
         {
-          "type": "docSidebar",
-          "docsPluginId": "guide",
-          "sidebarId": "default",
-          "position": "left",
-          "label": "Guide"
+          "to": "docs/payment-service/",
+          "label": "金流服務",
+          "position": "left"
+        },
+        {
+          "to": "docs/payment-admin/",
+          "label": "金流後台",
+          "position": "left"
+        },
+        {
+          "to": "docs/logistics-admin/",
+          "label": "物流後台",
+          "position": "left"
+        },
+        {
+          "to": "docs/invoice-admin/",
+          "label": "發票後台",
+          "position": "left"
         },
         {
           "to": "/release-note",

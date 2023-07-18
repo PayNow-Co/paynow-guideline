@@ -1,0 +1,39 @@
+{
+  "unversionedId": "release-note/v1.0.0/index",
+  "id": "release-note/v1.0.0/index",
+  "title": "v1.0.0",
+  "description": "新增",
+  "source": "@site/docs/release-note/v1.0.0/index.md",
+  "sourceDirName": "release-note/v1.0.0",
+  "slug": "/release-note/v1.0.0/v1.0.0",
+  "permalink": "/docs/current/release-note/v1.0.0/v1.0.0",
+  "draft": false,
+  "tags": [
+    {
+      "label": "feature",
+      "permalink": "/docs/current/tags/feature"
+    },
+    {
+      "label": "hotfix",
+      "permalink": "/docs/current/tags/hotfix"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "v1.0.0",
+    "title": "v1.0.0",
+    "tags": [
+      "feature",
+      "hotfix"
+    ]
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "發票後台",
+    "permalink": "/docs/current/current/payment-admin/01-intro"
+  },
+  "next": {
+    "title": "v1.1.3",
+    "permalink": "/docs/current/release-note/v1.1.3"
+  }
+}

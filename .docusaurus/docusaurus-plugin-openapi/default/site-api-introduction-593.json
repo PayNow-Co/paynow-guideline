@@ -25,7 +25,7 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
-  "source": "@site/current/api/example.yml",
+  "source": "@site/docs/api/example.yml",
   "sourceDirName": ".",
   "permalink": "/api/introduction",
   "next": {

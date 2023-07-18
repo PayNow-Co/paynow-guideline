@@ -126,7 +126,7 @@
       }
     }
   },
-  "source": "@site/current/api/example.yml",
+  "source": "@site/docs/api/example.yml",
   "sourceDirName": ".",
   "permalink": "/api/returns-pet-inventories-by-status",
   "previous": {

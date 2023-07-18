@@ -1,0 +1,22 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "👋 從這裡開始",
+  "description": "以下的文件將帶您快速了解 PayNow 系統的操作。",
+  "source": "@site/docs/current/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "defaultSidebar",
+  "next": {
+    "title": "金流服務",
+    "permalink": "/docs/payment-service/"
+  }
+}

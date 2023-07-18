@@ -1,0 +1,310 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "defaultSidebar": [
+      {
+        "type": "link",
+        "label": "👋 從這裡開始",
+        "href": "/docs/",
+        "docId": "index"
+      },
+      {
+        "type": "category",
+        "label": "金流服務",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "線上金流",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "mPOS 刷卡機",
+                "href": "/docs/payment-service/online-payment/mpos",
+                "docId": "payment-service/online-payment/mpos"
+              },
+              {
+                "type": "link",
+                "label": "票券系統",
+                "href": "/docs/payment-service/online-payment/eticket",
+                "docId": "payment-service/online-payment/eticket"
+              },
+              {
+                "type": "link",
+                "label": "Shopify 串接",
+                "href": "/docs/payment-service/online-payment/shopify",
+                "docId": "payment-service/online-payment/shopify"
+              },
+              {
+                "type": "link",
+                "label": "一頁式購物車",
+                "href": "/docs/payment-service/online-payment/landing-page",
+                "docId": "payment-service/online-payment/landing-page"
+              }
+            ],
+            "href": "/docs/payment-service/online-payment/"
+          },
+          {
+            "type": "category",
+            "label": "行動支付",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Apple Pay",
+                "href": "/docs/payment-service/mobile-payment/apple-pay",
+                "docId": "payment-service/mobile-payment/apple-pay"
+              },
+              {
+                "type": "link",
+                "label": "icash Pay",
+                "href": "/docs/payment-service/mobile-payment/icash-pay",
+                "docId": "payment-service/mobile-payment/icash-pay"
+              }
+            ],
+            "href": "/docs/payment-service/mobile-payment/"
+          }
+        ],
+        "href": "/docs/payment-service/"
+      },
+      {
+        "type": "category",
+        "label": "金流後台",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "賣家功能",
+            "href": "/docs/payment-admin/seller",
+            "docId": "payment-admin/seller"
+          },
+          {
+            "type": "link",
+            "label": "帳務資訊",
+            "href": "/docs/payment-admin/finance",
+            "docId": "payment-admin/finance"
+          },
+          {
+            "type": "link",
+            "label": "資料設定",
+            "href": "/docs/payment-admin/configuration",
+            "docId": "payment-admin/configuration"
+          },
+          {
+            "type": "link",
+            "label": "ATM 退款",
+            "href": "/docs/payment-admin/refund",
+            "docId": "payment-admin/refund"
+          }
+        ],
+        "href": "/docs/payment-admin/"
+      },
+      {
+        "type": "category",
+        "label": "物流後台",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "商家管理",
+            "href": "/docs/logistics-admin/store-management",
+            "docId": "logistics-admin/store-management"
+          },
+          {
+            "type": "link",
+            "label": "批次列印標籤",
+            "href": "/docs/logistics-admin/print-tag",
+            "docId": "logistics-admin/print-tag"
+          }
+        ],
+        "href": "/docs/logistics-admin/"
+      },
+      {
+        "type": "category",
+        "label": "發票後台",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "發票開立",
+            "href": "/docs/invoice-admin/generation",
+            "docId": "invoice-admin/generation"
+          },
+          {
+            "type": "link",
+            "label": "查詢作業",
+            "href": "/docs/invoice-admin/inquiry",
+            "docId": "invoice-admin/inquiry"
+          },
+          {
+            "type": "link",
+            "label": "功能操作",
+            "href": "/docs/invoice-admin/operation",
+            "docId": "invoice-admin/operation"
+          }
+        ],
+        "href": "/docs/invoice-admin/"
+      },
+      {
+        "type": "link",
+        "label": "PayNow API 技術文件",
+        "href": "/docs/api-reference/",
+        "docId": "api-reference/index"
+      }
+    ]
+  },
+  "docs": {
+    "api-reference/index": {
+      "id": "api-reference/index",
+      "title": "PayNow API 技術文件",
+      "description": "以下為 PayNow API 技術文件與簡介 (均為 PDF 檔案)。",
+      "sidebar": "defaultSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "👋 從這裡開始",
+      "description": "以下的文件將帶您快速了解 PayNow 系統的操作。",
+      "sidebar": "defaultSidebar"
+    },
+    "invoice-admin/generation": {
+      "id": "invoice-admin/generation",
+      "title": "發票開立",
+      "description": "當買家從您的商店購買商品後，您可以在 PayNow 頁面開立發票給買家。",
+      "sidebar": "defaultSidebar"
+    },
+    "invoice-admin/index": {
+      "id": "invoice-admin/index",
+      "title": "發票後台",
+      "description": "使用 PayNow 的賣家可使用發票後台處理發票，功能如下",
+      "sidebar": "defaultSidebar"
+    },
+    "invoice-admin/inquiry": {
+      "id": "invoice-admin/inquiry",
+      "title": "查詢作業",
+      "description": "當您 開立發票 給買家後，可以在 PayNow 後台查詢發票作業的細節。",
+      "sidebar": "defaultSidebar"
+    },
+    "invoice-admin/operation": {
+      "id": "invoice-admin/operation",
+      "title": "功能操作",
+      "description": "您可以在 PayNow 後台修改發票開立的相關設定。",
+      "sidebar": "defaultSidebar"
+    },
+    "logistics-admin/index": {
+      "id": "logistics-admin/index",
+      "title": "物流後台",
+      "description": "使用 PayNow 的賣家可使用物流後台管理商店，功能如下",
+      "sidebar": "defaultSidebar"
+    },
+    "logistics-admin/print-tag": {
+      "id": "logistics-admin/print-tag",
+      "title": "批次列印標籤",
+      "description": "當您使用超商物流寄出商品時，可使用此功能批次列印訂單標籤。",
+      "sidebar": "defaultSidebar"
+    },
+    "logistics-admin/store-management": {
+      "id": "logistics-admin/store-management",
+      "title": "商家管理",
+      "description": "PayNow 提供完整的商店後台管理系統，方便您管理訂單、商店、人員...資訊。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-admin/configuration": {
+      "id": "payment-admin/configuration",
+      "title": "資料設定",
+      "description": "PayNow 提供商店進行商家資料修改、技術參數修改、信用卡分期設定...等交易設定。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-admin/finance": {
+      "id": "payment-admin/finance",
+      "title": "帳務資訊",
+      "description": "PayNow 提供商店賣家請/退款對帳查詢、撥款手續費發票查詢...等帳務交易操作。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-admin/index": {
+      "id": "payment-admin/index",
+      "title": "金流後台",
+      "description": "使用 PayNow 的賣家，可使用金流後台管理商店的金流服務。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-admin/refund": {
+      "id": "payment-admin/refund",
+      "title": "ATM 退款",
+      "description": "PayNow 提供買家使用 ATM 支付款項，若買家需要退款，可參考此頁教學。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-admin/seller": {
+      "id": "payment-admin/seller",
+      "title": "賣家功能",
+      "description": "PayNow 提供商店賣家查詢、請款、退款...等交易操作。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-service/index": {
+      "id": "payment-service/index",
+      "title": "金流服務",
+      "description": "金流服務簡介",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-service/mobile-payment/apple-pay": {
+      "id": "payment-service/mobile-payment/apple-pay",
+      "title": "Apple Pay",
+      "description": "Apple Pay 使用簡單，並能配合您日常所用的 Apple 裝置。無須接觸，您就能在眾多商店、app 以及網頁中安全購物。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-service/mobile-payment/icash-pay": {
+      "id": "payment-service/mobile-payment/icash-pay",
+      "title": "icash Pay",
+      "description": "icash Pay是由愛金卡股份有限公司所提供的電子支付服務，新增線上支付、儲值、轉帳與提領等功能。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-service/mobile-payment/index": {
+      "id": "payment-service/mobile-payment/index",
+      "title": "行動支付",
+      "description": "PayNow 提供以下的行動支付金流服務，讓您收款更便利。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-service/online-payment/eticket": {
+      "id": "payment-service/online-payment/eticket",
+      "title": "票券系統",
+      "description": "電子票券是數位形式的票券，透過系統產生 QR 碼、並記錄到消費者的系統帳戶中。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-service/online-payment/index": {
+      "id": "payment-service/online-payment/index",
+      "title": "線上金流",
+      "description": "PayNow 提供以下的線上金流服務，讓您收款更便利！",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-service/online-payment/landing-page": {
+      "id": "payment-service/online-payment/landing-page",
+      "title": "一頁式購物車",
+      "description": "讓您讓您輕鬆上架產品並建立一頁式購物網頁，方便客戶下單購買。另外，我們提供簡單易用的產品管理後台，讓您在業務發展中省時省力。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-service/online-payment/mpos": {
+      "id": "payment-service/online-payment/mpos",
+      "title": "mPOS 刷卡機",
+      "description": "PayNow 提供凱基 mPOS 刷卡機收單服務，適用於中小行商家、個人商家與實體店面。",
+      "sidebar": "defaultSidebar"
+    },
+    "payment-service/online-payment/shopify": {
+      "id": "payment-service/online-payment/shopify",
+      "title": "Shopify 串接",
+      "description": "PayNow 與 Shopify 開店平台合作，打造多元化的付款閘道，搭配金流、物流、電子發票，讓您消費生活更便利。",
+      "sidebar": "defaultSidebar"
+    }
+  }
+}

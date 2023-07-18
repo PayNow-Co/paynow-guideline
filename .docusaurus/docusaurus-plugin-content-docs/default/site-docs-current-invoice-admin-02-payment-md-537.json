@@ -1,0 +1,24 @@
+{
+  "unversionedId": "invoice-admin/payment",
+  "id": "invoice-admin/payment",
+  "title": "金流服務",
+  "description": "PayNow 提供多元的線上金流與行動支付服務，讓您收款更便利！",
+  "source": "@site/docs/current/invoice-admin/02-payment.md",
+  "sourceDirName": "invoice-admin",
+  "slug": "/invoice-admin/payment",
+  "permalink": "/docs/invoice-admin/payment",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "從這裡開始",
+    "permalink": "/docs/invoice-admin/intro"
+  },
+  "next": {
+    "title": "金流後台",
+    "permalink": "/docs/invoice-admin/payment-admin"
+  }
+}

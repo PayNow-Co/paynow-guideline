@@ -1,0 +1,27 @@
+{
+  "unversionedId": "online-payment/index",
+  "id": "online-payment/index",
+  "title": "線上金流簡介",
+  "description": "PayNow 提供以下的線上金流服務，讓您收款更便利！",
+  "source": "@site/current/payment-service/online-payment/index.md",
+  "sourceDirName": "online-payment",
+  "slug": "/online-payment/",
+  "permalink": "/payment-service/online-payment/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "線上金流簡介",
+    "sidebar_position": 0
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "金流服務",
+    "permalink": "/payment-service/"
+  },
+  "next": {
+    "title": "mPOS 刷卡機",
+    "permalink": "/payment-service/online-payment/mpos"
+  }
+}

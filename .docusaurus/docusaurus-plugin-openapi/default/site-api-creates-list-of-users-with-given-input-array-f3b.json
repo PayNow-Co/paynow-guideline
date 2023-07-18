@@ -324,7 +324,7 @@
       }
     }
   },
-  "source": "@site/current/api/example.yml",
+  "source": "@site/docs/api/example.yml",
   "sourceDirName": ".",
   "permalink": "/api/creates-list-of-users-with-given-input-array",
   "previous": {
