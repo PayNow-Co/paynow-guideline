@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/release-note-4fc": {
+  "/release-note-540": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---release-note-809-701"
@@ -57,10 +57,7 @@
     "sidebar": "sidebar---release-note-814-4c7",
     "items": [
       {
-        "content": "content---release-note-969-60a"
-      },
-      {
-        "content": "content---release-note-94-b-f6c"
+        "content": "content---release-notecce-515"
       }
     ],
     "metadata": "metadata---release-notee-4-d-2ce"
@@ -72,63 +69,13 @@
     },
     "archive": "archive---release-note-archivef-46-ae9"
   },
-  "/release-note/tags-5c7": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
-    "__context": {
-      "plugin": "plugin---release-note-809-701"
-    },
-    "sidebar": "sidebar---release-note-814-4c7",
-    "tags": "tags---release-note-tags-013-5b1"
-  },
-  "/release-note/tags/feature-f3a": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---release-note-809-701"
-    },
-    "sidebar": "sidebar---release-note-814-4c7",
-    "items": [
-      {
-        "content": "content---release-note-969-60a"
-      },
-      {
-        "content": "content---release-note-94-b-f6c"
-      }
-    ],
-    "tag": "tag---release-note-tags-feature-80-e-f02",
-    "listMetadata": "listMetadata---release-note-tags-feature-5-ee-b8f"
-  },
-  "/release-note/tags/hotfix-508": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---release-note-809-701"
-    },
-    "sidebar": "sidebar---release-note-814-4c7",
-    "items": [
-      {
-        "content": "content---release-note-969-60a"
-      },
-      {
-        "content": "content---release-note-94-b-f6c"
-      }
-    ],
-    "tag": "tag---release-note-tags-hotfix-4-f-4-019",
-    "listMetadata": "listMetadata---release-note-tags-hotfixa-54-449"
-  },
-  "/release-note/v1.0.0-794": {
+  "/release-note/v1.0.0-269": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---release-note-809-701"
     },
     "sidebar": "sidebar---release-note-814-4c7",
-    "content": "content---release-note-v-1-0-0-a-35-4ac"
-  },
-  "/release-note/v1.1.3-1c6": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "plugin": "plugin---release-note-809-701"
-    },
-    "sidebar": "sidebar---release-note-814-4c7",
-    "content": "content---release-note-v-1-1-3725-ef0"
+    "content": "content---release-note-v-1-0-0-b-73-d5f"
   },
   "/api-62f": {
     "__comp": "__comp---theme-api-pageac-3-ebb",

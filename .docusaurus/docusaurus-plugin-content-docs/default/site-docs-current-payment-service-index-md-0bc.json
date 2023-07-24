@@ -2,7 +2,7 @@
   "unversionedId": "payment-service/index",
   "id": "payment-service/index",
   "title": "金流服務",
-  "description": "金流服務簡介",
+  "description": "PayNow 提供多元的線上金流與行動支付服務，讓您收款更便利！",
   "source": "@site/docs/current/payment-service/index.md",
   "sourceDirName": "payment-service",
   "slug": "/payment-service/",

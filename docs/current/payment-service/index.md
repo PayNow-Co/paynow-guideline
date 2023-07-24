@@ -2,7 +2,6 @@
 title: 金流服務
 sidebar_position: 0
 ---
-## 金流服務簡介
 
 :::info 說明
 PayNow 提供多元的線上金流與行動支付服務，讓您收款更便利！

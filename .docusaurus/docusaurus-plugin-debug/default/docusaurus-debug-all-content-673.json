@@ -361,7 +361,7 @@
               "unversionedId": "payment-service/index",
               "id": "payment-service/index",
               "title": "金流服務",
-              "description": "金流服務簡介",
+              "description": "PayNow 提供多元的線上金流與行動支付服務，讓您收款更便利！",
               "source": "@site/docs/current/payment-service/index.md",
               "sourceDirName": "payment-service",
               "slug": "/payment-service/",
@@ -747,84 +747,30 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
-          "id": "v1.1.3",
-          "metadata": {
-            "permalink": "/release-note/v1.1.3",
-            "source": "@site/docs/release-note/v1.1.3.md",
-            "title": "v1.1.3",
-            "description": "新增",
-            "date": "2023-07-17T04:39:26.042Z",
-            "formattedDate": "July 17, 2023",
-            "tags": [
-              {
-                "label": "feature",
-                "permalink": "/release-note/tags/feature"
-              },
-              {
-                "label": "hotfix",
-                "permalink": "/release-note/tags/hotfix"
-              }
-            ],
-            "readingTime": 0.285,
-            "hasTruncateMarker": false,
-            "authors": [],
-            "frontMatter": {
-              "slug": "v1.1.3",
-              "title": "v1.1.3",
-              "tags": [
-                "feature",
-                "hotfix"
-              ]
-            },
-            "nextItem": {
-              "title": "v1.0.0",
-              "permalink": "/release-note/v1.0.0"
-            }
-          },
-          "content": "## 新增\n- 新增 付款途徑 名詞介紹\n- 新增 錢包 功能，當付款閘道為 NIUM 時可檢視帳戶內各幣別的餘額`\n\n## 修正\n- 修正 圖片顯示不出來\n\n## 移除\n- AML 驗證通知"
-        },
-        {
           "id": "v1.0.0",
           "metadata": {
             "permalink": "/release-note/v1.0.0",
-            "source": "@site/docs/release-note/v1.0.0/index.md",
+            "source": "@site/docs/release-note/index.md",
             "title": "v1.0.0",
-            "description": "新增",
+            "description": "2023-04-18",
             "date": "2023-07-17T04:39:26.041Z",
             "formattedDate": "July 17, 2023",
-            "tags": [
-              {
-                "label": "feature",
-                "permalink": "/release-note/tags/feature"
-              },
-              {
-                "label": "hotfix",
-                "permalink": "/release-note/tags/hotfix"
-              }
-            ],
-            "readingTime": 0.315,
+            "tags": [],
+            "readingTime": 0.105,
             "hasTruncateMarker": false,
             "authors": [],
             "frontMatter": {
               "slug": "v1.0.0",
               "title": "v1.0.0",
-              "tags": [
-                "feature",
-                "hotfix"
-              ]
-            },
-            "prevItem": {
-              "title": "v1.1.3",
-              "permalink": "/release-note/v1.1.3"
+              "tags": []
             }
           },
-          "content": "## 新增\n- 新增 付款途徑 名詞介紹\n- 新增 錢包 功能，當付款閘道為 NIUM 時可檢視帳戶內各幣別的餘額\n\n## 修正\n- 修正 圖片顯示不出來\n\n## 移除\n- AML 驗證通知\n\n# 畫面預覽\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)"
+          "content": "## 2023-04-18\n### 新增\n這份 Changelog 紀錄 PayNow 服務的更新與改善內容"
         }
       ],
       "blogListPaginated": [
         {
           "items": [
-            "v1.1.3",
             "v1.0.0"
           ],
           "metadata": {
@@ -832,64 +778,13 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 2,
+            "totalCount": 1,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
-      "blogTags": {
-        "/release-note/tags/feature": {
-          "label": "feature",
-          "items": [
-            "v1.1.3",
-            "v1.0.0"
-          ],
-          "permalink": "/release-note/tags/feature",
-          "pages": [
-            {
-              "items": [
-                "v1.1.3",
-                "v1.0.0"
-              ],
-              "metadata": {
-                "permalink": "/release-note/tags/feature",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/release-note/tags/hotfix": {
-          "label": "hotfix",
-          "items": [
-            "v1.1.3",
-            "v1.0.0"
-          ],
-          "permalink": "/release-note/tags/hotfix",
-          "pages": [
-            {
-              "items": [
-                "v1.1.3",
-                "v1.0.0"
-              ],
-              "metadata": {
-                "permalink": "/release-note/tags/hotfix",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        }
-      },
+      "blogTags": {},
       "blogTagsListPath": "/release-note/tags"
     },
     "release-note": {

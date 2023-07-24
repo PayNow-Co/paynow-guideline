@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/release-note',
-    component: ComponentCreator('/release-note', '4fc'),
+    component: ComponentCreator('/release-note', '540'),
     exact: true
   },
   {
@@ -53,28 +53,8 @@ export default [
     exact: true
   },
   {
-    path: '/release-note/tags',
-    component: ComponentCreator('/release-note/tags', '5c7'),
-    exact: true
-  },
-  {
-    path: '/release-note/tags/feature',
-    component: ComponentCreator('/release-note/tags/feature', 'f3a'),
-    exact: true
-  },
-  {
-    path: '/release-note/tags/hotfix',
-    component: ComponentCreator('/release-note/tags/hotfix', '508'),
-    exact: true
-  },
-  {
     path: '/release-note/v1.0.0',
-    component: ComponentCreator('/release-note/v1.0.0', '794'),
-    exact: true
-  },
-  {
-    path: '/release-note/v1.1.3',
-    component: ComponentCreator('/release-note/v1.1.3', '1c6'),
+    component: ComponentCreator('/release-note/v1.0.0', '269'),
     exact: true
   },
   {

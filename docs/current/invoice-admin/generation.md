@@ -66,7 +66,7 @@
 :::caution 前提條件
 此服務是以「簡訊」方式寄出發票通知，需開通後才能使用。
 
-如有需要請來信PayNow信箱 `einvoice@paynow.com.tw` 申請
+如有需要請來信 PayNow 信箱 `einvoice@paynow.com.tw` 申請
 :::
 
 按照下方步驟：
