@@ -240,6 +240,10 @@ const config = {
           // },
           // { to: '/api', label: 'API' , position: 'left'},
           // { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'search',
+            position: 'right',
+          },
           { to: '/release-note', label: 'Release Note', position: 'right' },
           // {
           //   type: 'docsVersionDropdown',
@@ -323,7 +327,39 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      }
+      },
+      imageZoom: {
+        // CSS selector to apply the plugin to, defaults to '.markdown img'
+        selector: '.markdown img',
+        // Optional medium-zoom options
+        // see: https://www.npmjs.com/package/medium-zoom#options
+        options: {
+          margin: 24,
+          background: 'rgba(255,255,255,.75)',
+          scrollOffset: 160,
+        },
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: '7248NN2JAA',
+        // Public API key: it is safe to commit it
+        apiKey: '2753da723d7091bf6b515584ffdffad4',
+        indexName: 'paynow-guideline',
+        // Optional: see doc section below
+        contextualSearch: true,
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        // replaceSearchResultPathname: {
+        //   from: '/docs/', // or as RegExp: /\/docs\//
+        //   to: '/',
+        // },
+        // Optional: Algolia search parameters
+        searchParameters: {},
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+        //... other Algolia params
+      },
     }),
 };
 
