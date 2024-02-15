@@ -168,10 +168,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'PayNow Doc',
-        logo: {
-          alt: 'PayNow Logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'PayNow Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           // {
           //   type: 'docSidebar',
