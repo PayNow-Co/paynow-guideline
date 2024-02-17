@@ -1,7 +1,7 @@
 {
   "index_name": "paynow-guideline",
-  "start_urls": ["https://owlting.github.io/paynow-guideline/"],
-  "sitemap_urls": ["https://owlting.github.io/paynow-guideline/sitemap.xml"],
+  "start_urls": ["https://paynow-co.github.io/paynow-guideline/"],
+  "sitemap_urls": ["https://paynow-co.github.io/paynow-guideline/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
