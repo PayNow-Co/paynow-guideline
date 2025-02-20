@@ -322,7 +322,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `©2023 OBOOK Holdings Inc. or its affiliates`,
+        copyright: `©2023 PayNow`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_paynow=self.webpackChunkdocusaurus_paynow||[]).push([[2535],{45641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"v1.0.0","permalink":"/paynow-guideline/release-note/v1.0.0"}]}')}}]);

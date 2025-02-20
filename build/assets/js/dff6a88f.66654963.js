@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_paynow=self.webpackChunkdocusaurus_paynow||[]).push([[6016],{70482:e=>{e.exports=JSON.parse('{"permalink":"/paynow-guideline/release-note","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

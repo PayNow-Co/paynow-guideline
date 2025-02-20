@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_paynow=self.webpackChunkdocusaurus_paynow||[]).push([[4195],{62841:(u,e,s)=>{s.r(e),s.d(e,{default:()=>t});var a=s(67294),c=s(16550),n=s(44996);function t(){const u=(0,n.Z)("/docs/");return a.createElement(c.l_,{to:u})}}}]);
