@@ -98,4 +98,4 @@ Apple Pay 使用簡單，並能配合您日常所用的 Apple 裝置。無須接
 
 ## 如何透過 PayNow 串接 Apple Pay
 
-請參考 [串接文件](https://gateway.paynow.com.tw/Home/DownloadAPIFile?FileName=PayNow_ApplePay_v1.0.5.pdf)
+請參考 [串接文件](https://paynow-public.s3.ap-northeast-1.amazonaws.com/docs/PayNow_ApplePay_v1.0.5.pdf)
