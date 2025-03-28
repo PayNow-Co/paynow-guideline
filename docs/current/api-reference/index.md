@@ -18,7 +18,7 @@
 - [店到店 C2C](https://paynow-public.s3.ap-northeast-1.amazonaws.com/docs/PayNow_Logistic_v2.5_C2C.pdf)：提供 7-11 交貨便、全家店到店、萊爾富店到店 C2C 串接文件，內容包含物流流程、超商電子地圖、成立、查詢、取消物流單、物流貨態回傳串接說明。
 - [7-11 冷凍 C2C](https://paynow-public.s3.ap-northeast-1.amazonaws.com/docs/PayNow_Logistic_v2.0_711FreezingC2C.pdf)：提供 7-11 冷凍交貨便 C2C 串接文件，內容包含物流流程、超商電子地圖、成立、查詢、取消物流單、物流貨態回傳串接說明。
 - [7-11 大宗 B2C](https://paynow-public.s3.ap-northeast-1.amazonaws.com/docs/PayNow_Logistic_v2.4_711Bulk.pdf)：提供 7-11 大宗 B2C 串接文件，內容包含物流流程、超商電子地圖、成立、查詢、取消物流單、物流貨態回傳串接說明。
-- [7-11 冷凍大宗 B2C](https://paynow-public.s3.ap-northeast-1.amazonaws.com/docs/PayNow_Logistic_v2.4_711Freezing.pdf)：提供 7-11 冷凍大宗 B2C 串接文件，內容包含物流流程、超商電子地圖、成立、查詢、取消物流單、物流貨態回傳串接說明。
+- [7-11 冷凍大宗 C2C](https://paynow-public.s3.ap-northeast-1.amazonaws.com/docs/PayNow_Logistic_v2.4_711Freezing.pdf)：提供 7-11 冷凍大宗 B2C 串接文件，內容包含物流流程、超商電子地圖、成立、查詢、取消物流單、物流貨態回傳串接說明。
 - [7-11 海外店配宅配](https://paynow-public.s3.ap-northeast-1.amazonaws.com/docs/PayNow_Logistic_v2.6_711OverSeas.pdf)：提供 7-11 海外店配/宅配 串接文件，內容包含物流流程、超商電子地圖、成立、查詢、取消物流單、物流貨態回傳串接說明。
 - [全家冷凍 C2C](https://paynow-public.s3.ap-northeast-1.amazonaws.com/docs/PayNow_Logistic_v2.2_FamiFreezingC2C.pdf)：提供全家冷凍店到店 C2C 串接文件，內容包含物流流程、超商電子地圖、成立、查詢、取消物流單、物流貨態回傳串接說明。
 - [全家大宗 B2C](https://paynow-public.s3.ap-northeast-1.amazonaws.com/docs/PayNow_Logistic_v2.4_FamiBulk.pdf)：提供全家大宗 B2C 串接文件，內容包含物流流程、超商電子地圖、成立、查詢、取消物流單、物流貨態回傳串接說明。
